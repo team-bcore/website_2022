@@ -8,7 +8,7 @@ export default function Header() {
             <div className="z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-0 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center">
             <Image
                         className="rounded"
-                        src="/images/Mono/Top.png" // Route of the image file
+                        src="/images/Monom/Top.png" // Route of the image file
                         height={1080} // Desired size with correct aspect ratio
                         width={1920} // Desired size with correct aspect ratio
                         alt="モノ常時管理イメージ"

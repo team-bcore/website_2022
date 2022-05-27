@@ -5,13 +5,13 @@ export default function Hero() {
 
         <div className="bg-hero-ichi bg-no-repeat bg-cover relative flex flex-col-reverse px-4 py-24 mx-auto lg:block lg:flex-col lg:py-32 xl:py-40 2xl:py-64 md:px-8 sm:max-w-xl md:max-w-full">
             <div className="z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-0 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center">
-                <Image
+                 <Image
                     className="rounded"
-                    src="/images/Ichi/Top.png" // Route of the image file
+                    src="/images/Ichi/Top-vrk.png" // Route of the image file
                     height={1080} // Desired size with correct aspect ratio
                     width={1920} // Desired size with correct aspect ratio
                     alt="位置管理イメージ"
-                />
+                /> 
             </div>
             <div className="relative flex justify-end max-w-xl mx-auto xl:pr-32 lg:max-w-screen-xl">
                 <div className="mb-16 lg:pr-5 lg:max-w-lg lg:mb-0">

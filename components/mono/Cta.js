@@ -27,7 +27,7 @@ export default function Cta() {
             </p>
           </div>
           <h5 className="mb-3 text-3xl font-noto text-slate-800 leading-none sm:text-4xl">
-            在庫管理をもっと楽にしませんか？
+            モノの管理をもっと楽にしませんか？
           </h5>
 
           <div className="flex items-center">

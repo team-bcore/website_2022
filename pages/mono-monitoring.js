@@ -11,7 +11,7 @@ import Cta from '../components/mono-monitoring/Cta'
 import Content from '../components/mono-monitoring/Content'
 import Footer from '../components/Footer'
 
-export default function Mono() {
+export default function Monom() {
     return (
 
     <div className="">

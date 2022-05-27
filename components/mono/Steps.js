@@ -24,18 +24,18 @@ export default function Steps() {
                                     stroke="currentColor"
                                     viewBox="0 0 52 52"
                                 >
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                                     </svg>
                                 </svg>
                             </div>
                         </div>
                         <div>
                             <p className="text-xl font-ud sm:text-base">
-                                ご依頼
+                                端末の準備・アプリのインストール
                             </p>
                             <p className="text-sm font-ud text-gray-700">
-                                お問い合わせフォームよりご依頼ください。
+                                iPhone端末を用意していただき、App Storeより『彩色兼備』アプリをインストールしてください。
                             </p>
                         </div>
                     </div>
@@ -66,10 +66,10 @@ export default function Steps() {
                         </div>
                         <div>
                             <p className="text-xl font-ud sm:text-base">
-                                ヒアリング
+                                お申し込み
                             </p>
                             <p className="text-sm font-ud text-gray-700">
-                                導入の目的や用途をお聞きするとともに、導入先の設置レイアウトなどを確認します。
+                                お問い合わせフォームからお問い合わせください。申込書をお送りしますので、ご記入の上ご返送ください。
                             </p>
                         </div>
                     </div>
@@ -93,18 +93,18 @@ export default function Steps() {
                                     stroke="currentColor"
                                     viewBox="0 0 52 52"
                                 >
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8 4H6a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-2m-4-1v8m0 0l3-3m-3 3L9 8m-5 5h2.586a1 1 0 01.707.293l2.414 2.414a1 1 0 00.707.293h3.172a1 1 0 00.707-.293l2.414-2.414a1 1 0 01.707-.293H20" />
                                     </svg>
                                 </svg>
                             </div>
                         </div>
                         <div>
                             <p className="text-xl font-ud sm:text-base">
-                                概算見積もり・詳細仕様の検討
+                                データの受け取り
                             </p>
                             <p className="text-sm font-ud text-gray-700">
-                                システム導入にあたっての予算化を行い、現地での簡易検証を行います。
+                                ビーコアがお客様に個社向けドキュメント/タグ電子データ/ログインアカウント等を送付します。
                             </p>
                         </div>
                     </div>
@@ -135,9 +135,9 @@ export default function Steps() {
                             </div>
                         </div>
                         <div>
-                            <p className="text-xl font-ud sm:text-base">正式見積もり</p>
+                            <p className="text-xl font-ud sm:text-base">商品登録・タグ付け</p>
                             <p className="text-sm font-ud text-gray-700">
-                                システムの導入・設置に向けて、正式な発注をいただきます。
+                                商品登録・タグ付けをしていただきます。※タグを電子データではなくシールにして提供することも可能です。（有償）
                             </p>
                         </div>
                     </div>
@@ -170,7 +170,7 @@ export default function Steps() {
                         <div>
                             <p className="text-xl font-ud sm:text-base">ご利用開始</p>
                             <p className="text-sm font-ud text-gray-700">
-                                システムの動作確認を経て、現地調査から最短で１ヶ月程度で導入可能です。
+                                お申し込みから３営業日で、ご利用を開始できます。
                             </p>
                         </div>
                     </div>

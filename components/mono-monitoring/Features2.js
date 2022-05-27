@@ -7,7 +7,7 @@ export default function Features2() {
             <div>
             <Image
                         className="rounded"
-                        src="/images/Mono/Feature2.png" // Route of the image file
+                        src="/images/Monom/Feature2.png" // Route of the image file
                         height={1080} // Desired size with correct aspect ratio
                         width={1920} // Desired size with correct aspect ratio
                         alt="モノ常時管理イメージ"

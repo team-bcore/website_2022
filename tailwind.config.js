@@ -15,12 +15,14 @@ module.exports = {
         defaultBL:["text-slate-800"],
       },
       backgroundImage: {
-        "hero-monomonitoring": "url('/images/mono/Top2.png')",
-        "Intro-monomonitoring": "url('/images/mono/Intro.png')",
-        "Propose-monomonitoring": "url('/images/mono/Propose.png')",
-        "Content1-monomonitoring": "url('/images/mono/thumbnail-1.png')",
-        "Content2-monomonitoring": "url('/images/mono/thumbnail-2.jpeg')",
-        "hero-ichi": "url('/images/ichi/Top2.png')",
+        "hero-monomonitoring": "url('/images/Monom/Top2.png')",
+        "Intro-monomonitoring": "url('/images/Monom/Intro.png')",
+        "Propose-monomonitoring": "url('/images/Monom/Propose.png')",
+        "Content1-monomonitoring": "url('/images/Monom/thumbnail-1.png')",
+        "Content2-monomonitoring": "url('/images/Monom/thumbnail-2.jpeg')",
+        "hero-ichi": "url('/images/Ichi/Top.png')",
+        "Tool-ichi": "url('/images/Ichi/Tool-bg.png')",
+        "Hito-top": "url('/images/Hito/Hito-top.jpeg')",
 
 
       },
