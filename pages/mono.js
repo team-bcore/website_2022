@@ -6,7 +6,7 @@ import Usecase from '../components/mono/Usecase'
 import Price from '../components/mono/Price'
 import Steps from '../components/mono/Steps'
 import Faqs from '../components/mono/Faqs'
-import Cta from '../components/mono/Cta'
+import Cta from '../components/Cta'
 import Footer from '../components/Footer'
 
 export default function Mono() {

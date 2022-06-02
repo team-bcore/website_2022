@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 
 
@@ -19,14 +18,14 @@ export default function Footer() {
                         alt="Vieureka"
                     />
                     <div className="p-5 border border-t-0">
-                        <p className="mb-3 text-xs font-ud tracking-wide uppercase text-gray-700">
+                        <p className="mb-3 text-base font-ud tracking-wide uppercase text-gray-700">
                             理由その１
                         </p>
-                        <p className="inline-block mb-3 text-2xl leading-5 font-noto text-slate-800">
-                            パナソニックのAIカメラ「Vieureka」
+                        <p className="inline-block mb-3 text-2xl leading-8 font-noto text-slate-800">
+                            パナソニックのAIカメラ「Vieureka」を採用
                         </p>
                         <p className="mb-2 font-ud text-md text-slate-800">
-                            天井吊り下げ、卓上設置、壁面設置など施工不要の簡易設置ができます。望遠レンズモデルにより、少し遠くの位置に設置することで、カメラの存在感や圧迫感を抑え、より生活に馴染むスタイルを実現します。
+                            私たちは信頼のおけるパナソニックのAIカメラをソリューションに使用しています。存在感や圧迫感を抑えたデザインで、より生活に馴染むスタイルを実現します。
                         </p>
                     </div>
                 </div>
@@ -38,11 +37,11 @@ export default function Footer() {
                         alt="サポート"
                     />
                     <div className="p-5 border border-t-0">
-                        <p className="mb-3 text-xs font-ud tracking-wide uppercase text-gray-700">
+                        <p className="mb-3 text-base font-ud tracking-wide uppercase text-gray-700">
                             理由その2
 
                         </p>
-                        <p className="inline-block mb-3 text-2xl leading-5 font-noto text-slate-800">
+                        <p className="inline-block mb-3 text-2xl leading-8 font-noto text-slate-800">
                             安心のサポート体制
                             <br></br>
                             <br></br>
@@ -55,21 +54,21 @@ export default function Footer() {
                 </div>
                 <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
                     <Image
-                        src="/images/Home/support-2.png" // Route of the image file
+                        src="/images/Home/support-2.jpeg" // Route of the image file
                         height={1429} // Desired size with correct aspect ratio
                         width={1600} // Desired size with correct aspect ratio
                         alt="サポート"
                     />
                     <div className="p-5 border border-t-0">
-                        <p className="mb-3 text-xs font-ud tracking-wide uppercase text-gray-700">
+                        <p className="mb-3 text-base font-ud tracking-wide uppercase text-gray-700">
                             理由その3
                         </p>
-                        <p className="inline-block mb-3 text-2xl leading-5 font-noto text-slate-800">
+                        <p className="inline-block mb-3 text-2xl leading-8 font-noto text-slate-800">
                             迅速・丁寧に対応します
                             <br></br>
                             <br></br>
                         </p>
-                        <p className="mb-2 font-ud text-md text-slate-8000">
+                        <p className="mb-2 font-ud text-md text-slate-800">
                             私たちは、さまざまなアイデアや技術を持ち寄って、プロジェクトごとに縮尺模型を作り、実験・検証を重ね、お客様の課題解決のためのコンサルティングに当たります。常にフットワークを軽く、スピーディーに対応します。
                         </p>
                     </div>

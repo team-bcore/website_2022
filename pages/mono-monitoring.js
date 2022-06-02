@@ -7,7 +7,7 @@ import Features1 from '../components/mono-monitoring/Features1'
 import Features2 from '../components/mono-monitoring/Features2'
 import Features3 from '../components/mono-monitoring/Features3'
 import Steps from '../components/mono-monitoring/Steps'
-import Cta from '../components/mono-monitoring/Cta'
+import Cta from '../components/Cta'
 import Content from '../components/mono-monitoring/Content'
 import Footer from '../components/Footer'
 

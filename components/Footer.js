@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Footer() {
     return (
-        <div className="relative mt-16 bg-slate-50">
+        <div className="relative bg-slate-50">
             {/* <svg
           className="absolute top-0 w-full h-6 -mt-5 sm:-mt-10 sm:h-16 text-deep-purple-accent-400"
           preserveAspectRatio="none"
@@ -54,7 +54,7 @@ export default function Footer() {
                             <ul className="mt-2 space-y-2">
                                 <li>
                                     <a
-                                        href="/"
+                                        href="hito"
                                         className="font-ud text-md text-slate-800"
                                     >
                                         入退室管理
@@ -62,7 +62,7 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <a
-                                        href="/"
+                                        href="mono-monitoring"
                                         className="font-ud text-md text-slate-800"
                                     >
                                         モノ常時管理
@@ -70,7 +70,7 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <a
-                                        href="/"
+                                        href="ichiservice"
                                         className="font-ud text-md text-slate-800"
                                     >
                                         位置管理
@@ -78,7 +78,7 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <a
-                                        href="/"
+                                        href="mono"
                                         className="font-ud text-md text-slate-800"
                                     >
                                         モノ管理iPhone版
@@ -104,12 +104,12 @@ export default function Footer() {
                         </div>
                         <div>
                             <p className="font-noto text-xl leading-5 text-slate-800">
-                                R&D
+                                R&D（研究開発）
                             </p>
                             <ul className="mt-2 space-y-2">
                                 <li>
                                     <a
-                                        href="/"
+                                        href="jacompany/research/6d"
                                         className="font-ud text-md text-slate-800"
                                     >
                                         colorbit 6 dimention Survey
@@ -141,7 +141,7 @@ export default function Footer() {
                             <ul className="mt-2 space-y-2">
                                 <li>
                                     <a
-                                        href="/"
+                                        href="jacompany"
                                         className="font-ud text-md text-slate-800"
                                     >
                                         会社情報
@@ -149,7 +149,7 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <a
-                                        href="/"
+                                        href="newspage"
                                         className="font-ud text-md text-slate-800"
                                     >
                                         NEWS
@@ -157,7 +157,7 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <a
-                                        href="/"
+                                        href="blog"
                                         className="font-ud text-md text-slate-800"
                                     >
                                         BLOG
@@ -167,8 +167,8 @@ export default function Footer() {
                                     <a
                                         href="/"
                                         className="font-ud text-md text-slate-800"
-                                    >
-
+                                    >   
+                                    プライバシーポリシー
                                     </a>
                                 </li>
                             </ul>

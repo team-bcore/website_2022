@@ -4,6 +4,7 @@ import Image from "next/image";
 
 export default function Cta() {
     return (
+        <div className="bg-Home-contact bg-no-repeat bg-cover bg-opacity-20">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="max-w-lg sm:text-center sm:mx-auto">
                 <a
@@ -20,12 +21,12 @@ export default function Cta() {
                         </div>
                     </div>
                 </a>
-                <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-slate-800 sm:text-4xl sm:leading-none">
+                <h2 className="mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
                     <span className="relative inline-block">
                         <span className="font-noto relative">現場のニッチなお悩みはIoTの力で解決しましょう</span>
                     </span>
                 </h2>
-                <p className="font-ud text-base text-gray-700 md:text-lg">
+                <p className="font-ud text-base text-white md:text-lg">
                     導入について、お見積もり等お気軽にお問い合わせください
                 </p>
                 <hr className="my-8 border-gray-300" />
@@ -39,6 +40,7 @@ export default function Cta() {
                 </div>
 
             </div>
+        </div>
         </div>
     );
 }

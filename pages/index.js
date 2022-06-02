@@ -11,6 +11,7 @@ import Solutions from '../components/Solutions'
 import Logoclouds from '../components/Logoclouds'
 import Cta from '../components/Cta'
 import Why from '../components/Why'
+import Colorbit from '../components/Colorbit'
 
 
 
@@ -30,6 +31,7 @@ export default function Home({ allNewsData }) {
       <Navbar />
       <Solutions />
       <Why />
+      <Colorbit />
       <Logoclouds />     
       <News allNewsData={allNewsData} />
       <Cta />

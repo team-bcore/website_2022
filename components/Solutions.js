@@ -3,27 +3,26 @@ import Image from "next/image";
 
 export default function Solutions() {
     return (
-        <div className="bg-gradient-to-r from-red-200 via-blue-300 to-green-300">
-            <div className="font-ud mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div className="bg-Home-bg53 bg-no-repeat">
+            <div className="py-32 font-ud mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-32">
                 <div className="my-8 max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-                    <div>
-                        <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                            カラービット®︎ソリューションズ
-                        </p>
-                    </div>
-                    <h1 className="max-w-lg mb-6 font-noto text-slate-800 leading-none tracking-tight sm:text-4xl md:mx-auto">
+                    <p className="inline-block px-3 py-px mb-4 text-base font-semibold tracking-wider text-teal-300 uppercase rounded-full bg-teal-accent-400">
+                        カラービット®︎ソリューションズ
+                    </p>
+                    <h1 className="max-w-lg mb-6 font-noto text-gray-300 leading-none sm:text-7xl md:mx-auto">
                         <span className="relative inline-block">
-
-                            <span className="relative text-5xl">現場のニッチなお悩みをIoTの力で解決します</span>
+                            <span className="relative">現場のニッチなお悩みをIoTの力で解決します</span>
                         </span>{' '}
-
                     </h1>
-                    <p className="text-base text-gray-700 md:text-lg">
-                        このような現場のお悩みありませんか？
+                    <p className="text-base text-gray-300 md:text-lg">
+                        私たちは、弊社が独自に開発した自動認識コード「カラービット®︎」やAIカメラを用いて、現場でのニッチなお悩みを解決し、業務の効率化を促進するソリューションを提供しております。
+                        <br></br>
+                        <br></br>
+                        <span className="text-2xl text-gray-300">このような現場のお悩みありませんか？ </span>
                     </p>
                 </div>
                 <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
-                    <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+                    <div className="bg-white bg-opacity-50 bg-flex flex-col justify-between p-5 border rounded shadow-sm">
                         <div>
                             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-sky-500">
                                 <div className="text-white">
@@ -34,18 +33,18 @@ export default function Solutions() {
                             </div>
                             <h6 className="mb-2 font-noto text-2xl leading-5 text-slate-800">入退室管理</h6>
                             <p className="mb-3 font-ud text-md text-slate-800">
-                                マスクの着用で顔認証が使えない施設でも、非接触の入退室管理がしたい。
+                                食品工場のような、マスクの着用で顔認証が使えない施設でも、非接触の入退室管理がしたい。
                             </p>
                         </div>
                         <a
                             href="/"
                             aria-label=""
-                            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                            className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500"
                         >
-                            解決する
+                            Learn More
                         </a>
                     </div>
-                    <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+                    <div className="bg-white bg-opacity-50 flex flex-col justify-between p-5 border rounded shadow-sm">
                         <div>
                             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-yellow-500">
                                 <div className="text-white">
@@ -62,12 +61,12 @@ export default function Solutions() {
                         <a
                             href="/"
                             aria-label=""
-                            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                            className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500"
                         >
-                            解決する
+                            Learn More
                         </a>
                     </div>
-                    <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+                    <div className="bg-white bg-opacity-50 flex flex-col justify-between p-5 border rounded shadow-sm">
                         <div>
                             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-500">
                                 <div className="text-white">
@@ -85,12 +84,12 @@ export default function Solutions() {
                         <a
                             href="/"
                             aria-label=""
-                            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                            className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500"
                         >
-                            解決する
+                            Learn More
                         </a>
                     </div>
-                    <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
+                    <div className="bg-white bg-opacity-50 flex flex-col justify-between p-5 border rounded shadow-sm">
                         <div>
                             <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-lime-500">
                                 <div className="text-white">
@@ -101,15 +100,15 @@ export default function Solutions() {
                             </div>
                             <h6 className="mb-2 font-noto text-2xl leading-5 text-slate-800">混雑度の見える化</h6>
                             <p className="mb-3 font-ud text-md text-slate-800">
-                                施設の混雑度を見える化して、お客様に安心・安全な空間を提供したい。
+                                気になる施設の混雑度を見える化して、お客様に安心・安全な空間を提供したい。
                             </p>
                         </div>
                         <a
                             href="/"
                             aria-label=""
-                            className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                            className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500"
                         >
-                            解決する
+                            Learn More
                         </a>
                     </div>
                 </div>

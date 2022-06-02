@@ -5,14 +5,14 @@ import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
 
 export async function getStaticProps({ params }) {
-    const newsData = await getNewsData(params.id)
-    return {
-      props: {
-        newsData
-      }
+  const newsData = await getNewsData(params.id)
+  return {
+    props: {
+      newsData
     }
   }
-  
+}
+
 
 export async function getStaticPaths() {
   const paths = getAllNewsIds()
@@ -23,9 +23,9 @@ export async function getStaticPaths() {
 }
 
 export default function News({ newsData }) {
-    return (
-      <Layout>
-        <Head>
+  return (
+    <Layout>
+      <Head>
         <title>{newsData.title}</title>
       </Head>
       <article>
@@ -35,6 +35,6 @@ export default function News({ newsData }) {
         </div>
         <div dangerouslySetInnerHTML={{ __html: newsData.contentHtml }} />
       </article>
-      </Layout>
-    )
-  }
+    </Layout>
+  )
+}

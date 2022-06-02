@@ -7,7 +7,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="">
-      <nav className="bg-white shadow-sm fixed w-full z-10 ">
+      <nav className="bg-white bg-opacity-80 shadow-sm fixed w-full z-10 ">
         <div className="w-full">
           <div className="flex items-center h-20 w-full">
             <div className="flex items-center mx-10  justify-between w-full">
@@ -30,47 +30,47 @@ function Navbar() {
                   >
                     <a className="cursor-pointer hover:bg-lime-500 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
                   </Link> */}
-                  <Link href="/usecase_1">
-                    <a className="cursor-pointer hover:bg-lime-500 font-ud text-md text-slate-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <Link href="/hito">
+                    <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
                       入退室管理システム
                     </a>
                   </Link>
-                  <Link href="/usecase_2">
-                    <a className="cursor-pointer hover:bg-lime-500 font-ud text-md text-slate-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <Link href="/mono-monitoring">
+                    <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
                       モノ常時管理システム
                     </a>
                   </Link>                 
-                  <Link href="/usecase_1">
-                    <a className="cursor-pointer hover:bg-lime-500 font-ud text-md text-slate-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <Link href="/ichiservice">
+                    <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
                       位置管理システム
                     </a>
                   </Link>
-                  <Link href="/usecase_1">
-                    <a className="cursor-pointer hover:bg-lime-500 font-ud text-md text-slate-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <Link href="/mono">
+                    <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
                       モノ管理iPhone
                     </a>
                   </Link>
-                  <Link href="/usecase_1">
-                    <a className="cursor-pointer hover:bg-lime-500 font-ud text-md text-slate-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <Link href="https://www.mitsushiru.tech/">
+                    <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
                       密 ミツシル
                     </a>
                   </Link>
-                  <Link href="/usecase_1">
-                    <a className="cursor-pointer hover:bg-lime-500 font-ud text-md text-slate-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                      会社情報
+                  <Link href="/jacompany">
+                    <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
+                      会社紹介
                     </a>
                   </Link>
-                  <Link href="/usecase_1">
-                    <a className="cursor-pointer hover:bg-lime-500 font-ud text-md text-slate-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <Link href="/newspage">
+                    <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
                       NEWS
                     </a>
                   </Link>
-                  <Link href="/usecase_1">
-                    <a className="cursor-pointer hover:bg-lime-500 font-ud text-md text-slate-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                  <Link href="/blog">
+                    <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
                       BLOG
                     </a>
                   </Link>                  
-                  <Link href="/#contact-us">
+                  <Link href="/contact">
                     <a className="cursor-pointer bg-slate-800 font-ud text-md text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-500 shadow-lg shadow-gray-400/50">
                       お問い合わせ
                     </a>

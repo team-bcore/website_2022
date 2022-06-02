@@ -6,7 +6,10 @@ import Link from 'next/link'
 
 export default function News({ allNewsData }) {
   return (
+
+        
     <div className="bg-slate-100 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+   
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <div className="grid grid-cols-12">
           <div className="col-start-4 col-span-6">
@@ -28,6 +31,8 @@ export default function News({ allNewsData }) {
         </div>
       </section>
     </div>
+
+
 
   )
 }

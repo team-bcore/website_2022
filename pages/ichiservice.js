@@ -7,8 +7,9 @@ import Features1 from '../components/ichi/Features1'
 import Features2 from '../components/ichi/Features2'
 import Features3 from '../components/ichi/Features3'
 import Features4 from '../components/ichi/Features4'
+import Usecase from '../components/ichi/Usecase'
 import Tool from '../components/ichi/Tool'
-import Cta from '../components/mono-monitoring/Cta'
+import Cta from '../components/Cta'
 
 
 
@@ -26,6 +27,7 @@ export default function Ichi() {
         <Features3 />
         <Features4 />
         <Tool />
+        <Usecase />
         <Cta />
         <Footer />
       
