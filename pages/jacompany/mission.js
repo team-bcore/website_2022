@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar";
-import Mission from "../../components/Company/Mission";
-import Navmission from "../../components/Company/Navmission";
+import Mission from "../../components/company/Mission";
+import Navmission from "../../components/company/Navmission";
 
 import Footer from "../../components/Footer";
 
