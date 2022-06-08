@@ -12,10 +12,10 @@ export default function Purpose() {
           </div>
           <h2 className="max-w-lg mb-6 font-noto text-3xl font-bold leading-none tracking-tight text-slate-800 sm:text-4xl md:mx-auto">
             <span className="relative inline-block">
-              彩色兼備 位置管理システムを使うことで、このようなメリットがあります
+              彩色兼備
+              位置管理システムを使うことで、このようなメリットがあります
               <span className="relative"></span>
-            </span>{' '}
-
+            </span>{" "}
           </h2>
         </div>
         <div className="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
@@ -26,12 +26,25 @@ export default function Purpose() {
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
               </svg>
             </div>
-            <h6 className="mb-2 font-ud leading-5 text-slate-800">24時間365日Iotカメラが見守るので、現場の作業員の負担を大幅に軽減できます。</h6>
+            <h6 className="mb-2 font-ud leading-5 text-slate-800">
+              24時間365日Iotカメラが見守るので、現場の作業員の負担を大幅に軽減できます。
+            </h6>
           </div>
           <div className="p-5 duration-300 transform  border rounded shadow-sm hover:-translate-y-2">
             <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-teal-400">
@@ -40,13 +53,25 @@ export default function Purpose() {
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
               </svg>
             </div>
-            <h6 className="marker:mb-2 font-ud leading-5 text-slate-800">リアルタイムに各エリアの状況を見える化するので、最新の状況がチェックできます。</h6>
-
+            <h6 className="marker:mb-2 font-ud leading-5 text-slate-800">
+              リアルタイムに各エリアの状況を見える化するので、最新の状況がチェックできます。
+            </h6>
           </div>
           <div className="p-5 duration-300 transform border rounded shadow-sm hover:-translate-y-2">
             <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-teal-400">
@@ -55,13 +80,25 @@ export default function Purpose() {
                 stroke="currentColor"
                 viewBox="0 0 52 52"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
               </svg>
             </div>
-            <h6 className="mb-2 font-ud leading-5 text-slate-800">最新の状況はどこからでもチェック可能。複数のエリアを集中管理できます。</h6>
-
+            <h6 className="mb-2 font-ud leading-5 text-slate-800">
+              最新の状況はどこからでもチェック可能。複数のエリアを集中管理できます。
+            </h6>
           </div>
         </div>
         <Image

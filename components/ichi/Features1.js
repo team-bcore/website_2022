@@ -10,7 +10,9 @@ export default function Features1() {
               電波系(RFID/Beacon)ソリューションとの比較
             </p>
           </div>
-          <span className="inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-ud bg-indigo-400 text-white rounded">ポイント1</span>
+          <span className="inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-ud bg-indigo-400 text-white rounded">
+            ポイント1
+          </span>
           <h5 className="text-2xl font-noto leading-none text-slate-800">
             <br></br>
             入庫から出庫までの記録が全て自動化されるので、在庫管理が一括でできます

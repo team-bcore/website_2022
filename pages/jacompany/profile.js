@@ -1,16 +1,15 @@
-import Navbar from '../../components/Navbar'
-import Profile from '../../components/Company/Profile'
-import Footer from '../../components/Footer'
+import Navbar from "../../components/Navbar";
+import Profile from "../../components/Company/Profile";
+import Navprofile from "../../components/Company/Navprofile";
+import Footer from "../../components/Footer";
 
 export default function Jacompany() {
-    return (
-
+  return (
     <div className="">
-        <Navbar />
-        <Profile />
-        
-        <Footer />
-      
+      <Navbar />
+      <Profile />
+      <Navprofile />
+      <Footer />
     </div>
-
-    );}
+  );
+}

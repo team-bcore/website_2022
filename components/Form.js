@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import React from "react";
+import Link from "next/link";
 
 function encode(data) {
   return Object.keys(data)
@@ -119,12 +120,11 @@ export default function Contact() {
                   <input type="checkbox" unchecked="true" />
                   <span className="ml-2 font-ud">
                     弊社の
-                    <a
-                      href=""
-                      className="text-blue-600 underline"
-                    >
-                      プライバシーポリシー
-                    </a>
+                    <Link href="privacy-policy">
+                      <a className="text-blue-600 underline">
+                        プライバシーポリシー
+                      </a>
+                    </Link>
                     に同意します
                   </span>
                 </label>

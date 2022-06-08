@@ -14,7 +14,7 @@ export default function Thank() {
         </p>
         <hr className="w-full my-8 border-gray-300" />
         <Link href="/">
-          <a className="font-ud">戻る</a>
+          <a className="font-ud">トップページへ戻る</a>
         </Link>
       </div>
     </div>

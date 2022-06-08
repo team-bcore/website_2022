@@ -23,11 +23,11 @@ export default function Cta() {
         <div className="flex flex-col justify-center p-8 bg-white lg:p-16 lg:pl-10 lg:w-1/2">
           <div>
             <p className="inline-block px-3 py-px mb-4 text-base font-ud tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-            導入についてお見積もりなどお気軽にお問い合わせください
+              導入についてお見積もりなどお気軽にお問い合わせください
             </p>
           </div>
           <h5 className="mb-3 text-3xl font-noto text-slate-800 leading-none sm:text-3xl">
-          お問い合わせはこちらから
+            お問い合わせはこちらから
           </h5>
 
           <div className="flex items-center">

@@ -1,22 +1,22 @@
 module.exports = {
   mode: "jit",
-  darkMode: false, 
+  darkMode: false,
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     plugins: [
-      require('@tailwindcss/forms'),
+      require("@tailwindcss/forms"),
       // ...
     ],
     extend: {
       fontFamily: {
         ud: ["BIZ UDPGothic"],
-        noto:["Noto Sans JP"],
+        noto: ["Noto Sans JP"],
       },
-      colors:{
-        'company-black': '#070707',
+      colors: {
+        "company-black": "#070707",
       },
       backgroundImage: {
         "hero-monomonitoring": "url('/images/Monom/Top2.png')",
@@ -31,13 +31,8 @@ module.exports = {
         "Home-bg": "url('/images/Home/solution.png')",
         "Home-contact": "url('/images/Home/Contact-image.png')",
         "Cmpany-bg": "url('/images/Company/company-bg.jpeg')",
-        "Home-bg51": "url('/images/Home/51.png')",
-        "Home-bg52": "url('/images/Home/52.png')",
-        "Home-bg53": "url('/images/Home/53.png')",
-
-
       },
     },
   },
   plugins: [],
-}
+};

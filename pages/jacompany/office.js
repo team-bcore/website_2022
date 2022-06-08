@@ -1,19 +1,15 @@
-import Navbar from '../../components/Navbar'
-import Office from '../../components/Company/Office'
-
-
-
-import Footer from '../../components/Footer'
+import Navbar from "../../components/Navbar";
+import Office from "../../components/Company/Office";
+import Navoffice from "../../components/Company/Navoffice";
+import Footer from "../../components/Footer";
 
 export default function Jacompany() {
-    return (
-
+  return (
     <div className="">
-        <Navbar />
-        <Office />
- 
-        <Footer />
-      
+      <Navbar />
+      <Office />
+      <Navoffice />
+      <Footer />
     </div>
-
-    );}
+  );
+}

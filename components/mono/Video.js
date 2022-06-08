@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 export default function Video() {
-    return (
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+  return (
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           <p className="inline-block px-3 py-px mb-4 text-base font-ud tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
@@ -11,23 +11,24 @@ export default function Video() {
         </div>
         <h2 className="max-w-lg mb-6 first:text-3xl font-noto leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
-            
-            <span className="relative">One-Tapで一括読取り<br></br>簡単、時短のモノ管理</span>
+            <span className="relative">
+              One-Tapで一括読取り<br></br>簡単、時短のモノ管理
+            </span>
           </span>
         </h2>
         <p className="font-ud text-base text-gray-700 md:text-lg">
-        カラービット®︎モノ管理システムを、40秒の動画でご紹介しています。
+          カラービット®︎モノ管理システムを、40秒の動画でご紹介しています。
         </p>
       </div>
       <div className="mx-auto lg:max-w-2xl">
         <div className="relative w-full transition-shadow duration-300 hover:shadow-xl">
-        <Image
-          className="rounded"
-          src="/images/Mono/mono-video.png" // Route of the image file
-          height={952} // Desired size with correct aspect ratio
-          width={1932} // Desired size with correct aspect ratio
-          alt="位置管理システムイメージ"
-        />
+          <Image
+            className="rounded"
+            src="/images/Mono/mono-video.png" // Route of the image file
+            height={952} // Desired size with correct aspect ratio
+            width={1932} // Desired size with correct aspect ratio
+            alt="位置管理システムイメージ"
+          />
           <a
             href="https://youtu.be/J0CfNevSrLw"
             aria-label="Play Video"
@@ -46,5 +47,5 @@ export default function Video() {
         </div>
       </div>
     </div>
-    );
+  );
 }
