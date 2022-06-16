@@ -9,8 +9,15 @@ export default function Office() {
         </h2>
         <p className="font-noto text-gray-900 text-2xl sm:px-4">オフィス</p>
         <p className="font-ud text-base text-gray-700 md:text-lg sm:px-4">
-          ビーコアは東京・西神田にある、昔ながらのビルにオフィスを構えています。オフィス周辺には自家焙煎が自慢のカフェや、いつも行列が絶えないラーメン屋さんなど、たくさんの有名店があり活気があります。
+          ビーコアは東京・西神田にある、昔ながらのビルにオフィスを構えています。オフィス近くには自家焙煎が自慢のカフェや、いつも行列が絶えないラーメン屋さんなど、たくさんの有名店があり活気があります。
         </p>
+        <Image
+          className="rounded"
+          src="/images/Company/office.JPG" // Route of the image file
+          height={2016} // Desired size with correct aspect ratio
+          width={1512} // Desired size with correct aspect ratio
+          alt="オフィスイメージ"
+        />
         <hr className="w-full my-8 border-gray-300" />
         <p className="font-noto text-gray-900 text-2xl sm:px-4">ビーコアラボ</p>
         <p className="pt-4 font-ud text-base text-gray-700 md:text-lg sm:px-4">
