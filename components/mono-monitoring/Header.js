@@ -24,7 +24,7 @@ export default function Header() {
               モノ常時管理システム
             </h2>
             <p className="text-base text-gray-800 font-ud md:text-lg">
-              IoTカメラがモノ（在庫）を24時間365日見まもることで、人の手に頼らない
+              エッジAIカメラがモノ（在庫）を24時間365日見まもることで、人の手に頼らない
               <span className="text-indigo-500 underline decoration-slate-800">
                 在庫管理の自動化
               </span>
