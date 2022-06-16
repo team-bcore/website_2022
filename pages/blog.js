@@ -1,10 +1,10 @@
+import Image from "next/image";
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/bloglayout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedNewsData } from "../lib/posts";
-import Link from "next/link";
-import Date from "../components/date";
-import News from "../components/News";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export async function getStaticProps() {
   const allNewsData = getSortedNewsData();
@@ -17,16 +17,32 @@ export async function getStaticProps() {
 
 export default function Newspage({ allNewsData }) {
   return (
-    <Layout home>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
-      <section className={utilStyles.headingMd}>
-        <p className="font-ud text-gray-700">
-          テクノロジー、デザイン、ビジネスなどさまざまなトピックについて書いています。
-        </p>
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+    <div className="-mt-12">
+      <Navbar />
+      <Layout home>
+        <Head>
+          <title>{siteTitle}</title>
+        </Head>
+        <section className={utilStyles.headingMd}>
+          <p className="font-ud text-gray-700">
+            テクノロジー、デザイン、ビジネスなどさまざまなトピックについて書いています。
+            <br></br>
+            ビーコアのブログへGo! 👇
+          </p>
+        </section>
+        <section>
+          <a href="https://note.com/b_core">
+            <Image
+              className="rounded"
+              src="/images/Company/logo_tagline.png" // Route of the image file
+              height={563} // Desired size with correct aspect ratio
+              width={1000} // Desired size with correct aspect ratio
+              alt="ビーコアnoteロゴ"
+            />
+          </a>
+        </section>
+
+        {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>
           <span className="font-noto text-gray-900">最新の投稿</span>
         </h2>
@@ -43,7 +59,9 @@ export default function Newspage({ allNewsData }) {
             </li>
           ))}
         </ul>
-      </section>
-    </Layout>
+      </section> */}
+      </Layout>
+      <Footer />
+    </div>
   );
 }
