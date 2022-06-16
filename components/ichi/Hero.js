@@ -24,7 +24,7 @@ export default function Hero() {
               位置管理システム
             </h2>
             <p className="text-base text-gray-900 font-ud md:text-lg">
-              IoTカメラが工場・倉庫などの大空間での<br></br>
+              エッジAIカメラが工場・倉庫などの大空間での<br></br>
               <span className="text-indigo-600 underline decoration-slate-900">
                 ヒト・モノを24時間365日見守り、可視化することで
               </span>
