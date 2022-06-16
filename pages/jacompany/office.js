@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar";
-import Office from "../../components/Company/Office";
-import Navoffice from "../../components/Company/Navoffice";
+import Office from "../../components/company/Office";
+import Navoffice from "../../components/company/Navoffice";
 import Footer from "../../components/Footer";
 
 export default function Jacompany() {

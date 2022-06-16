@@ -40,7 +40,7 @@ export default function Purpose() {
               </svg>
             </div>
             <h6 className="mb-2 font-ud leading-5 text-slate-800">
-              パナソニック株式会社のIoTカメラ「Vieureka」が人の代わりに24時間365日モノ（在庫）を見まもります。
+              エッジAIカメラ「Vieureka」が人の代わりに24時間365日モノ（在庫）を見まもります。
             </h6>
           </div>
           <div className="p-5 duration-300 transform  border rounded shadow-sm hover:-translate-y-2">

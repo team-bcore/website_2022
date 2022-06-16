@@ -18,7 +18,7 @@ export default function Overview() {
             </span>{" "}
           </h2>
           <p className="font-ud text-gray-700 md:text-lg">
-            パナソニック株式会社のIoTカメラ「Vieureka」が、人の代わりにカラービット®︎が貼られたモノの動きを常に見まもり記録します。
+            エッジAIカメラ「Vieureka」が、人の代わりにカラービット®︎が貼られたモノの動きを常に見まもり記録します。
             <br></br>
             カラービット®︎は、IoTカメラで認識しやすいマーカーで、バーコードやQRコード、電子タグでは適用が難しかった場面でも使用できるコードです。
           </p>

@@ -26,7 +26,7 @@ export default function Header() {
             </div>
           </a>
           <h2 className="mb-4 font-noto text-slate-800 sm:text-4xl sm:leading-none">
-            今まで人が行っていた在庫管理を、IoTカメラが管理することで現場の業務が効率化されます
+            今まで人が行っていた在庫管理を<br></br>エッジAIカメラが管理することで現場の業務が効率化されます
           </h2>
           <p className="text-base font-ud text-gray-700 md:text-lg sm:px-4">
             今までのモノ（在庫）管理は、現場を行ったり来たりしながら、モノの移動を端末で記録するといった煩雑な作業に追われる厄介な業務でした。また、置き方のルールなどの徹底も容易ではありません。

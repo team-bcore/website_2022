@@ -38,7 +38,7 @@ export default function Content() {
             </div>
           </a>
           <a
-            href="https://note.com/b_core/n/nbdd62df31c62"
+            href="https://note.com/b_core/n/ncf976f467ddc"
             aria-label="View Item"
             target="_blank"
           >

@@ -45,12 +45,12 @@ export default function Features() {
               <div className="flex-grow border border-t-0 rounded-b">
                 <div className="p-5">
                   <h6 className="mb-2 font-noto leading-5">
-                    AIカメラ「ビューレカ」
+                    エッジAIカメラ「Vieureka」
                     <br></br>
                     <br></br>
                   </h6>
                   <p className="font-ud text-sm text-gray-900">
-                    パナソニックのAIカメラを採用。画像処理PC、オンプレサーバーなどのハードウエアは不要です。
+                    エッジAIカメラを採用。画像処理PC、オンプレサーバーなどのハードウエアは不要です。
                   </p>
                 </div>
               </div>

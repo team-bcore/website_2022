@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar";
-import Profile from "../../components/Company/Profile";
-import Navprofile from "../../components/Company/Navprofile";
+import Profile from "../../components/company/Profile";
+import Navprofile from "../../components/company/Navprofile";
 import Footer from "../../components/Footer";
 
 export default function Jacompany() {

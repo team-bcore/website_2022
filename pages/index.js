@@ -29,25 +29,24 @@ export default function Home({ allNewsData }) {
        <NextSeo
         title="ビーコア株式会社"
         description="現場のニッチなお悩みをIoTの力で解決します"
-        canonical="https://www.mitsushiru.tech/"
         openGraph={{
-          url: "https://www.colorbit.jp",
+          url: "https://www.bcore.biz",
           title: "ビーコア株式会社",
           description:
-            "私たちは、独自に開発した自動認識コード「カラービット®︎」やエッジAIカメラを用いて、現場でのニッチなお悩みを解決し、業務の効率化を促進するソリューションを提供しております。",
+            "私たちは、独自に開発した自動認識コード「カラービット®︎」やエッジAIカメラを用いて、現場でのニッチなお悩みを解決し、業務の効率化を促進するソリューションを提供しています。",
           images: [
             {
-              url: "",
+              url: "../public/images/SEO/top-card.png",
               width: 800,
               height: 600,
-              alt: "",
+              alt: "ビーコア株式会社イメージ",
               type: "image/png",
             },
             {
-              url: "",
+              url: "../public/images/SEO/top-card.png",
               width: 900,
               height: 800,
-              alt: "",
+              alt: "ビーコア株式会社イメージ",
               type: "large_image/png",
             },
           ],

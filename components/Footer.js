@@ -24,14 +24,15 @@ export default function Footer() {
               <p className="font-ud text-base text-gray-700 md:text-lg">
                 ビーコア株式会社
               </p>
-
               <p className="mt-4">
-                <Image
-                  src="/images/Footer/pmark-2022.png" // Route of the image file
-                  height={56} // Desired size with correct aspect ratio
-                  width={56} // Desired size with correct aspect ratio
-                  alt="Pマークロゴ"
-                />
+                <a href="https://www.jipdec.or.jp/index.html">
+                  <Image
+                    src="/images/Footer/pmark-2022.png" // Route of the image file
+                    height={56} // Desired size with correct aspect ratio
+                    width={56} // Desired size with correct aspect ratio
+                    alt="Pマークロゴ"
+                  />
+                </a>
               </p>
             </div>
           </div>
@@ -69,8 +70,10 @@ export default function Footer() {
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
-                  <a href="/" className="font-ud text-md text-slate-800">
+                  <a href="https://www.mitsushiru.tech/">
+                    <p className="font-ud text-md text-slate-800">
                     密 ミツシル
+                    </p>
                   </a>
                 </li>
               </ul>
