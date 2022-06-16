@@ -43,7 +43,7 @@ export default function Hero() {
               </svg>
             </div>
             <p className="font-noto tracking-wide text-sky-600">
-              パナソニックのAIカメラ「ビューレカ」を使用
+              エッジAIカメラ「Vieureka」を使用
             </p>
           </div>
           <div className="inline-block p-8 text-center">
