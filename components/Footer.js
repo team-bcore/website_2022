@@ -70,8 +70,10 @@ export default function Footer() {
               </p>
               <ul className="mt-2 space-y-2">
                 <li>
-                  <a href="/mitsushiru" className="font-ud text-md text-slate-800">
+                  <a href="https://www.mitsushiru.tech/">
+                    <p className="font-ud text-md text-slate-800">
                     密 ミツシル
+                    </p>
                   </a>
                 </li>
               </ul>
