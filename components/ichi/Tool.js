@@ -27,7 +27,7 @@ export default function Tool() {
                 エッジAIカメラ「Vieureka」
               </h5>
               <p className="mb-5 font-ud text-gray-700">
-                パナソニック株式会社の技術から生まれたエッジAIカメラ「Vieureka」を使用しています。
+                エッジAIカメラ「Vieureka」を使用しています。
                 <br></br>
                 <br></br>
               </p>
