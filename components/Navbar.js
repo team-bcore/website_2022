@@ -9,9 +9,9 @@ function Navbar() {
     <div className="">
       <nav className="bg-white bg-opacity-80 shadow-sm fixed w-full z-10 ">
         <div className="w-full">
-          <div className="flex items-center h-20 w-full">
+          <div className="flex items-center h-12 w-full">
             <div className="flex items-center mx-10  justify-between w-full">
-              <div className="flex justify-center items-center flex-shrink-0">
+              <div className="pt-1 flex justify-center items-center flex-shrink-0">
                 <Link href="/">
                   <a>
                     <Image
