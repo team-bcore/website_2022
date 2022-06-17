@@ -15,17 +15,17 @@ export default function Contact() {
           url: "https://www.bcore.biz/contact",
           title: "お問い合わせフォーム",
           description:
-            "お問い合わせフォーム",
+            "各ソリューションへのお申し込み・お問い合わせは、こちらのコンタクトフォームから承っております。改めてメールにてご連絡をさせていただきます。",
           images: [
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/contact-card.png",
+              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/top-card.png",
               width: 800,
               height: 600,
               alt: "コンタクトイメージ",
               type: "image/png",
             },
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/contact-card.png",
+              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/top-card.png",
               width: 900,
               height: 800,
               alt: "コンタクトイメージ",
