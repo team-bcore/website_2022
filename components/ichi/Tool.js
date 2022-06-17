@@ -29,7 +29,9 @@ export default function Tool() {
               <p className="mb-5 font-ud text-gray-700">
                 エッジAIカメラ「Vieureka」を使用しています。
                 <br></br>
-                <br></br>
+                画像解析サーバーが不要なので、カメラの追加で簡単に増設できます。
+               
+                
               </p>
               <a href="https://www.vieureka.com/">
                 <p className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-400 hover:bg-gray-400 focus:shadow-outline focus:outline-none">Read more</p>
