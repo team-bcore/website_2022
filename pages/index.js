@@ -26,6 +26,7 @@ export async function getStaticProps() {
 export default function Home({ allNewsData }) {
   return (
     <div className="">
+      <>
        <NextSeo
         title="ビーコア株式会社"
         description="現場のニッチなお悩みをIoTの力で解決します"
@@ -58,6 +59,7 @@ export default function Home({ allNewsData }) {
           cardType: "summary_large_image",
         }}
       />
+      </>
       <Head>
         <link rel="icon" href="/favicon.ico" />
       </Head>
