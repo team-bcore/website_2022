@@ -8,15 +8,15 @@ export default function Archive() {
         <p className="pt-4 font-ud text-base text-gray-900 md:text-lg sm:px-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 inline-block"
+            className="h-6 w-6 inline-block"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            stroke-width="2"
+            strokeWidth="2"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
             />
           </svg>
@@ -25,15 +25,15 @@ export default function Archive() {
           <br></br>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 inline-block"
+            className="h-6 w-6 inline-block"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            stroke-width="2"
+            strokeWidth="2"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
             />
           </svg>
@@ -49,15 +49,15 @@ export default function Archive() {
               colorbit総合案内
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -68,15 +68,15 @@ export default function Archive() {
               カラービットデザインサンプル
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -87,15 +87,15 @@ export default function Archive() {
               カラービットサンプルタグ（標準）
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -106,15 +106,15 @@ export default function Archive() {
               カラービットFQA
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -125,15 +125,15 @@ export default function Archive() {
               ロゴマーク使用ガイドライン
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -148,15 +148,15 @@ export default function Archive() {
               彩色兼備 モノ常時管理システム
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -167,15 +167,15 @@ export default function Archive() {
               彩色兼備 位置管理システム
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -186,15 +186,15 @@ export default function Archive() {
               彩色兼備 入退室管理システム
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -205,15 +205,15 @@ export default function Archive() {
               彩色兼備 モノ管理システム
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -224,15 +224,15 @@ export default function Archive() {
               彩色兼備 モノ管理システム【ご利用マニュアル デモ利用版 v2.2】
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -244,15 +244,15 @@ export default function Archive() {
               枠なし（A-ONEラベル[ZT31176]推奨）】
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -267,15 +267,15 @@ export default function Archive() {
               彩色兼備 モノ管理システム【サンプルタグ 枠あり】
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -286,15 +286,15 @@ export default function Archive() {
               カラービット エンターテインメント編
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -305,15 +305,15 @@ export default function Archive() {
               カラービット かんたん管理編
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -324,15 +324,15 @@ export default function Archive() {
               CB Chrono
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -347,15 +347,15 @@ export default function Archive() {
               みずほ銀行機関紙 『Fole』 2020年6月号掲載
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -366,15 +366,15 @@ export default function Archive() {
               日刊工業新聞「ビーコア 色配色による自動認識コード」2019年11月26日
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -387,15 +387,15 @@ export default function Archive() {
               AWARD受賞企業に聞く』2019年10月11日
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
                 />
               </svg>
@@ -408,15 +408,15 @@ export default function Archive() {
               2019が決定　2019年10月10日
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
                 />
               </svg>
@@ -430,15 +430,15 @@ export default function Archive() {
               『色の並びをカメラで読み取りコード化、ビーコアの位置管理サービス』2019年10月9日
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
                 />
               </svg>
@@ -449,15 +449,15 @@ export default function Archive() {
               日本工業新聞　2019年8月29日
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -469,15 +469,15 @@ export default function Archive() {
               2016年10月31日
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -489,15 +489,15 @@ export default function Archive() {
               2015年10月1日
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -510,15 +510,15 @@ export default function Archive() {
               2015年9月30日
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
                 />
               </svg>
@@ -529,15 +529,15 @@ export default function Archive() {
               テクぽん2015年5.6月号
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -548,15 +548,15 @@ export default function Archive() {
               ドリームゲート事務局取材記事 2015年3月3日
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
                 />
               </svg>
@@ -567,15 +567,15 @@ export default function Archive() {
               ITpro 2014年11月14日
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -586,15 +586,15 @@ export default function Archive() {
               日経産業新聞　2014年5月1日
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -605,15 +605,15 @@ export default function Archive() {
               Colorbit USA News 2013 April
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -624,15 +624,15 @@ export default function Archive() {
               日経産業新聞　2012年5月24日
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -643,15 +643,15 @@ export default function Archive() {
               日経産業新聞　2012年2月7日
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -662,15 +662,15 @@ export default function Archive() {
               日本経済新聞　2011年10月5日:三重銀行事例紹介
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -686,15 +686,15 @@ export default function Archive() {
               ライフサイクル管理用IDに関する業作研究報告書(2010)
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -705,15 +705,15 @@ export default function Archive() {
               業務効率化を目的とした手術室セット薬品管理システムの開発(2013)
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -725,15 +725,15 @@ export default function Archive() {
               (2011年自動認識システム大賞入選)
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -748,15 +748,15 @@ export default function Archive() {
               東芝システムテクノロジー株式会社【ピッキング支援システム】でカラービット®︎が採用されています
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
                 />
               </svg>
@@ -769,15 +769,15 @@ export default function Archive() {
               パナソニック株式会社）
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -788,15 +788,15 @@ export default function Archive() {
               カラービットを活用した製造業向けソリューション(2016:パナソニックシステムネットワークス株式会社)
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -808,15 +808,15 @@ export default function Archive() {
               日本通運株式会社(キヤノンマーケティングジャパン株式会社)
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
@@ -827,15 +827,15 @@ export default function Archive() {
               カラービットを使った書類管理システム(2011:三重銀行事例紹介)
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-6 w-6 inline-block"
+                className="h-6 w-6 inline-block"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                stroke-width="2"
+                strokeWidth="2"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                 />
               </svg>
