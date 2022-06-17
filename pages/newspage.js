@@ -5,7 +5,7 @@ import { getSortedNewsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import { NextSeo } from "next-seo";
 
 export async function getStaticProps() {
   const allNewsData = getSortedNewsData();
@@ -19,6 +19,43 @@ export async function getStaticProps() {
 export default function Newspage({ allNewsData }) {
   return (
     <div className="">
+      <>
+        <NextSeo
+          title="ビーコア株式会社"
+          description="現場のニッチなお悩みをIoTの力で解決します"
+          openGraph={{
+            url: "https://www.bcore.biz/newspage/",
+            title: "ニュース",
+            description:
+              "イベント情報やお知らせをご覧いただけます。",
+            images: [
+              {
+                url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/news-card.png",
+                width: 800,
+                height: 600,
+                alt: "ビーコア株式会社イメージ",
+                type: "image/png",
+              },
+              {
+                url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/news-card.png",
+                width: 900,
+                height: 800,
+                alt: "ビーコア株式会社イメージ",
+                type: "large_image/png",
+              },
+            ],
+            site_name: "",
+          }}
+          twitter={{
+            handle: "colorbit_bcore",
+            site: "https://twitter.com/colorbit_bcore",
+            cardType: "summary_large_image",
+          }}
+        />
+      </>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Navbar />
       <div className="pt-8">
         <Layout home>
@@ -34,7 +71,7 @@ export default function Newspage({ allNewsData }) {
           <section
             className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}
           >
-             <span className="inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-cyan-600 text-white rounded">New</span> 
+            <span className="inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-cyan-600 text-white rounded">New</span>
             <h2 className={utilStyles.headingLg}>
               <span className="font-noto"></span>
             </h2>
@@ -53,7 +90,6 @@ export default function Newspage({ allNewsData }) {
             </ul>
           </section>
         </Layout>
-      
       </div>
     </div>
   );
