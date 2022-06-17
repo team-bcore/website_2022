@@ -5,6 +5,7 @@ import utilStyles from "../styles/utils.module.css";
 import { getSortedNewsData } from "../lib/posts";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { NextSeo } from "next-seo";
 
 export async function getStaticProps() {
   const allNewsData = getSortedNewsData();
@@ -18,6 +19,43 @@ export async function getStaticProps() {
 export default function Newspage({ allNewsData }) {
   return (
     <div className="-mt-12">
+      <>
+       <NextSeo
+        title="ビーコア株式会社"
+        description="現場のニッチなお悩みをIoTの力で解決します"
+        openGraph={{
+          url: "https://www.bcore.biz/blog",
+          title: "ビーコアのブログ",
+          description:
+            "テクノロジー、デザイン、ビジネスなどさまざまなトピックについて書いています。",
+          images: [
+            {
+              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/blog-card.png",
+              width: 800,
+              height: 600,
+              alt: "ブログイメージ",
+              type: "image/png",
+            },
+            {
+              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/blog-card.png",
+              width: 900,
+              height: 800,
+              alt: "ブログイメージ",
+              type: "large_image/png",
+            },
+          ],
+          site_name: "",
+        }}
+        twitter={{
+          handle: "colorbit_bcore",
+          site: "https://twitter.com/colorbit_bcore",
+          cardType: "summary_large_image",
+        }}
+      />
+      </>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Navbar />
       <Layout home>
         <Head>
@@ -27,7 +65,7 @@ export default function Newspage({ allNewsData }) {
           <p className="font-ud text-gray-700">
             テクノロジー、デザイン、ビジネスなどさまざまなトピックについて書いています。
             <br></br>
-            ビーコアのブログへGo! 👇
+            ビーコアのブログへGo! <span className="animate-bounce">👇</span>
           </p>
         </section>
         <section>
