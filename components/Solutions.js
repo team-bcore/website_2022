@@ -4,8 +4,7 @@ import Image from "next/image";
 export default function Solutions() {
   return (
     <div className="bg-Home-bg bg-cover xl:bg-no-repeat ">
-      <div className="pt-20 bg-blue-400">
-      
+      <div className="pt-12 bg-blue-400">     
       <p className="py-1 text-white text-center font-noto text-base md:text-lg">
       <span class="inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-600 text-white rounded">New</span>
        ビーコアはWebサイトの【URLとデザイン】を刷新しました。
