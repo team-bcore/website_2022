@@ -16,7 +16,7 @@ export default function Features() {
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
               <h6 className="text-gray-300 mb-2 font-noto leading-5 text-xl">
-                ビーコアのポリシー
+                ミッションとポリシー
               </h6>
               <p className="text-gray-300 mb-3 font-ud text-base mt-8">
                 ビーコアがお客様に掲げる3つのポリシーです。
