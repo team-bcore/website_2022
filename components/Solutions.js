@@ -6,7 +6,7 @@ export default function Solutions() {
     <div className="bg-Home-bg bg-cover xl:bg-no-repeat ">
       <div className="pt-12 bg-blue-400">     
       <p className="py-1 text-white text-center font-noto text-base md:text-lg">
-      <span class="inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-600 text-white rounded">New</span>
+      <span className="inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-600 text-white rounded">New</span>
        ビーコアはWebサイトの【URLとデザイン】を刷新しました。
       </p>
       </div>
@@ -39,11 +39,11 @@ export default function Solutions() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    stroke-width="2"
+                    strokeWidth="2"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
                     />
                   </svg>
@@ -56,13 +56,11 @@ export default function Solutions() {
                 食品工場のような、マスクの着用で顔認証が使えない施設でも、非接触の入退室管理がしたい。
               </p>
             </div>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500"
-            >
+            <Link href="/hito">
+            <a className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500">
               Learn More
             </a>
+            </Link>
           </div>
           <div className="bg-white bg-opacity-70 flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
@@ -74,11 +72,11 @@ export default function Solutions() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    stroke-width="2"
+                    strokeWidth="2"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
                     />
                   </svg>
@@ -91,13 +89,11 @@ export default function Solutions() {
                 厄介な在庫管理を自動化することで、従業員の負担を軽減させたい。
               </p>
             </div>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500"
-            >
+            <Link href="/mono-monitoring">
+            <a className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500">
               Learn More
             </a>
+            </Link>
           </div>
           <div className="bg-white bg-opacity-70 flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
@@ -109,16 +105,16 @@ export default function Solutions() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    stroke-width="2"
+                    strokeWidth="2"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
                     />
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                       d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                     />
                   </svg>
@@ -131,13 +127,11 @@ export default function Solutions() {
                 広い工場や倉庫内のモノ・ヒトの位置を見える化して業務を効率化したい。
               </p>
             </div>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500"
-            >
+            <Link href="/ichiservice">
+            <a className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500">
               Learn More
             </a>
+            </Link>
           </div>
           <div className="bg-white bg-opacity-70 flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
@@ -167,7 +161,7 @@ export default function Solutions() {
               </p>
             </div>
             <a
-              href="/"
+              href="https://www.mitsushiru.tech/"
               aria-label=""
               className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500"
             >
