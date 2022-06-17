@@ -2,10 +2,50 @@ import Image from "next/image";
 import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 import Link from "next/link";
+import { NextSeo } from "next-seo";
+import Head from "next/head";
+
 
 export default function Jacompany() {
   return (
     <div className="">
+      <>
+       <NextSeo
+        title="ビーコア株式会社"
+        description="現場のニッチなお悩みをIoTの力で解決します"
+        openGraph={{
+          url: "https://www.bcore.biz/research/6d",
+          title: "カラービット6D測位 colobit Six Dimension Survey",
+          description:
+            "屋内大空間での高精度な自己位置推定技術の提供へ向けて",
+          images: [
+            {
+              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/research-card.png",
+              width: 800,
+              height: 600,
+              alt: "研究開発イメージ",
+              type: "image/png",
+            },
+            {
+              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/research-card.png",
+              width: 900,
+              height: 800,
+              alt: "研究開発イメージ",
+              type: "large_image/png",
+            },
+          ],
+          site_name: "",
+        }}
+        twitter={{
+          handle: "colorbit_bcore",
+          site: "https://twitter.com/colorbit_bcore",
+          cardType: "summary_large_image",
+        }}
+      />
+      </>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Navbar />
       <div className="px-4 py-24 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-40">
         <div className="max-w-screen-sm sm:mx-auto">
