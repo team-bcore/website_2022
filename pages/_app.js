@@ -4,22 +4,24 @@ import Script from 'next/script'
 export default function App({ Component, pageProps }) {
   return (
     <>
-    <div className="container">
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-          ga('create', 'G-EP8V6PRVC6', 'auto');
-          ga('send', 'pageview');
-        `}
-      </Script>
+      <div className="container">      
       <Script
-        src="https://www.google-analytics.com/analytics.js"
+        src="https://www.googletagmanager.com/gtag/js?id=G-EP8V6PRVC6"
         strategy="afterInteractive"
       />
-    </div>
-  <Component {...pageProps} />
-  </>
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-EP8V6PRVC6');
+        `}
+      </Script>
+      </div>
+      <Component {...pageProps} />
+    </>
   );
 
-  
+
 }
