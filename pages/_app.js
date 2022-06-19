@@ -2,7 +2,9 @@ import "../styles/global.css";
 import Script from 'next/script'
 
 export default function App({ Component, pageProps }) {
-  <div className="container">
+  return (
+    <>
+    <div className="container">
       <Script id="google-analytics" strategy="afterInteractive">
         {`
           window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -15,7 +17,9 @@ export default function App({ Component, pageProps }) {
         strategy="afterInteractive"
       />
     </div>
-  return <Component {...pageProps} />;
+  <Component {...pageProps} />
+  </>
+  );
 
   
 }
