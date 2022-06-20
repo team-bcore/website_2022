@@ -38,7 +38,7 @@ export default function Navmission() {
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
-              <h6 className="text-gray-300 mb-2 font-ud leading-5 text-xl">
+              <h6 className="text-gray-300 mb-2 font-noto leading-5 text-xl">
                 オフィスとラボの紹介
               </h6>
               <p className="text-gray-300 mb-3 font-ud text-base mt-8">
@@ -51,7 +51,7 @@ export default function Navmission() {
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
-              <h6 className="text-gray-300 mb-2 font-ud leading-5 text-xl">
+              <h6 className="text-gray-300 mb-2 font-noto leading-5 text-xl">
                 会社概要
               </h6>
               <p className="text-gray-300 mb-3 font-ud text-base mt-8">
@@ -66,7 +66,7 @@ export default function Navmission() {
         <div className="pt-4 grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
           <div className="bg-gray-700 flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
-              <h6 className="text-gray-300 mb-2 font-ud leading-5 text-xl">
+              <h6 className="text-gray-300 mb-2 font-noto leading-5 text-xl">
                 各種資料・特許情報
               </h6>
               <p className="text-gray-300 mb-3 font-ud text-base mt-8">
@@ -76,7 +76,7 @@ export default function Navmission() {
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
-              <h6 className="text-gray-300 mb-2 font-ud leading-5 text-xl">
+              <h6 className="text-gray-300 mb-2 font-noto leading-5 text-xl">
                 R&D
               </h6>
               <p className="text-gray-300 mb-3 font-ud text-base mt-8">
@@ -89,7 +89,7 @@ export default function Navmission() {
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
-              <h6 className="text-gray-300 mb-2 font-ud leading-5 text-xl">
+              <h6 className="text-gray-300 mb-2 font-noto leading-5 text-xl">
                 ニュース
               </h6>
               <p className="text-gray-300 mb-3 font-ud text-base mt-8">
@@ -102,7 +102,7 @@ export default function Navmission() {
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
-              <h6 className="text-gray-300 mb-2 font-ud leading-5 text-xl">
+              <h6 className="text-gray-300 mb-2 font-noto leading-5 text-xl">
                 ブログ
               </h6>
               <p className="text-gray-300 mb-3 font-ud text-base mt-8">
