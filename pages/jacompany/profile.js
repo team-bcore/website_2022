@@ -19,14 +19,14 @@ export default function Jacompany() {
             "正式名称、設立年月日、資本金、事業内容、主要取引先などをご覧いただけます。",
           images: [
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/profile-card.png",
+              url: "https://bcore.biz/images/SEO/profile-card.png",
               width: 800,
               height: 600,
               alt: "会社概要イメージ",
               type: "image/png",
             },
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/profile-card.png",
+              url: "https://bcore.biz/images/SEO/profile-card.png",
               width: 900,
               height: 800,
               alt: "会社概要イメージ",

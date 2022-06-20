@@ -30,14 +30,14 @@ export default function Newspage({ allNewsData }) {
             "テクノロジー、デザイン、ビジネスなどさまざまなトピックについて書いています。",
           images: [
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/blog-card.png",
+              url: "https://bcore.biz/images/SEO/blog-card.png",
               width: 800,
               height: 600,
               alt: "ブログイメージ",
               type: "image/png",
             },
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/blog-card.png",
+              url: "https://bcore.biz/images/SEO/blog-card.png",
               width: 900,
               height: 800,
               alt: "ブログイメージ",

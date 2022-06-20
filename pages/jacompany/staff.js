@@ -20,14 +20,14 @@ export default function Jacompany() {
             "さまざまな分野のエキスパートがお客様の課題解決にあたる少数精鋭チームです。",
           images: [
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/staff-card.png",
+              url: "https://bcore.biz/images/SEO/staff-card.png",
               width: 800,
               height: 600,
               alt: "スタッフ紹介イメージ",
               type: "image/png",
             },
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/staff-card.png",
+              url: "https://bcore.biz/images/SEO/staff-card.png",
               width: 900,
               height: 800,
               alt: "スタッフ紹介イメージ",

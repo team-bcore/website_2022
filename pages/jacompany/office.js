@@ -19,14 +19,14 @@ export default function Jacompany() {
             "東京・西神田にあるビーコアのオフィスと、実験・製作のためのラボ（研究室）を紹介します。",
           images: [
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/office-card.png",
+              url: "https://bcore.biz/images/SEO/office-card.png",
               width: 800,
               height: 600,
               alt: "オフィス紹介イメージ",
               type: "image/png",
             },
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/office-card.png",
+              url: "https://bcore.biz/images/SEO/office-card.png",
               width: 900,
               height: 800,
               alt: "オフィス紹介イメージ",

@@ -30,14 +30,14 @@ export default function Newspage({ allNewsData }) {
               "イベント情報やお知らせをご覧いただけます。",
             images: [
               {
-                url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/news-card.png",
+                url: "https://bcore.biz/images/SEO/news-card.png",
                 width: 800,
                 height: 600,
                 alt: "ビーコア株式会社イメージ",
                 type: "image/png",
               },
               {
-                url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/news-card.png",
+                url: "https://bcore.biz/images/SEO/news-card.png",
                 width: 900,
                 height: 800,
                 alt: "ビーコア株式会社イメージ",

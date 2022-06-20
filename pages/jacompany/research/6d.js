@@ -20,14 +20,14 @@ export default function Jacompany() {
             "屋内大空間での高精度な自己位置推定技術の提供へ向けて",
           images: [
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/research-card.png",
+              url: "https://bcore.biz/images/SEO/research-card.png",
               width: 800,
               height: 600,
               alt: "研究開発イメージ",
               type: "image/png",
             },
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/research-card.png",
+              url: "https://bcore.biz/images/SEO/research-card.png",
               width: 900,
               height: 800,
               alt: "研究開発イメージ",

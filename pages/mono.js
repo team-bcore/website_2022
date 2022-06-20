@@ -26,14 +26,14 @@ export default function Mono() {
               "たくさんのモノの管理に、もはや専用の端末は必要ありません。お手持ちのiPhoneでカラービット®︎タグを画像処理により一括認識します。読み取ったデータはクラウドで一元管理でき、どこからでもアクセス可能。すぐに利用開始できます。",
             images: [
               {
-                url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/mono-card.png",
+                url: "https://bcore.biz/images/SEO/mono-card.png",
                 width: 800,
                 height: 600,
                 alt: "スマホによるモノ管理イメージ",
                 type: "image/png",
               },
               {
-                url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/mono-card.png",
+                url: "https://bcore.biz/images/SEO/mono-card.png",
                 width: 900,
                 height: 800,
                 alt: "スマホによるモノ管理イメージ",

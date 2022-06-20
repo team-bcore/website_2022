@@ -25,14 +25,14 @@ export default function Hito() {
             "カラービット入館証の検出からクラウドへのデータ送信までを全てエッジAIカメラが自動で処理することにより入退室を管理します。入館証はカメラに手でかざす必要がなく、ハンズフリー通過が可能なシステムです。",
           images: [
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/hito-card.png",
+              url: "https://bcore.biz/images/SEO/hito-card.png",
               width: 800,
               height: 600,
               alt: "入退室管理イメージ",
               type: "image/png",
             },
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/hito-card.png",
+              url: "https://bcore.biz/images/SEO/hito-card.png",
               width: 900,
               height: 800,
               alt: "入退室管理イメージ",

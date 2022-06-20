@@ -37,14 +37,14 @@ export default function Home({ allNewsData }) {
             "私たちは、独自に開発した自動認識コード「カラービット®︎」やエッジAIカメラを用いて、現場でのニッチなお悩みを解決し、業務の効率化を促進するソリューションを提供しています。",
           images: [
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/top-card.png",
+              url: "https://bcore.biz/images/SEO/top-card.png",
               width: 800,
               height: 600,
               alt: "ビーコア株式会社イメージ",
               type: "image/png",
             },
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/top-card.png",
+              url: "https://bcore.biz/images/SEO/top-card.png",
               width: 900,
               height: 800,
               alt: "ビーコア株式会社イメージ",
