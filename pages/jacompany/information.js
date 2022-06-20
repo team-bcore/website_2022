@@ -20,14 +20,14 @@ export default function Jacompany() {
             "ソリューションに関する各種資料、メディア掲載情報、国内外で取得した特許の情報を掲載しています。",
           images: [
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/info-card.png",
+              url: "https://bcore.biz/images/SEO/info-card.png",
               width: 800,
               height: 600,
               alt: "各種資料・特許情報イメージ",
               type: "image/png",
             },
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/info-card.png",
+              url: "https://bcore.biz/images/SEO/info-card.png",
               width: 900,
               height: 800,
               alt: "各種資料・特許情報イメージ",

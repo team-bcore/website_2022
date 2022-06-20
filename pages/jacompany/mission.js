@@ -19,14 +19,14 @@ export default function Jacompany() {
             "ビーコアが掲げるミッションとポリシー",
           images: [
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/mission-card.png",
+              url: "https://bcore.biz/images/SEO/mission-card.png",
               width: 800,
               height: 600,
               alt: "ポリシーイメージ",
               type: "image/png",
             },
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/mission-card.png",
+              url: "https://bcore.biz/images/SEO/mission-card.png",
               width: 900,
               height: 800,
               alt: "ポリシーイメージ",

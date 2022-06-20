@@ -19,14 +19,14 @@ export default function Jacompany() {
             "ビーコアの会社情報をご覧いただけます",
           images: [
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/company-card.png",
+              url: "https://bcore.biz/images/SEO/company-card.png",
               width: 800,
               height: 600,
               alt: "会社情報イメージ",
               type: "image/png",
             },
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/company-card.png",
+              url: "https://bcore.biz/images/SEO/company-card.png",
               width: 900,
               height: 800,
               alt: "会社情報イメージ",

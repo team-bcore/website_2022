@@ -27,14 +27,14 @@ export default function Monom() {
               "エッジAIカメラ「Vieureka」が、人の代わりにカラービット®︎が貼られたモノの動きを常に見まもり記録します。カラービット®︎は、IoTカメラで認識しやすいマーカーで、バーコードやQRコード、電子タグでは適用が難しかった場面でも使用できるコードです。",
             images: [
               {
-                url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/monom-card.png",
+                url: "https://bcore.biz/images/SEO/monom-card.png",
                 width: 800,
                 height: 600,
                 alt: "モノ常時管理システム",
                 type: "image/png",
               },
               {
-                url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/monom-card.png",
+                url: "https://bcore.biz/images/SEO/monom-card.png",
                 width: 900,
                 height: 800,
                 alt: "モノ常時管理システム",

@@ -18,14 +18,14 @@ export default function Contact() {
             "各ソリューションへのお申し込み・お問い合わせは、こちらのコンタクトフォームから承っております。改めてメールにてご連絡をさせていただきます。",
           images: [
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/top-card.png",
+              url: "https://bcore.biz/images/SEO/top-card.png",
               width: 800,
               height: 600,
               alt: "コンタクトイメージ",
               type: "image/png",
             },
             {
-              url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/top-card.png",
+              url: "https://bcore.biz/images/SEO/top-card.png",
               width: 900,
               height: 800,
               alt: "コンタクトイメージ",

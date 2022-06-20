@@ -13,9 +13,9 @@ export default function Office() {
         </p>
         <Image
           className="rounded"
-          src="/images/Company/office.JPG" // Route of the image file
-          height={2016} // Desired size with correct aspect ratio
-          width={1512} // Desired size with correct aspect ratio
+          src="/images/Company/office_building.png" // Route of the image file
+          height={640} // Desired size with correct aspect ratio
+          width={853} // Desired size with correct aspect ratio
           alt="オフィスイメージ"
         />
         <hr className="w-full my-8 border-gray-300" />
@@ -26,8 +26,8 @@ export default function Office() {
         <Image
           className="rounded"
           src="/images/Company/view.JPG" // Route of the image file
-          height={3024} // Desired size with correct aspect ratio
-          width={4032} // Desired size with correct aspect ratio
+          height={720} // Desired size with correct aspect ratio
+          width={960} // Desired size with correct aspect ratio
           alt="オフィス周辺イメージ"
         />
         <p className="pt-2 font-ud text-base text-gray-700 md:text-lg sm:px-4">
@@ -39,6 +39,16 @@ export default function Office() {
           height={3024} // Desired size with correct aspect ratio
           width={4032} // Desired size with correct aspect ratio
           alt="ラボ"
+        />
+        <p className="pt-2 font-ud text-base text-gray-700 md:text-lg sm:px-4">
+          エンジニアが厳選した3Dプリンターが並ぶラボ
+        </p>
+        <Image
+          className="rounded"
+          src="/images/Company/lab_printer.JPG" // Route of the image file
+          height={640} // Desired size with correct aspect ratio
+          width={960} // Desired size with correct aspect ratio
+          alt="3Dプリンター"
         />
         <p className="pt-2 font-ud text-base text-gray-700 md:text-lg sm:px-4">
           落ち着いた環境で作業に集中できる。

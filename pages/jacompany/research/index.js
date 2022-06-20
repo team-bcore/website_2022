@@ -19,14 +19,14 @@ export default function Jacompany() {
               "ビーコアの研究開発の情報をご覧いただけます。",
             images: [
               {
-                url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/research-card.png",
+                url: "https://bcore.biz/images/SEO/research-card.png",
                 width: 800,
                 height: 600,
                 alt: "R&Dイメージ",
                 type: "image/png",
               },
               {
-                url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/research-card.png",
+                url: "https://bcore.biz/images/SEO/research-card.png",
                 width: 900,
                 height: 800,
                 alt: "R&Dイメージ",

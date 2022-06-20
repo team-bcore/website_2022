@@ -27,14 +27,14 @@ export default function Ichi() {
               "エッジAIカメラが工場・倉庫などの大空間でのヒト・モノを24時間365日見守り可視化することで、従来の業務の最適化を容易にし、効率的な業務改革に繋げることができます。",
             images: [
               {
-                url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/ichi-card.png",
+                url: "https://bcore.biz/images/SEO/ichi-card.png",
                 width: 800,
                 height: 600,
                 alt: "位置管理サービスイメージ",
                 type: "image/png",
               },
               {
-                url: "https://friendly-macaron-19aef4.netlify.app/images/SEO/ichi-card.png",
+                url: "https://bcore.biz/images/SEO/ichi-card.png",
                 width: 900,
                 height: 800,
                 alt: "位置管理サービスイメージ",
