@@ -5,9 +5,9 @@ export default function Solutions() {
   return (
     <div className="bg-Home-bg bg-cover xl:bg-no-repeat ">
       <div className="pt-12 bg-blue-400">     
-      <p className="py-1 text-white text-center font-noto text-base md:text-lg">
-      <span className="inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-600 text-white rounded">New</span>
-       ビーコアはWebサイトの【URLとデザイン】を刷新しました。
+      <p className="pt-1.5 pb-1 text-white text-center font-noto text-base md:text-lg">
+      <span className="inline-block py-1.5 px-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-600 text-white rounded">New</span>
+      &nbsp;ビーコアはWebサイトの【URLとデザイン】を刷新しました。
       </p>
       </div>
       <div className="font-ud mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">

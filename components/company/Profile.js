@@ -27,7 +27,7 @@ export default function Profile() {
             設立
           </p>
           <p className="pt-2 font-ud text-base text-gray-700 md:text-lg sm:px-4">
-            平成18年4月21日
+            平成18年（2006年）4月21日
           </p>
           <hr className="w-full my-4 border-gray-300" />
           <p className="pt-4 font-ud text-base text-gray-900 md:text-lg sm:px-4">

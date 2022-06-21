@@ -17,7 +17,7 @@ export default function Layout({ children, home }) {
             <link rel="icon" href="/favicon.ico" />
             <meta
               name="description"
-              content="Learn how to build a personal website using Next.js"
+              content="プレスリリース・イベント情報・その他のお知らせ"
             />
             <meta
               property="og:image"
