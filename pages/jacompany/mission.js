@@ -9,38 +9,37 @@ export default function Jacompany() {
   return (
     <div className="">
       <>
-       <NextSeo
-        title="ビーコア株式会社"
-        description="現場のニッチなお悩みをIoTの力で解決します"
-        openGraph={{
-          url: "https://www.bcore.biz/jacompany/mission",
-          title: "ミッションとポリシー",
-          description:
-            "ビーコアが掲げるミッションとポリシー",
-          images: [
-            {
-              url: "https://bcore.biz/images/SEO/mission-card.png",
-              width: 800,
-              height: 600,
-              alt: "ポリシーイメージ",
-              type: "image/png",
-            },
-            {
-              url: "https://bcore.biz/images/SEO/mission-card.png",
-              width: 900,
-              height: 800,
-              alt: "ポリシーイメージ",
-              type: "large_image/png",
-            },
-          ],
-          site_name: "",
-        }}
-        twitter={{
-          handle: "colorbit_bcore",
-          site: "https://twitter.com/colorbit_bcore",
-          cardType: "summary_large_image",
-        }}
-      />
+        <NextSeo
+          title="ビーコア株式会社"
+          description="現場のニッチなお悩みをIoTの力で解決します"
+          openGraph={{
+            url: "https://www.bcore.biz/jacompany/mission",
+            title: "ミッションとポリシー",
+            description: "ビーコアが掲げるミッションとポリシー",
+            images: [
+              {
+                url: "https://bcore.biz/images/SEO/mission-card.png",
+                width: 800,
+                height: 600,
+                alt: "ポリシーイメージ",
+                type: "image/png",
+              },
+              {
+                url: "https://bcore.biz/images/SEO/mission-card.png",
+                width: 900,
+                height: 800,
+                alt: "ポリシーイメージ",
+                type: "large_image/png",
+              },
+            ],
+            site_name: "",
+          }}
+          twitter={{
+            handle: "colorbit_bcore",
+            site: "https://twitter.com/colorbit_bcore",
+            cardType: "summary_large_image",
+          }}
+        />
       </>
       <Head>
         <link rel="icon" href="/favicon.ico" />

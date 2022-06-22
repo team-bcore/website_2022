@@ -35,14 +35,11 @@ export default function Logoclouds() {
                   d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"
                 />
               </svg>
-              <a href="https://www.vieureka.com/"
-                target="_blank">
-
+              <a href="https://www.vieureka.com/" target="_blank">
                 <span className="hover:text-gray-500">
                   Vieurekaプラットフォームについて
                 </span>
               </a>
-
             </p>
             <hr className="mb-5 border-gray-300" />
           </div>

@@ -9,38 +9,37 @@ export default function Jacompany() {
   return (
     <div className="">
       <>
-       <NextSeo
-        title="ビーコア株式会社"
-        description="現場のニッチなお悩みをIoTの力で解決します"
-        openGraph={{
-          url: "https://www.bcore.biz/jacompany/",
-          title: "会社情報",
-          description:
-            "ビーコアの会社情報をご覧いただけます",
-          images: [
-            {
-              url: "https://bcore.biz/images/SEO/company-card.png",
-              width: 800,
-              height: 600,
-              alt: "会社情報イメージ",
-              type: "image/png",
-            },
-            {
-              url: "https://bcore.biz/images/SEO/company-card.png",
-              width: 900,
-              height: 800,
-              alt: "会社情報イメージ",
-              type: "large_image/png",
-            },
-          ],
-          site_name: "",
-        }}
-        twitter={{
-          handle: "colorbit_bcore",
-          site: "https://twitter.com/colorbit_bcore",
-          cardType: "summary_large_image",
-        }}
-      />
+        <NextSeo
+          title="ビーコア株式会社"
+          description="現場のニッチなお悩みをIoTの力で解決します"
+          openGraph={{
+            url: "https://www.bcore.biz/jacompany/",
+            title: "会社情報",
+            description: "ビーコアの会社情報をご覧いただけます",
+            images: [
+              {
+                url: "https://bcore.biz/images/SEO/company-card.png",
+                width: 800,
+                height: 600,
+                alt: "会社情報イメージ",
+                type: "image/png",
+              },
+              {
+                url: "https://bcore.biz/images/SEO/company-card.png",
+                width: 900,
+                height: 800,
+                alt: "会社情報イメージ",
+                type: "large_image/png",
+              },
+            ],
+            site_name: "",
+          }}
+          twitter={{
+            handle: "colorbit_bcore",
+            site: "https://twitter.com/colorbit_bcore",
+            cardType: "summary_large_image",
+          }}
+        />
       </>
       <Head>
         <link rel="icon" href="/favicon.ico" />

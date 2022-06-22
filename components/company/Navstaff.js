@@ -21,7 +21,9 @@ export default function Navmission() {
               </p>
             </div>
             <Link href="mission">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">→詳しく見る</a>
+              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+                →詳しく見る
+              </a>
             </Link>
           </div>
           <div className="bg-gray-700 flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -44,7 +46,9 @@ export default function Navmission() {
               </p>
             </div>
             <Link href="office">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">→詳しく見る</a>
+              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+                →詳しく見る
+              </a>
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -57,7 +61,9 @@ export default function Navmission() {
               </p>
             </div>
             <Link href="profile">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">→詳しく見る</a>
+              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+                →詳しく見る
+              </a>
             </Link>
           </div>
         </div>
@@ -72,7 +78,9 @@ export default function Navmission() {
               </p>
             </div>
             <Link href="information">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">→詳しく見る</a>
+              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+                →詳しく見る
+              </a>
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -85,7 +93,9 @@ export default function Navmission() {
               </p>
             </div>
             <Link href="research">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">→詳しく見る</a>
+              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+                →詳しく見る
+              </a>
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -98,7 +108,9 @@ export default function Navmission() {
               </p>
             </div>
             <Link href="/newspage">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">→詳しく見る</a>
+              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+                →詳しく見る
+              </a>
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -111,7 +123,9 @@ export default function Navmission() {
               </p>
             </div>
             <Link href="/blog">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">→詳しく見る</a>
+              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+                →詳しく見る
+              </a>
             </Link>
           </div>
         </div>

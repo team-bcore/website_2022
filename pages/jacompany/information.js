@@ -10,38 +10,38 @@ export default function Jacompany() {
   return (
     <div className="">
       <>
-       <NextSeo
-        title="ビーコア株式会社"
-        description="現場のニッチなお悩みをIoTの力で解決します"
-        openGraph={{
-          url: "https://www.bcore.biz/jacompany/information",
-          title: "各種資料・特許情報",
-          description:
-            "ソリューションに関する各種資料、メディア掲載情報、国内外で取得した特許の情報を掲載しています。",
-          images: [
-            {
-              url: "https://bcore.biz/images/SEO/info-card.png",
-              width: 800,
-              height: 600,
-              alt: "各種資料・特許情報イメージ",
-              type: "image/png",
-            },
-            {
-              url: "https://bcore.biz/images/SEO/info-card.png",
-              width: 900,
-              height: 800,
-              alt: "各種資料・特許情報イメージ",
-              type: "large_image/png",
-            },
-          ],
-          site_name: "",
-        }}
-        twitter={{
-          handle: "colorbit_bcore",
-          site: "https://twitter.com/colorbit_bcore",
-          cardType: "summary_large_image",
-        }}
-      />
+        <NextSeo
+          title="ビーコア株式会社"
+          description="現場のニッチなお悩みをIoTの力で解決します"
+          openGraph={{
+            url: "https://www.bcore.biz/jacompany/information",
+            title: "各種資料・特許情報",
+            description:
+              "ソリューションに関する各種資料、メディア掲載情報、国内外で取得した特許の情報を掲載しています。",
+            images: [
+              {
+                url: "https://bcore.biz/images/SEO/info-card.png",
+                width: 800,
+                height: 600,
+                alt: "各種資料・特許情報イメージ",
+                type: "image/png",
+              },
+              {
+                url: "https://bcore.biz/images/SEO/info-card.png",
+                width: 900,
+                height: 800,
+                alt: "各種資料・特許情報イメージ",
+                type: "large_image/png",
+              },
+            ],
+            site_name: "",
+          }}
+          twitter={{
+            handle: "colorbit_bcore",
+            site: "https://twitter.com/colorbit_bcore",
+            cardType: "summary_large_image",
+          }}
+        />
       </>
       <Head>
         <link rel="icon" href="/favicon.ico" />

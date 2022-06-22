@@ -26,7 +26,9 @@ export default function Footer() {
             <p className="mb-2 font-ud text-md text-slate-800">
               エッジAIカメラの運用数シェアNo.1*。存在感や圧迫感を抑えたデザインで、より生活に馴染むスタイルを実現します。
               <br></br>
-              <span className="text-xs">*ミック経済研究所“エッジAIコンピューティング市場の実態と将来展望2021年度版”エッジAIカメラのベンダシェア</span>
+              <span className="text-xs">
+                *ミック経済研究所“エッジAIコンピューティング市場の実態と将来展望2021年度版”エッジAIカメラのベンダシェア
+              </span>
             </p>
           </div>
         </div>

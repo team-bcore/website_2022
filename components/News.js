@@ -23,7 +23,9 @@ export default function News({ allNewsData }) {
                     </Link>
                     <br />
                     <small className={utilStyles.lightText}>
-                      <p className="font-noto"><Date dateString={date} /></p>
+                      <p className="font-noto">
+                        <Date dateString={date} />
+                      </p>
                     </small>
                   </li>
                 ))}

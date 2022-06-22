@@ -26,8 +26,7 @@ export default function Newspage({ allNewsData }) {
           openGraph={{
             url: "https://www.bcore.biz/newspage/",
             title: "ニュース",
-            description:
-              "イベント情報やお知らせをご覧いただけます。",
+            description: "イベント情報やお知らせをご覧いただけます。",
             images: [
               {
                 url: "https://bcore.biz/images/SEO/news-card.png",
@@ -71,7 +70,9 @@ export default function Newspage({ allNewsData }) {
           <section
             className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}
           >
-            <span className="inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-cyan-600 text-white rounded">New</span>
+            <span className="inline-block py-1.5 px-2.5 leading-none text-center whitespace-nowrap align-baseline font-bold bg-cyan-600 text-white rounded">
+              New
+            </span>
             <h2 className={utilStyles.headingLg}>
               <span className="font-noto"></span>
             </h2>

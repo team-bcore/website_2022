@@ -21,10 +21,12 @@ export default function Features() {
               <p className="text-gray-300 mb-3 font-ud text-base mt-8">
                 ビーコアがお客様に掲げる3つのポリシーです。
               </p>
-            </div>      
+            </div>
             <Link href="jacompany/mission">
-             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">→詳しく見る</a> 
-            </Link>  
+              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+                →詳しく見る
+              </a>
+            </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
@@ -36,8 +38,10 @@ export default function Features() {
               </p>
             </div>
             <Link href="jacompany/staff">
-             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">→詳しく見る</a> 
-            </Link>  
+              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+                →詳しく見る
+              </a>
+            </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
@@ -49,8 +53,10 @@ export default function Features() {
               </p>
             </div>
             <Link href="jacompany/office">
-             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">→詳しく見る</a> 
-            </Link>  
+              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+                →詳しく見る
+              </a>
+            </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
@@ -62,8 +68,10 @@ export default function Features() {
               </p>
             </div>
             <Link href="jacompany/profile">
-             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">→詳しく見る</a> 
-            </Link>  
+              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+                →詳しく見る
+              </a>
+            </Link>
           </div>
         </div>
         <div className="pt-4 grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -77,8 +85,10 @@ export default function Features() {
               </p>
             </div>
             <Link href="jacompany/information">
-             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">→詳しく見る</a> 
-            </Link>  
+              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+                →詳しく見る
+              </a>
+            </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
@@ -90,8 +100,10 @@ export default function Features() {
               </p>
             </div>
             <Link href="jacompany/research">
-             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">→詳しく見る</a> 
-            </Link>  
+              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+                →詳しく見る
+              </a>
+            </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
@@ -103,8 +115,10 @@ export default function Features() {
               </p>
             </div>
             <Link href="newspage">
-             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">→詳しく見る</a> 
-            </Link>  
+              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+                →詳しく見る
+              </a>
+            </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
             <div>
@@ -116,8 +130,10 @@ export default function Features() {
               </p>
             </div>
             <Link href="blog">
-             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">→詳しく見る</a> 
-            </Link>  
+              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+                →詳しく見る
+              </a>
+            </Link>
           </div>
         </div>
       </div>

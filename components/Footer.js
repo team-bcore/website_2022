@@ -72,7 +72,7 @@ export default function Footer() {
                 <li>
                   <a href="https://www.mitsushiru.tech/">
                     <p className="font-ud text-md text-slate-800">
-                    密 ミツシル
+                      密 ミツシル
                     </p>
                   </a>
                 </li>
