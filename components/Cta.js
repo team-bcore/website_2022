@@ -3,16 +3,7 @@ import Image from "next/image";
 
 export default function Cta() {
   return (
-    <div className="">
-      <Image
-        className="z-[-1]"
-        src="/images/Home/contact-image.png" // Route of the image file
-        height={1124} // Desired size with correct aspect ratio
-        width={4000} // Desired size with correct aspect ratio
-        layout="intrinsic"
-        objectFit="cover"
-        alt="cta_image"
-      />
+    <div className="bg-Home-contact bg-no-repeat bg-cover bg-opacity-20">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-lg sm:text-center sm:mx-auto">
           <a
