@@ -12,6 +12,7 @@ export default function Solutions() {
         layout="fill"
         objectFit="cover"
         alt="top_image"
+        priority="true"
       />
       <div className="pt-12 bg-blue-400 z-1">
         <p className="pt-1.5 pb-1 text-white text-center font-noto text-base md:text-lg">
