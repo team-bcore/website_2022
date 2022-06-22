@@ -28,7 +28,7 @@ module.exports = {
         "Tool-ichi": "url('/images/Ichi/Tool-bg.png')",
         "Hito-top": "url('/images/Hito/Hito-top.jpeg')",
         "Hito-Price": "url('/images/Hito/Price-bg.png')",
-        "Home-bg": "url('/images/Home/tokyo.png')",
+        "Home-bg": "url('/images/Home/tokyo.jpg')",
         "Home-contact": "url('/images/Home/contact-image.png')",
         "Company-bg": "url('/images/Company/company-bg.png')",
       },

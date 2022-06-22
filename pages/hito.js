@@ -15,38 +15,38 @@ export default function Hito() {
   return (
     <div className="">
       <>
-       <NextSeo
-        title="ビーコア株式会社"
-        description="現場のニッチなお悩みをIoTの力で解決します"
-        openGraph={{
-          url: "https://www.bcore.biz/hito/",
-          title: "彩色兼備 入退室管理システム",
-          description:
-            "カラービット入館証の検出からクラウドへのデータ送信までを全てエッジAIカメラが自動で処理することにより入退室を管理します。入館証はカメラに手でかざす必要がなく、ハンズフリー通過が可能なシステムです。",
-          images: [
-            {
-              url: "https://bcore.biz/images/SEO/hito-card.png",
-              width: 800,
-              height: 600,
-              alt: "入退室管理イメージ",
-              type: "image/png",
-            },
-            {
-              url: "https://bcore.biz/images/SEO/hito-card.png",
-              width: 900,
-              height: 800,
-              alt: "入退室管理イメージ",
-              type: "large_image/png",
-            },
-          ],
-          site_name: "",
-        }}
-        twitter={{
-          handle: "colorbit_bcore",
-          site: "https://twitter.com/colorbit_bcore",
-          cardType: "summary_large_image",
-        }}
-      />
+        <NextSeo
+          title="ビーコア株式会社"
+          description="現場のニッチなお悩みをIoTの力で解決します"
+          openGraph={{
+            url: "https://www.bcore.biz/hito/",
+            title: "彩色兼備 入退室管理システム",
+            description:
+              "カラービット入館証の検出からクラウドへのデータ送信までを全てエッジAIカメラが自動で処理することにより入退室を管理します。入館証はカメラに手でかざす必要がなく、ハンズフリー通過が可能なシステムです。",
+            images: [
+              {
+                url: "https://bcore.biz/images/SEO/hito-card.png",
+                width: 800,
+                height: 600,
+                alt: "入退室管理イメージ",
+                type: "image/png",
+              },
+              {
+                url: "https://bcore.biz/images/SEO/hito-card.png",
+                width: 900,
+                height: 800,
+                alt: "入退室管理イメージ",
+                type: "large_image/png",
+              },
+            ],
+            site_name: "",
+          }}
+          twitter={{
+            handle: "colorbit_bcore",
+            site: "https://twitter.com/colorbit_bcore",
+            cardType: "summary_large_image",
+          }}
+        />
       </>
       <Head>
         <link rel="icon" href="/favicon.ico" />

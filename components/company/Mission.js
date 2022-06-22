@@ -10,10 +10,12 @@ export default function Mission() {
         <hr className="w-full my-8 border-gray-300" />
         <p className="font-noto text-gray-900 text-2xl sm:px-4">ミッション</p>
         <p className="pt-6 font-ud text-lg text-gray-900 md:text-xl sm:px-4">
-        技術と工夫で便利を創り、人々を無理・無駄から開放する
+          技術と工夫で便利を創り、人々を無理・無駄から開放する
         </p>
         <p className="pt-6 font-ud text-base text-gray-700 md:text-lg sm:px-4">
-        私たちは、先端テクノロジーに創意工夫をブレンドし、<br></br>更に実験を積み重ねることで、<br></br>世の中にないユニークなソリューションを提供する会社を目指します。 
+          私たちは、先端テクノロジーに創意工夫をブレンドし、<br></br>
+          更に実験を積み重ねることで、<br></br>
+          世の中にないユニークなソリューションを提供する会社を目指します。
         </p>
         <hr className="w-full my-8 border-gray-300" />
         <p className="font-noto text-gray-900 text-2xl sm:px-4">

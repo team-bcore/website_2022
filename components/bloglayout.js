@@ -28,7 +28,6 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <div className="pt-32">
-            
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </div>
         ) : (

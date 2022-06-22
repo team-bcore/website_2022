@@ -15,12 +15,10 @@ export default function Research() {
           <p className="pt-2 font-ud text-base text-gray-700 md:text-lg">
             colorbit 6 Dimention Survey
           </p>
-          <Link
-            href="research/6d">
-            <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-400" >
-            →詳しく見る
+          <Link href="research/6d">
+            <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-400">
+              →詳しく見る
             </a>
-            
           </Link>
 
           <hr className="w-full my-4 border-gray-300" />

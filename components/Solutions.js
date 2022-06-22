@@ -3,12 +3,23 @@ import Image from "next/image";
 
 export default function Solutions() {
   return (
-    <div className="bg-Home-bg bg-cover xl:bg-no-repeat ">
-      <div className="pt-12 bg-blue-400">     
-      <p className="pt-1.5 pb-1 text-white text-center font-noto text-base md:text-lg">
-      <span className="inline-block py-1.5 px-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-600 text-white rounded">New</span>
-      &nbsp;ビーコアはWebサイトの【URLとデザイン】を刷新しました。
-      </p>
+    <div className="">
+      <Image
+        className="z-[-1]"
+        src="/images/Home/tokyo.png" // Route of the image file
+        height={1667} // Desired size with correct aspect ratio
+        width={2500} // Desired size with correct aspect ratio
+        layout="fill"
+        objectFit="cover"
+        alt="top_image"
+      />
+      <div className="pt-12 bg-blue-400 z-1">
+        <p className="pt-1.5 pb-1 text-white text-center font-noto text-base md:text-lg">
+          <span className="inline-block py-1.5 px-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-600 text-white rounded">
+            New
+          </span>
+          &nbsp;ビーコアはWebサイトの【URLとデザイン】を刷新しました。
+        </p>
       </div>
       <div className="font-ud mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
         <div className="my-8 max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -57,9 +68,9 @@ export default function Solutions() {
               </p>
             </div>
             <Link href="/hito">
-            <a className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500">
-              Learn More
-            </a>
+              <a className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500">
+                Learn More
+              </a>
             </Link>
           </div>
           <div className="bg-white bg-opacity-70 flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -90,9 +101,9 @@ export default function Solutions() {
               </p>
             </div>
             <Link href="/mono-monitoring">
-            <a className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500">
-              Learn More
-            </a>
+              <a className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500">
+                Learn More
+              </a>
             </Link>
           </div>
           <div className="bg-white bg-opacity-70 flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -128,9 +139,9 @@ export default function Solutions() {
               </p>
             </div>
             <Link href="/ichiservice">
-            <a className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500">
-              Learn More
-            </a>
+              <a className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500">
+                Learn More
+              </a>
             </Link>
           </div>
           <div className="bg-white bg-opacity-70 flex flex-col justify-between p-5 border rounded shadow-sm">

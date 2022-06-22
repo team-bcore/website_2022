@@ -8,15 +8,14 @@ import { NextSeo } from "next-seo";
 export default function Jacompany() {
   return (
     <div className="">
-       <>
+      <>
         <NextSeo
           title="ビーコア株式会社"
           description="現場のニッチなお悩みをIoTの力で解決します"
           openGraph={{
             url: "https://www.bcore.biz/jacompany/research",
             title: "R&D（研究開発）",
-            description:
-              "ビーコアの研究開発の情報をご覧いただけます。",
+            description: "ビーコアの研究開発の情報をご覧いただけます。",
             images: [
               {
                 url: "https://bcore.biz/images/SEO/research-card.png",

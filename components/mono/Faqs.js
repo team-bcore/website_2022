@@ -25,15 +25,25 @@ export default function Faqs() {
               <p className="font-ud text-gray-700">
                 ご利用マニュアル・テストタグをダウンロードしてデモにお使いいただけます。デモサーバーも一緒にご利用希望の場合は、お問い合わせフォームよりご連絡ください。
                 <ul className="list-disc">
-                  <li className="hover:text-indigo-400"><a href="https://drive.google.com/uc?export=download&id=148Apka3IMP4-Md-qDNelxsW6HRQn8hEi">
-                    彩色兼備〜モノ管理〜ご利用マニュアルデモ利用版</a></li>
-                  <li className="hover:text-indigo-400"><a href="https://drive.google.com/uc?export=download&id=1XImlDLnqoA-KjcTpskZjj1NLelNvAezy">彩色兼備サンプルタグ枠あり</a></li>
-                  <li className="hover:text-indigo-400"><a href="https://drive.google.com/uc?export=download&id=155GSTmqu2C7Y1ulP32HwJuMmesQKUW4n">彩色兼備モノサンプルタグ枠なしZT31176推奨</a></li>
+                  <li className="hover:text-indigo-400">
+                    <a href="https://drive.google.com/uc?export=download&id=148Apka3IMP4-Md-qDNelxsW6HRQn8hEi">
+                      彩色兼備〜モノ管理〜ご利用マニュアルデモ利用版
+                    </a>
+                  </li>
+                  <li className="hover:text-indigo-400">
+                    <a href="https://drive.google.com/uc?export=download&id=1XImlDLnqoA-KjcTpskZjj1NLelNvAezy">
+                      彩色兼備サンプルタグ枠あり
+                    </a>
+                  </li>
+                  <li className="hover:text-indigo-400">
+                    <a href="https://drive.google.com/uc?export=download&id=155GSTmqu2C7Y1ulP32HwJuMmesQKUW4n">
+                      彩色兼備モノサンプルタグ枠なしZT31176推奨
+                    </a>
+                  </li>
                 </ul>
                 <p className="font-ud text-gray-700 text-sm">
-                （ラベル印刷する際に、カット枠とズレる場合がございます。設定画面「ページサイズ処理」において「実際のサイズ」または、「カスタム倍率=100%」を選択ください。）
+                  （ラベル印刷する際に、カット枠とズレる場合がございます。設定画面「ページサイズ処理」において「実際のサイズ」または、「カスタム倍率=100%」を選択ください。）
                 </p>
-                
               </p>
             </div>
             <div>
