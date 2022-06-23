@@ -29,7 +29,7 @@ module.exports = {
         "Hito-top": "url('/images/Hito/Hito-top.jpeg')",
         "Hito-Price": "url('/images/Hito/Price-bg.png')",
         "Home-bg": "url('/images/Home/tokyo.jpg')",
-        "Home-contact": "url('/images/Home/contact-image.png')",
+        "Home-contact": "url('/images/Home/contact-image-min-min.png')",
         "Company-bg": "url('/images/Company/company-bg.png')",
       },
     },
