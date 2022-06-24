@@ -55,8 +55,8 @@ export default function Jacompany() {
                     </p>
                     <br></br>
                     <p className="font-ud text-gray-700 text-base">2022年6月</p>
-                    <p className="font-ud text-gray-700 text-base">【B-CORE Inc.】&nbsp;ビーコア㈱&nbsp;&nbsp;水野&nbsp;廉郎*&nbsp;&nbsp;飯島&nbsp;圭一朗**</p>
-                    <p className="font-ud text-gray-700 text-base">【NISSAN MOTOR CO., LTD.】&nbsp;日産自動車㈱ &nbsp;&nbsp;鄧&nbsp;垚***&nbsp;&nbsp;佐藤&nbsp;武志****</p>
+                    <p className="font-ud text-gray-700 text-base">【B-CORE Inc.】&nbsp;ビーコア㈱&nbsp;&nbsp;水野&nbsp;廉郎&nbsp;&nbsp;飯島&nbsp;圭一朗</p>
+                    <p className="font-ud text-gray-700 text-base">【NISSAN MOTOR CO., LTD.】&nbsp;日産自動車㈱ &nbsp;&nbsp;鄧&nbsp;垚&nbsp;&nbsp;佐藤&nbsp;武志</p>
                     <hr className="w-full my-6 border-gray-300" />
                     <p className="my-2 font-noto text-gray-900 text-base">
                         1.はじめに
@@ -97,12 +97,7 @@ export default function Jacompany() {
                     />
                     <p className="font-ud text-gray-700 text-base text-center">図2&nbsp;&nbsp;傷のあるカラービット</p>
                     <br></br>
-                    <br></br>
-                    <p className="font-ud text-gray-700 text-base">*&nbsp;Yasuro&nbsp;Mizuno:&nbsp;代表取締役</p>
-                    <p className="font-ud text-gray-700 text-base pb-4">**&nbsp;Keiichiro&nbsp;Iijima:&nbsp;開発部マネージャー<br></br>〒101-0065&nbsp;東京千代田区西神田2-5-6</p>
-                    <p className="font-ud text-gray-700 text-base">***&nbsp;Yao&nbsp;Den</p>
-                    <p className="font-ud text-gray-700 text-base">****&nbsp;Takeshi:&nbsp;Sato:&nbsp;パワートレイン生産技術開発本部&nbsp;成形技術部&nbsp;型技術グループ<br></br>〒230-0053&nbsp;横浜市鶴見区大黒町6-1</p>
-                    <hr className="w-full my-6 border-gray-300" />
+                    <hr className="w-full my-2 border-gray-300" />
                     <p className="mt-4 mb-2 font-noto text-gray-900 text-base">
                         4.運用試験
                     </p>
