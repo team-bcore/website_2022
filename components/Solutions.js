@@ -4,11 +4,11 @@ import Image from "next/image";
 export default function Solutions() {
   return (
     <div className="bg-Home-bg bg-cover xl:bg-no-repeat ">
-      <div className="pt-12 bg-blue-400">     
-      <p className="pt-1.5 pb-1 text-white text-center font-noto text-base md:text-lg">
-      <span className="inline-block py-1.5 px-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-600 text-white rounded">New</span>
-      &nbsp;ビーコアはWebサイトの【URLとデザイン】を刷新しました。
-      </p>
+      <div className="pt-12 bg-blue-500">
+        <p className="pt-1.5 pb-1 text-white text-center font-noto text-base md:text-lg">
+          <span className="inline-block py-1.5 px-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-800 text-white rounded">New</span>
+          &nbsp;ビーコアはWebサイトの【URLとデザイン】を刷新しました。
+        </p>
       </div>
       <div className="font-ud mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
         <div className="my-8 max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -49,17 +49,21 @@ export default function Solutions() {
                   </svg>
                 </div>
               </div>
-              <h6 className="mb-2 font-noto text-2xl leading-5 text-slate-900">
-                入退室管理
-              </h6>
+              <h2 className="mb-2 font-noto text-2xl leading-5 text-slate-900">
+                人の管理
+              </h2>
               <p className="mb-3 font-ud text-md text-slate-800">
                 食品工場のような、マスクの着用で顔認証が使えない施設でも、非接触の入退室管理がしたい。
+                <br></br>
+                <br></br>
               </p>
             </div>
             <Link href="/hito">
-            <a className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500">
-              Learn More
-            </a>
+              <a className="text-lg inline-flex items-center transition-colors duration-200 text-gray-800 hover:text-indigo-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
+                </svg>入退室管理システム
+              </a>
             </Link>
           </div>
           <div className="bg-white bg-opacity-70 flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -82,17 +86,19 @@ export default function Solutions() {
                   </svg>
                 </div>
               </div>
-              <h6 className="mb-2 font-noto text-2xl leading-5 text-slate-900">
+              <h2 className="mb-2 font-noto text-2xl leading-5 text-slate-900">
                 モノ（在庫）の管理
-              </h6>
+              </h2>
               <p className="mb-3 font-ud text-md text-slate-800">
                 厄介な在庫管理を自動化することで、従業員の負担を軽減させたい。
               </p>
             </div>
             <Link href="/mono-monitoring">
-            <a className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500">
-              Learn More
-            </a>
+              <a className="text-lg inline-flex items-center transition-colors duration-200 text-gray-800 hover:text-indigo-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
+                </svg>モノ常時管理システム
+              </a>
             </Link>
           </div>
           <div className="bg-white bg-opacity-70 flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -120,17 +126,19 @@ export default function Solutions() {
                   </svg>
                 </div>
               </div>
-              <h6 className="mb-2 font-noto text-2xl leading-5 text-slate-900">
+              <h2 className="mb-2 font-noto text-2xl leading-5 text-slate-900">
                 位置の見える化
-              </h6>
+              </h2>
               <p className="mb-3 font-ud text-md text-slate-800">
                 広い工場や倉庫内のモノ・ヒトの位置を見える化して業務を効率化したい。
               </p>
             </div>
             <Link href="/ichiservice">
-            <a className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500">
-              Learn More
-            </a>
+              <a className="text-lg inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
+                </svg>位置管理システム
+              </a>
             </Link>
           </div>
           <div className="bg-white bg-opacity-70 flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -153,9 +161,9 @@ export default function Solutions() {
                   </svg>
                 </div>
               </div>
-              <h6 className="mb-2 font-noto text-2xl leading-5 text-slate-900">
+              <h2 className="mb-2 font-noto text-2xl leading-5 text-slate-900">
                 混雑度の見える化
-              </h6>
+              </h2>
               <p className="mb-3 font-ud text-md text-slate-800">
                 気になる施設の混雑度を見える化して、お客様に安心・安全な空間を提供したい。
               </p>
@@ -163,9 +171,11 @@ export default function Solutions() {
             <a
               href="https://www.mitsushiru.tech/"
               aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500"
+              className="text-lg inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500"
             >
-              Learn More
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z" clip-rule="evenodd" />
+              </svg>密集度モニターシステム
             </a>
           </div>
         </div>
