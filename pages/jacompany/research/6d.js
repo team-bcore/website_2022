@@ -45,7 +45,7 @@ export default function Jacompany() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className="px-4 py-24 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-40">
+      <div className="px-4 py-24 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-32">
         <div className="max-w-screen-sm sm:mx-auto">
           <h2 className="mb-8 text-3xl font-noto text-gray-900 sm:text-3xl sm:leading-none">
             屋内大空間での高精度な自己位置推定技術の提供へ向けて<br></br>
