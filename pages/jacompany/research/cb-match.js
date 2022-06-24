@@ -137,6 +137,17 @@ export default function Jacompany() {
                     </p>
                     <br></br>
                     <hr className="w-full my-6 border-gray-300" />
+                    <Image
+                        className="rounded"
+                        src="/images/Research/cb-match-image.JPG" // Route of the image file
+                        height={2880} // Desired size with correct aspect ratio
+                        width={3840} // Desired size with correct aspect ratio
+                        alt="CBマッチイメージ1"
+                    />
+                    <p className="font-ud text-gray-700 text-base text-center"><a href="https://pub.nikkan.co.jp/magazine_series/detail/0005"><p className="hover:text-blue-600">型技術 2022年7月特別増大号に掲載<svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg></p></a></p>
+                    <hr className="w-full my-6 border-gray-300" />
                     <Link href="/jacompany/research">
                         <a className="text-gray-700 inline-flex items-center font-ud transition-colors duration-200 hover:text-gray-400">
                             <svg
