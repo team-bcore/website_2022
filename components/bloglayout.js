@@ -4,7 +4,7 @@ import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
-const name = "ビーコアのブログ";
+const name = "ブログ";
 export const siteTitle = "ビーコア株式会社";
 
 export default function Layout({ children, home }) {
