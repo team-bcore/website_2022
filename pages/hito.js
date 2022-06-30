@@ -16,8 +16,8 @@ export default function Hito() {
     <div className="">
       <>
         <NextSeo
-          title="ビーコア株式会社"
-          description="現場のニッチなお悩みをIoTの力で解決します"
+          title="入退室管理システム"
+          description="カラービットを使った工場向け入退室管理システム。入館証はカメラに手でかざす必要がなく、ハンズフリー通過が可能なシステムです。"
           openGraph={{
             url: "https://www.bcore.biz/hito/",
             title: "彩色兼備 入退室管理システム",

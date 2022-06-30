@@ -21,8 +21,8 @@ export default function Newspage({ allNewsData }) {
     <div className="-mt-12">
       <>
         <NextSeo
-          title="ビーコア株式会社"
-          description="現場のニッチなお悩みをIoTの力で解決します"
+          title="ビーコアのブログ"
+          description="テクノロジー、デザイン、ビジネスなどさまざまなトピックについて書いています。"
           openGraph={{
             url: "https://www.bcore.biz/blog",
             title: "ビーコアのブログ",

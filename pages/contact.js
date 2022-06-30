@@ -9,8 +9,8 @@ export default function Contact() {
     <div className="">
       <>
         <NextSeo
-          title="ビーコア株式会社"
-          description="現場のニッチなお悩みをIoTの力で解決します"
+          title="お問い合わせフォーム"
+          description="各ソリューションへのお申し込み・お問い合わせは、こちらのコンタクトフォームから承っております。"
           openGraph={{
             url: "https://www.bcore.biz/contact",
             title: "お問い合わせフォーム",

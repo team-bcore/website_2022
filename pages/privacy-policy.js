@@ -9,8 +9,8 @@ export default function Jacompany() {
     <div className="">
       <>
         <NextSeo
-          title="ビーコア株式会社"
-          description="現場のニッチなお悩みをIoTの力で解決します"
+          title="プライバシーポリシー"
+          description="プライバシーポリシーを掲載しています。"
           openGraph={{
             url: "https://www.bcore.biz/privacy-policy",
             title: "プライバシーポリシー",
