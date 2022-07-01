@@ -18,8 +18,8 @@ export default function Ichi() {
     <div className="">
       <>
         <NextSeo
-          title="ビーコア株式会社"
-          description="現場のニッチなお悩みをIoTの力で解決します"
+          title="位置管理システム"
+          description="エッジAIカメラが工場・倉庫などの大空間でのヒト・モノを24時間365日見守り、可視化することで従来の業務の最適化を容易にし、効率的な業務改革に繋げることができます。"
           openGraph={{
             url: "https://www.bcore.biz/ichiservice/",
             title: "位置管理システム",

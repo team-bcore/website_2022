@@ -22,22 +22,22 @@ export default function Blogpage({ allPostData }) {
     <div className="">
       <>
         <NextSeo
-          title="ビーコア株式会社"
-          description="現場のニッチなお悩みをIoTの力で解決します"
+          title="ビーコアのブログ"
+          description="テクノロジー、デザイン、ビジネスなどさまざまなトピックについて書いています。"
           openGraph={{
-            url: "https://www.bcore.biz/newspage/",
-            title: "ニュース",
-            description: "イベント情報やお知らせをご覧いただけます。",
+            url: "https://www.bcore.biz/blogpage/",
+            title: "ブログ",
+            description: "テクノロジー、デザイン、ビジネスなどさまざまなトピックについて書いています。イベント情報やお知らせをご覧いただけます。",
             images: [
               {
-                url: "https://bcore.biz/images/SEO/news-card.png",
+                url: "https://bcore.biz/images/SEO/blog-card.png",
                 width: 800,
                 height: 600,
                 alt: "ビーコア株式会社イメージ",
                 type: "image/png",
               },
               {
-                url: "https://bcore.biz/images/SEO/news-card.png",
+                url: "https://bcore.biz/images/SEO/blog-card.png",
                 width: 900,
                 height: 800,
                 alt: "ビーコア株式会社イメージ",

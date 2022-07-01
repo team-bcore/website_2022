@@ -16,8 +16,8 @@ export default function Mono() {
     <div className="">
       <>
         <NextSeo
-          title="ビーコア株式会社"
-          description="現場のニッチなお悩みをIoTの力で解決します"
+          title="iPhoneを使ったモノ管理"
+          description="お手持ちのiPhoneでカラービット®︎タグを画像処理により一括認識します。読み取ったデータはクラウドで一元管理でき、どこからでもアクセス可能。すぐに利用開始できます。"
           openGraph={{
             url: "https://www.bcore.biz/mono/",
             title: "iPhoneによるモノ管理システム",
