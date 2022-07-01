@@ -4,7 +4,7 @@ import Layout, { siteTitle } from "../components/bloglayout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedNewsData } from "../lib/posts";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+
 import { NextSeo } from "next-seo";
 
 export async function getStaticProps() {
@@ -99,7 +99,7 @@ export default function Newspage({ allNewsData }) {
         </ul>
       </section> */}
       </Layout>
-      <Footer />
+   
     </div>
   );
 }
