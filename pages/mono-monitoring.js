@@ -18,7 +18,7 @@ export default function Monom() {
     <div className="">
       <>
         <NextSeo
-          title="モノ常時管理システムム"
+          title="モノ常時管理システム"
           description="エッジAIカメラがモノ（在庫）を24時間365日見まもることで、人の手に頼らない在庫管理の自動化が実現できます。"
           openGraph={{
             url: "https://www.bcore.biz/mono-monitoring/",
