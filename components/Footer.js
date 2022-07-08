@@ -7,19 +7,16 @@ export default function Footer() {
       <div className="px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
           <div className="md:max-w-md lg:col-span-2">
-            <a
-              href="/"
-              aria-label="Go home"
-              title="Company"
-              className="inline-flex items-center"
-            >
-              <Image
-                src="/images/Footer/logo.svg" // Route of the image file
-                height={63.5} // Desired size with correct aspect ratio
-                width={200} // Desired size with correct aspect ratio
-                alt="bcore_logo"
-              />
-            </a>
+            <Link href="/">
+              <a className="inline-flex items-center">
+                <Image
+                  src="/images/Footer/logo.svg" // Route of the image file
+                  height={63.5} // Desired size with correct aspect ratio
+                  width={200} // Desired size with correct aspect ratio
+                  alt="bcore_logo"
+                />
+              </a>
+            </Link>
             <div className="mt-4 lg:max-w-sm">
               <p className="font-ud text-base text-gray-700 md:text-lg">
                 ビーコア株式会社
@@ -84,7 +81,7 @@ export default function Footer() {
               </p>
               <ul className="mt-2 space-y-2">
                 <li className="font-ud text-md text-slate-800">
-                  <Link href="jacompany/research/">
+                  <Link href="/jacompany/research/">
                     <a>ビーコアのR&D情報</a>
                   </Link>
                 </li>
