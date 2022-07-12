@@ -7,6 +7,7 @@ import Date from "../components/date";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { NextSeo } from "next-seo";
+import Image from "next/image";
 
 export async function getStaticProps() {
   const allPostData = getSortedPostData();
@@ -64,7 +65,14 @@ export default function Blogpage({ allPostData }) {
           </Head>
           <section className={utilStyles.headingMd} py-24>
             <p className="text-center font-ud text-gray-800">
-              ビーコアのブログ
+              テクノロジー、デザイン、ビジネスなど。✏️
+              <br></br>
+              たまに趣味や、何気ない普段の出来事について書いていきます。
+            </p>
+            <p className="text-center font-ud text-gray-800">
+              過去のブログは👉 <a href="https://note.com/b_core/">
+                <span className="hover:text-cyan-600">『note』</span>
+              </a> をご覧ください
             </p>
             <hr className="w-full my-8 border-gray-300" />
           </section>
@@ -93,7 +101,7 @@ export default function Blogpage({ allPostData }) {
           </section>
         </Layout>
       </div>
-       <Footer />
+      <Footer />
     </div>
   );
 }

@@ -9,7 +9,6 @@ export default function Document() {
     <div className="">
       <>
         <NextSeo nofollow={true} />
-        <p>This page is not followed</p>
       </>
       <Head>
         <link rel="icon" href="/favicon.ico" />
