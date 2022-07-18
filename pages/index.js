@@ -13,6 +13,7 @@ import Cta from "../components/Cta";
 import Why from "../components/Why";
 import Colorbit from "../components/Colorbit";
 import { NextSeo } from "next-seo";
+import Contents from "../components/Contents";
 
 export async function getStaticProps() {
   const allNewsData = getSortedNewsData();
@@ -69,6 +70,7 @@ export default function Home({ allNewsData }) {
       <Colorbit />
       <Logoclouds />
       <News allNewsData={allNewsData} />
+      <Contents />
       <Cta />
       <Footer />
     </div>
