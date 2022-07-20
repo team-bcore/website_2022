@@ -5,7 +5,6 @@ import { getSortedPostData } from "../lib/blogposts";
 import Link from "next/link";
 import Date from "../components/date";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import { NextSeo } from "next-seo";
 import Image from "next/image";
 
@@ -65,9 +64,9 @@ export default function Blogpage({ allPostData }) {
           </Head>
           <section className={utilStyles.headingMd} py-24>
             <p className="text-center font-ud text-gray-800">
-              テクノロジー、デザイン、ビジネスなど。✏️
+              テクノロジー、デザイン、ビジネスなどの情報を発信✏️
               <br></br>
-              たまに趣味や、何気ない普段の出来事について書いていきます。
+              時に趣味や、何気ない普段の出来事についても書いていきます。
             </p>
             <p className="text-center font-ud text-gray-800">
               過去のブログは👉 <a href="https://note.com/b_core/">
@@ -101,7 +100,7 @@ export default function Blogpage({ allPostData }) {
           </section>
         </Layout>
       </div>
-      <Footer />
+
     </div>
   );
 }
