@@ -43,6 +43,14 @@ export default function Layout({ children, home }) {
               </>
             ) : (
               <>
+              <Image
+                  priority
+                  src="/images/profile.png"
+                  className={utilStyles.borderCircle}
+                  height={144}
+                  width={144}
+                  alt={name}
+                />
                 <h2 className={utilStyles.headingLg}>
                   <span className="font-noto text-gray-900">ニュース</span>
                 </h2>
