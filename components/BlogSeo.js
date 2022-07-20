@@ -14,14 +14,14 @@ export default function BlogSeo({ frontmatter }) {
                     "テクノロジー、デザイン、ビジネスなどの情報を発信。時に趣味や、何気ないふだんの出来事についても書いていきます。",
                 images: [
                     {
-                        url: "https://bcore.biz/images/blogpage-circle.png",
+                        url: "https://bcore.biz/public/images/blogpage-circle.png",
                         width: 800,
                         height: 600,
                         alt: "ブログページイメージ",
                         type: "image/png",
                     },
                     {
-                        url: "https://bcore.biz/images/blogpage-circle.png",
+                        url: "https://bcore.biz/public/images/blogpage-circle.png",
                         width: 900,
                         height: 800,
                         alt: "ブログページイメージ",
