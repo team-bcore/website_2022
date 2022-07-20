@@ -103,7 +103,7 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li className="font-ud text-md text-slate-800">
-                  <Link href="blog">
+                  <Link href="blogpage">
                     <a>ブログ</a>
                   </Link>
                 </li>
