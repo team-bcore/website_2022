@@ -12,7 +12,9 @@ export default function Research() {
         </p>
         <hr className="w-full my-8 border-gray-300" />
         <div className="text-left">
-          <span className="inline-block py-1.5 px-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-800 text-white rounded">New</span>
+          <span className="inline-block py-1.5 px-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-800 text-white rounded">
+            New
+          </span>
           <p className="pt-2 font-noto text-base text-gray-800 md:text-lg">
             自動車工場でのヒューマンエラーを排除する「カラービット」とiPhoneを活用したホースと継手の正常接続確認
           </p>
@@ -31,7 +33,6 @@ export default function Research() {
             </a>
           </Link>
           <hr className="w-full my-4 border-gray-300" />
-
         </div>
       </div>
     </div>

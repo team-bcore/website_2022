@@ -52,7 +52,9 @@ export default function Layout({ children, home }) {
                   alt={name}
                 />
                 <h2 className={utilStyles.headingLg}>
-                  <span className="font-noto text-gray-900">ビーコアのブログ</span>
+                  <span className="font-noto text-gray-900">
+                    ビーコアのブログ
+                  </span>
                 </h2>
               </>
             )}
