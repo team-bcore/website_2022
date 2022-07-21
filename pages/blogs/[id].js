@@ -30,7 +30,7 @@ export default function Post({ postData }) {
   const Component = useMemo(() => getMDXComponent(code), [code]);
   return (
     <Layout>
-      <BlogSeo frontmatter={frontmatter}/>
+      <BlogSeo frontmatter={frontmatter} />
       <div className="px-2 py-4 mx-auto sm:max-w-xl md:max-w-3xl lg:max-w-screen-3xl lg:py-8">
         <div className="max-w-screen-sm sm:text-center sm:mx-auto">
           <div className="prose lg:prose-lg">
