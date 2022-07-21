@@ -99,7 +99,6 @@ export default function Newspage({ allNewsData }) {
         </ul>
       </section> */}
       </Layout>
-   
     </div>
   );
 }

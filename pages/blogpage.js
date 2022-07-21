@@ -5,7 +5,6 @@ import { getSortedPostData } from "../lib/blogposts";
 import Link from "next/link";
 import Date from "../components/date";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import { NextSeo } from "next-seo";
 import Image from "next/image";
 
@@ -28,7 +27,8 @@ export default function Blogpage({ allPostData }) {
           openGraph={{
             url: "https://www.bcore.biz/blogpage/",
             title: "ブログ",
-            description: "テクノロジー、デザイン、ビジネスなどさまざまなトピックについて書いています。イベント情報やお知らせをご覧いただけます。",
+            description:
+              "テクノロジー、デザイン、ビジネスなどさまざまなトピックについて書いています。イベント情報やお知らせをご覧いただけます。",
             images: [
               {
                 url: "https://bcore.biz/images/SEO/blog-card.png",
@@ -65,14 +65,16 @@ export default function Blogpage({ allPostData }) {
           </Head>
           <section className={utilStyles.headingMd} py-24>
             <p className="text-center font-ud text-gray-800">
-              テクノロジー、デザイン、ビジネスなど。✏️
+              テクノロジー、デザイン、ビジネスなどの情報を発信✏️
               <br></br>
-              たまに趣味や、何気ない普段の出来事について書いていきます。
+              時に趣味や、何気ない普段の出来事についても書いていきます。
             </p>
             <p className="text-center font-ud text-gray-800">
-              過去のブログは👉 <a href="https://note.com/b_core/">
+              過去のブログは👉{" "}
+              <a href="https://note.com/b_core/">
                 <span className="hover:text-cyan-600">『note』</span>
-              </a> をご覧ください
+              </a>{" "}
+              をご覧ください
             </p>
             <hr className="w-full my-8 border-gray-300" />
           </section>
@@ -101,7 +103,6 @@ export default function Blogpage({ allPostData }) {
           </section>
         </Layout>
       </div>
-      <Footer />
     </div>
   );
 }

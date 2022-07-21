@@ -5,7 +5,7 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import Footer from "../components/Footer";
 
-const name = "ブログ";
+const name = "ビーコアのブログ";
 export const siteTitle = "ビーコア株式会社";
 
 export default function Layout({ children, home }) {
@@ -33,7 +33,7 @@ export default function Layout({ children, home }) {
               <>
                 <Image
                   priority
-                  src="/images/profile.png"
+                  src="/images/blogpage-circle.png"
                   className={utilStyles.borderCircle}
                   height={144}
                   width={144}
@@ -43,8 +43,18 @@ export default function Layout({ children, home }) {
               </>
             ) : (
               <>
+                <Image
+                  priority
+                  src="/images/blogpage-circle.png"
+                  className={utilStyles.borderCircle}
+                  height={144}
+                  width={144}
+                  alt={name}
+                />
                 <h2 className={utilStyles.headingLg}>
-                  <span className="font-noto text-gray-900">ビーコアのブログ</span>
+                  <span className="font-noto text-gray-900">
+                    ビーコアのブログ
+                  </span>
                 </h2>
               </>
             )}

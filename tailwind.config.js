@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     plugins: [
       require("@tailwindcss/forms"),
-      require('@tailwindcss/typography'),
+      require("@tailwindcss/typography"),
       // ...
     ],
     extend: {
@@ -35,5 +35,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

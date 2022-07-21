@@ -65,7 +65,7 @@ function Navbar() {
                       ニュース
                     </a>
                   </Link>
-                  <Link href="/blog">
+                  <Link href="/blogpage">
                     <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
                       ブログ
                     </a>
@@ -172,7 +172,7 @@ function Navbar() {
                     ニュース
                   </a>
                 </Link>
-                <Link href="/blog">
+                <Link href="/blogpage">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
                     ブログ
                   </a>
