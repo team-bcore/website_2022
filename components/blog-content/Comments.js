@@ -27,7 +27,7 @@ export default function Comments() {
         width={3000} // Desired size with correct aspect ratio
         alt="Miles_Davis"
       />
-      <p className="pt-6 font-ud text-base text-gray-700">
+      <p className="font-ud text-base text-gray-700">
       若い頃のキース・ジャレットが今では考えられないプレースタイルで猛烈に電子ピアノを弾きまくっています。<br></br>
       蛇足ですが、帝王マイルスは偉大で今でもよく聴きますが、50歳を過ぎてからは同時代のトランペッターならドナルド・バードの方が僕の中ではイケてます。お酒のBGMに良し、散歩に良し、真剣に向き合って視聴して良しでいつも聴いています。1960年代のハードバップも好きですが、1970年代のポップなバードは最高です。マニア限定的で聞き手を選ぶエレクトロニック期マイルスとは対照的で、バードは明るく楽しい陽気な曲ばかりで癒やされます。  
       </p>
