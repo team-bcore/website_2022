@@ -7,6 +7,8 @@ import { getMDXComponent } from "mdx-bundler/client";
 import { useMemo } from "react";
 import Cta from "../../components/Cta";
 import BlogSeo from "../../components/BlogSeo";
+import Form from '../../components/Form';
+import Comments from '../../components/blog-content/Comments';
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
@@ -42,6 +44,8 @@ export default function Post({ postData }) {
                 components={{
                   Cta,
                   BlogSeo,
+                  Form,
+                  Comments,
                 }}
               />
             </article>
