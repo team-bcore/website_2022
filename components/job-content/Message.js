@@ -16,8 +16,8 @@ export default function Message() {
                         タイトル
                     </h5>
                     <p className="pt-6 font-ud text-lg text-gray-900 md:text-xl">
-                    ビーコア株式会社 代表取締役
-                    <br></br>水野廉郎
+                        ビーコア株式会社 代表取締役
+                        <br></br>水野廉郎
                     </p>
                     <p className="pt-6 mb-6 text-gray-900">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -28,10 +28,12 @@ export default function Message() {
                     <hr className="mb-5 border-gray-300" />
                 </div>
                 <div>
-                    <img
-                        className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-                        src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
-                        alt=""
+                    <Image
+                        className=""
+                        src="/images/Job/mizuno-image-white.png" // Route of the image file
+                        height={800} // Desired size with correct aspect ratio
+                        width={1320} // Desired size with correct aspect ratio
+                        alt="CEO-pic"
                     />
                 </div>
             </div>
