@@ -14,7 +14,7 @@ export default function Features() {
                                 ビーコアの事業内容、ミッションとポリシー、トップからのメッセージをご覧いただけます。
                             </p>
                         </div>
-                        <Link href="">
+                        <Link href="job/aboutus">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
@@ -29,7 +29,7 @@ export default function Features() {
                                 ビーコアが提供する各ソリューションの特徴などを知ることができます。
                             </p>
                         </div>
-                        <Link href="jacompany/staff">
+                        <Link href="">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
@@ -44,7 +44,7 @@ export default function Features() {
                                 組織体制と各チームの仕事内容、業務やキャリア形成を支える制度について知ることができます。
                             </p>
                         </div>
-                        <Link href="jacompany/office">
+                        <Link href="">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
@@ -61,7 +61,7 @@ export default function Features() {
                                 ビーコアのメンバーが経験してきた仕事、それぞれの働き方や価値観などを知ることができます。
                             </p>
                         </div>
-                        <Link href="jacompany/information">
+                        <Link href="">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
@@ -76,7 +76,7 @@ export default function Features() {
 
                             </p>
                         </div>
-                        <Link href="jacompany/research">
+                        <Link href="">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
@@ -93,7 +93,7 @@ export default function Features() {
 
                             </p>
                         </div>
-                        <Link href="newspage">
+                        <Link href="">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
