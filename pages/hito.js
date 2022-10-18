@@ -7,6 +7,7 @@ import Price from "../components/hito/Price";
 import Cta from "../components/Cta";
 import Content from "../components/hito/Content";
 import Usecase from "../components/hito/Usecase";
+import Movie from "../components/hito/Movie";
 import Face from "../components/hito/Face";
 import { NextSeo } from "next-seo";
 import Head from "next/head";
@@ -56,6 +57,7 @@ export default function Hito() {
       <Intro />
       <Features />
       <Usecase />
+      <Movie />
       <Price />
       <Face />
       <Cta />
