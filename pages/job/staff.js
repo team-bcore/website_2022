@@ -1,15 +1,14 @@
 import Head from "next/head";
 import Navbar from "../../components/job-content/Navbar";
-import Hero from "../../components/job-content/Hero";
-import Features from "../../components/job-content/Features";
+import Herostaff from "../../components/job-content/Herostaff";
+
 import Footer from "../../components/Footer";
 
-export default function Job() {
+export default function Solutions() {
     return (
         <div className="">
             <Navbar />
-            <Hero />
-            <Features />
+            <Herostaff/>
             <Footer />
         </div>
     );

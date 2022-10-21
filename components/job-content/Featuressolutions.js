@@ -14,13 +14,13 @@ export default function Features() {
                                 ビーコアの事業内容、ミッションとポリシー、トップからのメッセージをご覧いただけます。
                             </p>
                         </div>
-                        <Link href="job/aboutus">
+                        <Link href="aboutus">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
                         </Link>
                     </div>
-                    <div className="flex flex-col justify-between p-5 border-gray-700 border-2 rounded shadow-sm">
+                    <div className="flex flex-col justify-between p-5 bg-slate-50 border-gray-700 border-2 rounded shadow-sm">
                         <div>
                             <h6 className="text-gray-700 mb-2 font-noto leading-5 text-xl">
                                 提供するソリューション
@@ -29,11 +29,6 @@ export default function Features() {
                                 ビーコアが提供する各ソリューションの特徴などを知ることができます。
                             </p>
                         </div>
-                        <Link href="job/solutions">
-                            <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
-                                →詳しく見る
-                            </a>
-                        </Link>
                     </div>
                     <div className="flex flex-col justify-between p-5 border-gray-700 border-2 rounded shadow-sm">
                         <div>
@@ -44,7 +39,7 @@ export default function Features() {
                                 組織体制と各チームの仕事内容、業務やキャリア形成を支える制度について知ることができます。
                             </p>
                         </div>
-                        <Link href="job/system">
+                        <Link href="system">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
@@ -61,7 +56,7 @@ export default function Features() {
                                 ビーコアのメンバーが経験してきた仕事、それぞれの働き方や価値観などを知ることができます。
                             </p>
                         </div>
-                        <Link href="job/staff">
+                        <Link href="staff">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
@@ -76,13 +71,13 @@ export default function Features() {
 
                             </p>
                         </div>
-                        <Link href="job/privacy">
+                        <Link href="privacy">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
                         </Link>
                     </div>
-                    <div className="flex flex-col justify-between p-5 bg-slate-50 border-gray-700 border-2 rounded shadow-sm">
+                    <div className="flex flex-col justify-between p-5 border-gray-700 border-2 rounded shadow-sm">
                         <div>
                             <h6 className="text-gray-700 mb-2 font-noto leading-5 text-xl">
                                 エントリーフォーム
@@ -92,7 +87,7 @@ export default function Features() {
                                 職種とエントリーフォーム
                             </p>
                         </div>
-                        <Link href="job/application">
+                        <Link href="application">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>

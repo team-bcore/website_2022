@@ -1,15 +1,15 @@
 import Head from "next/head";
 import Navbar from "../../components/job-content/Navbar";
-import Hero from "../../components/job-content/Hero";
-import Features from "../../components/job-content/Features";
+import Heroprivacy from "../../components/job-content/Heroprivacy";
+import Contentprivacy from "../../components/job-content/Contentprivacy";
 import Footer from "../../components/Footer";
 
-export default function Job() {
+export default function System() {
     return (
         <div className="">
             <Navbar />
-            <Hero />
-            <Features />
+            <Heroprivacy />
+            <Contentprivacy />
             <Footer />
         </div>
     );
