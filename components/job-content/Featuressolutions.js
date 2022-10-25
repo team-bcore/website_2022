@@ -83,8 +83,7 @@ export default function Features() {
                                 エントリーフォーム
                             </h6>
                             <p className="text-gray-700 mb-3 font-ud text-base mt-8">
-                                現在、採用を行っている
-                                職種とエントリーフォーム
+                                現在、採用を行っている職種について知ることができます
                             </p>
                         </div>
                         <Link href="application">
