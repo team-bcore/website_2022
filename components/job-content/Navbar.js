@@ -24,7 +24,7 @@ function Navbar() {
                 </Link>
                 <p className="text-white
                  font-ud text-xl pl-4">
-                    ビーコア採用サイト
+                  ビーコア採用サイト
                 </p>
               </div>
               <div className="hidden lg:block">
@@ -34,7 +34,7 @@ function Navbar() {
                   >
                     <a className="cursor-pointer hover:bg-lime-500 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
                   </Link> */}
-                 
+
                 </div>
               </div>
             </div>
@@ -98,32 +98,32 @@ function Navbar() {
               <div ref={ref} className="bg-white px-2 pt-2 pb-3 sm:px-3 ">
                 <Link href="job/aboutus">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                  ビーコアについて
+                    ビーコアについて
                   </a>
                 </Link>
                 <Link href="job/solutions">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                  提供するソリューション
+                    提供するソリューション
                   </a>
                 </Link>
                 <Link href="job/system">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                  ビーコアを支える仕事
+                    ビーコアを支える仕事
                   </a>
                 </Link>
                 <Link href="job/staff">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                  スタッフ紹介
+                    スタッフ紹介
                   </a>
                 </Link>
                 <Link href="job/privacy">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                    Privacy Policy
+                    採用活動における個人情報の取り扱いについて
                   </a>
                 </Link>
                 <Link href="">
                   <a className="bg-gray-200 cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                  エントリーフォーム
+                    エントリーフォーム
                   </a>
                 </Link>
               </div>
