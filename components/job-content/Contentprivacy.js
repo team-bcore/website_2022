@@ -3,7 +3,7 @@ export default function Contentprivacy() {
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
             <div className="max-w-screen-sm sm:text-center sm:mx-auto">
                 <p className="pb-8 text-left font-ud text-base text-gray-700 md:text-lg">
-                    ビーコア株式会社(以下「当社」と言います。）は、当社主催の各種採用イベントおよび採用選考（以下「採用活動」といいます。）にご応募いただいた方（以下「応募者」といいます。）の個人情報について、以下に記載するポリシーに基づいて適正に取り扱います。
+                    ビーコア株式会社（以下「当社」と言います。）は、当社主催の各種採用イベントおよび採用選考（以下「採用活動」といいます。）にご応募いただいた方（以下「応募者」といいます。）の個人情報について、以下に記載するポリシーに基づいて適正に取り扱います。
                     <br></br>本ポリシーにおける「個人情報」、「個人データ」および「保有個人データ」は、個人情報の保護に関する法律（平成15年法律第57号。以下「個人情報保護法」といいます。）において使用する用語の例によります。
                 </p>
                 <p className="pb-8 text-left font-ud text-base text-gray-700 md:text-lg">
