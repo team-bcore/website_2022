@@ -121,9 +121,9 @@ function Navbar() {
                     採用活動における個人情報の取り扱いについて
                   </a>
                 </Link>
-                <Link href="">
+                <Link href="job/application">
                   <a className="bg-gray-200 cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                    エントリーフォーム
+                    募集要項
                   </a>
                 </Link>
               </div>
