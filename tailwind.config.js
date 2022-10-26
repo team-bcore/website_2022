@@ -38,6 +38,7 @@ module.exports = {
         "Job-staff-hero": "url('/images/Job/staff.png')",
         "Job-system-hero": "url('/images/Job/system.png')",
         "Job-privacy-hero": "url('/images/Job/sky.png')",
+        "Job-application-hero": "url('/images/Job/application-hero.png')",
       },
     },
   },
