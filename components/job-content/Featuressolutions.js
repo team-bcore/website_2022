@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Features() {
+export default function Featuressolutions() {
     return (
         <div className="bg-amber-300">
             <div className="py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -80,7 +80,7 @@ export default function Features() {
                     <div className="flex flex-col justify-between p-5 border-gray-700 border-2 rounded shadow-sm">
                         <div>
                             <h6 className="text-gray-700 mb-2 font-noto leading-5 text-xl">
-                                エントリーフォーム
+                                募集要項
                             </h6>
                             <p className="text-gray-700 mb-3 font-ud text-base mt-8">
                                 現在、採用を行っている職種について知ることができます

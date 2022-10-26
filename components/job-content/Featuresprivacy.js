@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Features() {
+export default function Featuresprivacy() {
     return (
         <div className="bg-amber-300">
             <div className="py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -14,7 +14,7 @@ export default function Features() {
                                 ビーコアの事業内容、ミッションとポリシー、トップからのメッセージをご覧いただけます。
                             </p>
                         </div>
-                        <Link href="job/aboutus">
+                        <Link href="aboutus">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
@@ -29,7 +29,7 @@ export default function Features() {
                                 ビーコアが提供する各ソリューションの特徴などを知ることができます。
                             </p>
                         </div>
-                        <Link href="job/solutions">
+                        <Link href="solutions">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
@@ -44,7 +44,7 @@ export default function Features() {
                                 組織体制と各チームの仕事内容、業務やキャリア形成を支える制度について知ることができます。
                             </p>
                         </div>
-                        <Link href="job/system">
+                        <Link href="system">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
@@ -61,22 +61,7 @@ export default function Features() {
                                 ビーコアのメンバーが経験してきた仕事、それぞれの働き方や価値観などを知ることができます。
                             </p>
                         </div>
-                        <Link href="job/staff">
-                            <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
-                                →詳しく見る
-                            </a>
-                        </Link>
-                    </div>
-                    <div className="flex flex-col justify-between p-5 border-gray-700 border-2 rounded shadow-sm">
-                        <div>
-                            <h6 className="text-gray-700 mb-2 font-noto leading-5 text-xl">
-                                採用活動における個人情報の取り扱いについて
-                            </h6>
-                            <p className="text-gray-700 mb-3 font-ud text-base mt-8">
-
-                            </p>
-                        </div>
-                        <Link href="job/privacy">
+                        <Link href="staff">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
@@ -85,14 +70,23 @@ export default function Features() {
                     <div className="flex flex-col justify-between p-5 bg-slate-50 border-gray-700 border-2 rounded shadow-sm">
                         <div>
                             <h6 className="text-gray-700 mb-2 font-noto leading-5 text-xl">
+                                採用活動における個人情報の取り扱いについて
+                            </h6>
+                            <p className="text-gray-700 mb-3 font-ud text-base mt-8">
+
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col justify-between p-5 border-gray-700 border-2 rounded shadow-sm">
+                        <div>
+                            <h6 className="text-gray-700 mb-2 font-noto leading-5 text-xl">
                                 募集要項
                             </h6>
                             <p className="text-gray-700 mb-3 font-ud text-base mt-8">
-                                現在、採用を行っている
-                                職種と募集要項
+                            現在、採用を行っている職種について知ることができます
                             </p>
                         </div>
-                        <Link href="job/application">
+                        <Link href="application">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
