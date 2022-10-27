@@ -10,7 +10,7 @@ function Navbar() {
       <nav className="bg-stone-800 fixed w-full z-10 ">
         <div className="w-full">
           <div className="flex items-center h-12 w-full">
-            <div className="flex items-center mx-10  justify-between w-full">
+            <div className="flex items-center mx-5  justify-between w-full">
               <div className="pt-1 flex justify-center items-center flex-shrink-0">
                 <Link href="/">
                   <a>
