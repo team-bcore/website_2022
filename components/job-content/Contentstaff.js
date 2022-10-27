@@ -19,18 +19,11 @@ export default function CommentEW() {
                     </h5>
                     <hr className="mb-4 border-gray-300" />
                     <p className="text-gray-700 font-ud">
-                        例：社長含め、社員全員とコミュニケーション
-                        がとてもとりやすい環境です。
-                        自分の意見や要望を直接伝えることができますし、
-                        分からないことがあれば、経験豊富な先輩たちに
-                        直接相談することができます。
-                        徹底したサポートがあるので、今はチームで作業を
-                        することにとてもやりがいを感じています。
-                        おすすめの本やブログ、最新技術についての情報
-                        交換や、イベント・セミナーの紹介など、社内で
-                        の情報共有も活発に行われていて、自分の専門分
-                        野に関わらず、常に新しい情報に触れることがで
-                        きます。
+                        会社の気質はまさにベンチャーの良い面が出ていると思います。<br></br>
+                        成果が出るように仕事しつつ、余った時間で面白いことや新しい開発をしながら、それを案件につなげてもらったりするなど、自由に仕事をやらせてもらっています。<br></br>
+                        仕事においてモチベーションは大事です。モチベーションを上げるために傍から見たら意味ないことをしてたとしても、会社のメンバーはしっかり理解してくれます。おかげで自由で柔軟な開発ができてるんだと思ってます。<br></br>
+                        僕はプログラムメインで仕事してますが、案件で模型実験のためのモックアップを作ることもあります。人数が少ないこともあり、やることは多いと思いますがその反面、仕事がすぐに成果として現れるので満足度は高いです。<br></br>
+                        なお、やること多くてもちゃんと早く家に帰れるのでプライベートな時間もしっかりとれます。これ、とても重要なことです。
                     </p>
                 </div>
                 <div className="pt-8 drop-shadow-lg">
@@ -53,7 +46,7 @@ export default function CommentEW() {
                         alt="エンジニア2"
                     />
                 </div>
-                <div className="pt-16 lg:pr-10">
+                <div className="pt-16 order-first sm:order-last lg:pr-10">
                     <div className="">
                         <p className="inline-block px-3 py-px mb-4 text-base font-ud tracking-wider text-teal-900 uppercase rounded-full bg-amber-300">
                             スタッフからのメッセージ#2
@@ -81,23 +74,12 @@ export default function CommentEW() {
                         </p>
                     </div>
                     <p className="pt-8 mb-3 font-ud text-gray-800 text-lg">エンジニア</p>
-                    <h5 className="text-gray-800 mb-3 text-2xl font-noto leading-none sm:text-3xl">
+                    <h5 className="text-gray-800 mb-3 text-2xl font-noto leading-none sm:text-3xl sm:break-words">
                         渡邉　友浩　Tomohiro Watanabe
                     </h5>
                     <hr className="mb-4 border-gray-300" />
                     <p className="text-gray-700 font-ud">
-                        例：社長含め、社員全員とコミュニケーション
-                        がとてもとりやすい環境です。
-                        自分の意見や要望を直接伝えることができますし、
-                        分からないことがあれば、経験豊富な先輩たちに
-                        直接相談することができます。
-                        徹底したサポートがあるので、今はチームで作業を
-                        することにとてもやりがいを感じています。
-                        おすすめの本やブログ、最新技術についての情報
-                        交換や、イベント・セミナーの紹介など、社内で
-                        の情報共有も活発に行われていて、自分の専門分
-                        野に関わらず、常に新しい情報に触れることがで
-                        きます。
+                        「できるか分からないけど、チャレンジしてみよう」これができる社風です。<br></br>個人の裁量は大きくなりますが、日々メンバーで行われる意見交換でやってみたいものがあれば即行動。そのため社内のスピード感はすごいです。（本当に早い笑）<br></br>ビーコアならではの経験ができます。
                     </p>
                 </div>
                 <div className="pt-8 drop-shadow-lg">
