@@ -32,7 +32,7 @@ module.exports = {
         "Home-bg": "url('/images/Home/tokyo.jpg')",
         "Home-contact": "url('/images/Home/contact-image-min-min.png')",
         "Company-bg": "url('/images/Company/company-bg-min.png')",
-        "Job-hero": "url('/images/Job/hero.jpg')",
+        "Job-hero": "url('/images/Job/job-hero-image.png')",
         "Job-aboutus-hero": "url('/images/Job/about-us.png')",
         "Job-solutions-hero": "url('/images/Job/solution-dark.png')",
         "Job-staff-hero": "url('/images/Job/staff.png')",

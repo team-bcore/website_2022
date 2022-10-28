@@ -8,16 +8,21 @@ export default function Contentprivacy() {
                     現在募集中の職種について
                 </p>
                 <p className="pb-8 text-left font-ud text-base text-gray-700 md:text-lg">
-                    「エンゲージ」から応募ができます。またオンラインでのカジュアル面談も実施しています。弊社のお問い合わせフォームよりお気軽にお問い合わせください。<br></br><br></br>
+                    求人サイト「エンゲージ」から応募ができます。<br></br>また、オンラインでのカジュアル面談も実施しています。弊社のお問い合わせフォームよりお気軽にお問い合わせください。<br></br><br></br>
                     → <a href="https://en-gage.net/b-core_career/widget/?banner=1" className="text-sky-500 hover:text-amber-300">エンゲージから応募する</a><br></br>
-                    → <Link href="/contact"> 
-                            <a className="text-left font-ud text-base text-sky-500 md:text-lg hover:text-amber-300">
-                                お問い合わせフォームから応募する
-                            </a>
-                        </Link>
+                    → <Link href="/contact">
+                        <a className="text-left font-ud text-base text-sky-500 md:text-lg hover:text-amber-300">
+                            お問い合わせフォームからカジュアル面談を申し込む
+                        </a>
+                    </Link>
                 </p>
                 <hr className="mb-4 border-gray-300" />
-                <p className="py-8 text-left font-ud text-xl text-gray-700 md:text-2xl">
+                <div className="pt-8 text-left">
+                    <p className="inline-block px-3 py-px mb-4 tracking-wider rounded-full bg-amber-400 font-ud text-base text-white md:text-lg">
+                        NEW
+                    </p>
+                </div>
+                <p className="pb-8 text-left font-ud text-xl text-gray-700 md:text-2xl">
                     インフラエンジニア
                 </p>
                 <p className="text-left font-ud text-base text-gray-700 md:text-lg">
@@ -51,9 +56,9 @@ export default function Contentprivacy() {
                     【更にこんなスキル・経験があると嬉しい】
                 </p>
                 <p className="pb-8 text-left font-ud text-base text-gray-700 md:text-lg">
-                ・ITサービスマネジメント業務または同等の決裁業務経験者
-                <br></br>・大きな会社で一般的に行われているコスト管理の基本が分かる方
-                <br></br>・R言語等、統計解析系・データ分析系の知識がある方
+                    ・ITサービスマネジメント業務または同等の決裁業務経験者
+                    <br></br>・大きな会社で一般的に行われているコスト管理の基本が分かる方
+                    <br></br>・R言語等、統計解析系・データ分析系の知識がある方
                 </p>
 
 

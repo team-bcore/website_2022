@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function CommentEW() {
     return (
         <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-            <p className="pt-8 text-center font-ud text-base text-gray-900 md:text-lg">
+            <p className="pt-4 text-center font-ud text-lg text-gray-900 md:text-xl">
                 ビーコアのメンバーが経験してきた仕事、それぞれの働き方や価値観などを知ることができます。
             </p>
             <div className="py-16 grid gap-10 lg:grid-cols-2">

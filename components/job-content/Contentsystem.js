@@ -5,7 +5,7 @@ export default function Contentaboutus() {
     return (
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
             <div className="max-w-screen-sm sm:text-center sm:mx-auto">
-                <p className="pb-8 text-left font-ud text-base text-gray-900 md:text-lg">
+                <p className="pb-8 text-left font-ud text-lg text-gray-900 md:text-xl">
                     組織体制と各チームの仕事内容、業務やキャリア形成を支える制度について知ることができます。
                 </p>
                 <h2 className="pt-8 text-left mb-8 text-3xl font-noto tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
