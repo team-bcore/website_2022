@@ -4,10 +4,47 @@ import Herosystem from "../../components/job-content/Herosystem";
 import Contentsystem from "../../components/job-content/Contentsystem";
 import Featuressystem from "../../components/job-content/Featuressystem";
 import Footer from "../../components/Footer";
+import { NextSeo } from "next-seo";
 
 export default function System() {
     return (
         <div className="">
+            <>
+                <NextSeo
+                    title="ビーコア株式会社"
+                    description="現場のニッチなお悩みをIoTの力で解決します"
+                    openGraph={{
+                        url: "https://www.bcore.biz/job/system",
+                        title: "ビーコアを支える仕事",
+                        description: "組織体制と各チームの仕事内容、業務やキャリア形成を支える制度について知ることができます。",
+                        images: [
+                            {
+                                url: "https://bcore.biz/images/SEO/job-seo-image.png",
+                                width: 800,
+                                height: 420,
+                                alt: "採用情報イメージ",
+                                type: "image/png",
+                            },
+                            //   {
+                            //     url: "https://bcore.biz/images/SEO/mission-card.png",
+                            //     width: 900,
+                            //     height: 800,
+                            //     alt: "ポリシーイメージ",
+                            //     type: "large_image/png",
+                            //   },
+                        ],
+                        site_name: "",
+                    }}
+                    twitter={{
+                        handle: "colorbit_bcore",
+                        site: "https://twitter.com/colorbit_bcore",
+                        cardType: "summary_large_image",
+                    }}
+                />
+            </>
+            <Head>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <Navbar2 />
             <Herosystem />
             <Contentsystem />
