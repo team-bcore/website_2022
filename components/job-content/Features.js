@@ -29,7 +29,7 @@ export default function Features() {
                                 ビーコアが提供する各ソリューションの特徴などを知ることができます。
                             </p>
                         </div>
-                        <Link href="">
+                        <Link href="job/solutions">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
@@ -44,7 +44,7 @@ export default function Features() {
                                 組織体制と各チームの仕事内容、業務やキャリア形成を支える制度について知ることができます。
                             </p>
                         </div>
-                        <Link href="">
+                        <Link href="job/system">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
@@ -55,13 +55,13 @@ export default function Features() {
                     <div className="flex flex-col justify-between p-5 border-gray-700 border-2 rounded shadow-sm">
                         <div>
                             <h6 className="text-gray-700 mb-2 font-noto leading-5 text-xl">
-                                スタッフ紹介
+                                スタッフの声
                             </h6>
                             <p className="text-gray-700 mb-3 font-ud text-base mt-8">
                                 ビーコアのメンバーが経験してきた仕事、それぞれの働き方や価値観などを知ることができます。
                             </p>
                         </div>
-                        <Link href="">
+                        <Link href="job/staff">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
@@ -76,7 +76,7 @@ export default function Features() {
 
                             </p>
                         </div>
-                        <Link href="">
+                        <Link href="job/privacy">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>
@@ -85,15 +85,14 @@ export default function Features() {
                     <div className="flex flex-col justify-between p-5 bg-slate-50 border-gray-700 border-2 rounded shadow-sm">
                         <div>
                             <h6 className="text-gray-700 mb-2 font-noto leading-5 text-xl">
-                                エントリーフォーム
+                                募集要項
                             </h6>
                             <p className="text-gray-700 mb-3 font-ud text-base mt-8">
                                 現在、採用を行っている
-                                職種とエントリーフォーム
-
+                                職種と募集要項
                             </p>
                         </div>
-                        <Link href="">
+                        <Link href="job/application">
                             <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
                                 →詳しく見る
                             </a>

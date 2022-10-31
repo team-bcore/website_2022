@@ -9,9 +9,9 @@ export default function Hero() {
           <div className="flex flex-col mb-16 sm:text-center sm:mb-0">
             <div className="max-w-xl mb-10 pt-16 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
               <h2 className="max-w-lg mb-6 font-noto text-4xl font-bold leading-none tracking-tight text-amber-400 sm:text-5xl md:mx-auto">
-                ビーコアではたらく。
+                ビーコアではたらく
               </h2>
-              <p className="text-base font-ud text-white md:text-lg">
+              <p className="pt-16 text-base font-ud text-white md:text-lg">
               ビーコアは、あなたのキャリアに必要な技術力と経験が身に付く環境です。<br></br>ベテランはもちろん、熱意あふれる未経験者も積極的に採用しています。<br></br>私たちと一緒に、テクノロジーで現場の課題を解決し、あなたの人生を豊かなものにしていきませんか。
               </p>
             </div>

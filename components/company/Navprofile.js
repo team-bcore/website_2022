@@ -121,7 +121,7 @@ export default function Navmission() {
                 テクノロジー、デザイン、ビジネスなどさまざまなトピックについて書いています。
               </p>
             </div>
-            <Link href="/blog">
+            <Link href="/blogpage">
               <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
                 →詳しく見る
               </a>
