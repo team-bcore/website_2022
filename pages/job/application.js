@@ -21,7 +21,7 @@ export default function Application() {
                             {
                                 url: "https://bcore.biz/images/SEO/job-seo-image.png",
                                 width: 800,
-                                height: 420,
+                                height: 600,
                                 alt: "採用情報イメージ",
                                 type: "image/png",
                             },
