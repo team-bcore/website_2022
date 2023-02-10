@@ -38,6 +38,7 @@ export default function News({ newsData }) {
               <Component
                 components={{
                   Cta,
+                  NewsSeo,
                 }}
               />
             </article>
