@@ -14,14 +14,14 @@ export default function NewsSeo({ frontmatter }) {
           "プレスリリース・イベント情報・その他のお知らせ",
         images: [
           {
-            url: "https://bcore.biz/images/SEO/news-seo-card.png",
+            url: "https://bcore.biz/images/news-seo-card.png",
             width: 800,
             height: 600,
             alt: "ニュースページイメージ",
             type: "image/png",
           },
           {
-            url: "https://bcore.biz/images/SEO/news-seo-card.png",
+            url: "https://bcore.biz/images/news-seo-card.png",
             width: 900,
             height: 800,
             alt: "ニュースページイメージ",
