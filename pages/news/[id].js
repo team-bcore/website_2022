@@ -1,11 +1,9 @@
 import Layout from "../../components/layout";
 import { getAllNewsIds, getNewsData } from "../../lib/posts";
-import Head from "next/head";
-import Date from "../../components/date";
-import utilStyles from "../../styles/utils.module.css";
 import { getMDXComponent } from "mdx-bundler/client";
 import { useMemo } from "react";
 import Cta from "../../components/Cta";
+import NewsSeo from "../../components/NewsSeo";
 
 export async function getStaticProps({ params }) {
   const newsData = await getNewsData(params.id);
@@ -29,6 +27,7 @@ export default function News({ newsData }) {
   const Component = useMemo(() => getMDXComponent(code), [code]);
   return (
     <Layout>
+      <NewsSeo frontmatter={frontmatter} />
       <div className="px-2 py-4 mx-auto sm:max-w-xl md:max-w-3xl lg:max-w-screen-3xl lg:py-8">
         <div className="max-w-screen-sm sm:mx-auto">
           <div className="prose lg:prose-lg">
@@ -39,6 +38,7 @@ export default function News({ newsData }) {
               <Component
                 components={{
                   Cta,
+                  NewsSeo,
                 }}
               />
             </article>

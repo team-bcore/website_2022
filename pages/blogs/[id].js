@@ -1,8 +1,5 @@
 import Layout from "../../components/bloglayout";
 import { getAllPostIds, getPostData } from "../../lib/blogposts";
-import Head from "next/head";
-import Date from "../../components/date";
-import utilStyles from "../../styles/utils.module.css";
 import { getMDXComponent } from "mdx-bundler/client";
 import { useMemo } from "react";
 import Cta from "../../components/Cta";
