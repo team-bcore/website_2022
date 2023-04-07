@@ -4,12 +4,12 @@ export default function Contentaboutus() {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
       <div className="max-w-screen-sm sm:text-center sm:mx-auto">
-      <h2 className="mb-8 text-3xl font-noto tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+        <h2 className="mb-8 text-3xl font-noto tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
           何をしている会社なのか
         </h2>
         <hr className="w-full my-8 border-gray-300" />
         <p className="font-ud text-base text-gray-900 md:text-lg sm:px-4">
-        私たちは、独自に開発した自動認識コード「カラービット®︎」やエッジAIカメラを用いて、現場でのニッチなお悩みを解決し、業務の効率化を促進するソリューションを提供しています。
+          私たちは、独自に開発した自動認識コード「カラービット®︎」やエッジAIカメラを用いて、現場でのニッチなお悩みを解決し、業務の効率化を促進するソリューションを提供しています。
         </p>
         <h2 className="pt-16 mb-8 text-3xl font-noto tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
           ビーコアのミッションとポリシー

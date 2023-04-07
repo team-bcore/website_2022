@@ -1,6 +1,5 @@
 import Image from "next/image";
 
-
 export default function Hero() {
   return (
     <div className="bg-Job-hero bg-cover xl:bg-no-repeat">
@@ -12,12 +11,17 @@ export default function Hero() {
                 ビーコアではたらく
               </h2>
               <p className="pt-16 text-base font-ud text-white md:text-lg">
-              ビーコアは、あなたのキャリアに必要な<br></br>技術や経験を身に付けることができる環境です。<br></br>経験者はもちろん、熱意のある未経験者も積極的に採用しています。<br></br><br></br>私たちと一緒に、テクノロジーで現場の課題を解決し、<br></br>あなたの人生を豊かなものにしていきませんか。
+                ビーコアは、あなたのキャリアに必要な<br></br>
+                技術や経験を身に付けることができる環境です。<br></br>
+                経験者はもちろん、熱意のある未経験者も積極的に採用しています。
+                <br></br>
+                <br></br>私たちと一緒に、テクノロジーで現場の課題を解決し、
+                <br></br>あなたの人生を豊かなものにしていきませんか。
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  );}
-
+  );
+}
