@@ -10,8 +10,7 @@ export default function NewsSeo({ frontmatter }) {
       openGraph={{
         url: "https://www.bcore.biz/news",
         title: title,
-        description:
-          "プレスリリース・イベント情報・その他のお知らせ",
+        description: "プレスリリース・イベント情報・その他のお知らせ",
         images: [
           {
             url: "https://bcore.biz/images/news-seo-card.png",
