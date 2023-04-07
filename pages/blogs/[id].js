@@ -9,6 +9,7 @@ import Comments from "../../components/blog-content/Comments";
 import Image_1 from "../../components/blog-content/Image_1";
 import Image_2 from "../../components/blog-content/Image_2";
 import Caption_museum from "../../components/blog-content/Caption_museum";
+import Caption_museum_2 from "../../components/blog-content/Caption_museum_2";
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
@@ -48,7 +49,8 @@ export default function Post({ postData }) {
                   Comments,
                   Image_1,
                   Image_2,
-                  Caption_museum
+                  Caption_museum,
+                  Caption_museum_2
                 }}
               />
             </article>
