@@ -11,6 +11,7 @@ export default function Contact() {
         <NextSeo
           title="お問い合わせフォーム"
           description="各ソリューションへのお申し込み・お問い合わせは、こちらのコンタクトフォームから承っております。"
+          canonical="https://www.bcore.biz/contact"
           openGraph={{
             url: "https://www.bcore.biz/contact",
             title: "お問い合わせフォーム",

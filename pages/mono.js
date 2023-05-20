@@ -18,6 +18,7 @@ export default function Mono() {
         <NextSeo
           title="iPhoneを使ったモノ管理"
           description="お手持ちのiPhoneでカラービット®︎タグを画像処理により一括認識します。読み取ったデータはクラウドで一元管理でき、どこからでもアクセス可能。すぐに利用開始できます。"
+          canonical="https://www.bcore.biz/mono"
           openGraph={{
             url: "https://www.bcore.biz/mono/",
             title: "iPhoneによるモノ管理システム",

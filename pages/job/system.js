@@ -13,6 +13,7 @@ export default function System() {
         <NextSeo
           title="ビーコア株式会社"
           description="現場のニッチなお悩みをIoTの力で解決します"
+          canonical="https://www.bcore.biz/job/system"
           openGraph={{
             url: "https://www.bcore.biz/job/system",
             title: "ビーコアを支える仕事",

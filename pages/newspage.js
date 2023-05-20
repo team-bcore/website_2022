@@ -23,6 +23,7 @@ export default function Newspage({ allNewsData }) {
         <NextSeo
           title="ニュース"
           description="イベント情報やお知らせをご覧いただけます。"
+          canonical="https://www.bcore.biz/newspage"
           openGraph={{
             url: "https://www.bcore.biz/newspage/",
             title: "ニュース",

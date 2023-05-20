@@ -11,6 +11,7 @@ export default function Jacompany() {
         <NextSeo
           title="プライバシーポリシー"
           description="プライバシーポリシーを掲載しています。"
+          canonical="https://www.bcore.biz/privacy-policy"
           openGraph={{
             url: "https://www.bcore.biz/privacy-policy",
             title: "プライバシーポリシー",
