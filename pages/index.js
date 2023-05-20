@@ -31,6 +31,7 @@ export default function Home({ allNewsData }) {
         <NextSeo
           title="ビーコア株式会社"
           description="現場のニッチなお悩みをIoTの力で解決します"
+          canonical="https://www.bcore.biz"
           openGraph={{
             url: "https://www.bcore.biz",
             title: "ビーコア株式会社",

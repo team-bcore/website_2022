@@ -24,6 +24,7 @@ export default function Blogpage({ allPostData }) {
         <NextSeo
           title="ビーコアのブログ"
           description="テクノロジー、デザイン、ビジネスなどさまざまなトピックについて書いています。"
+          canonical="https://www.bcore.biz/blogpage"
           openGraph={{
             url: "https://www.bcore.biz/blogpage/",
             title: "ブログ",

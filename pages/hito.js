@@ -19,6 +19,7 @@ export default function Hito() {
         <NextSeo
           title="入退室管理システム"
           description="カラービットを使った工場向け入退室管理システム。入館証はカメラに手でかざす必要がなく、ハンズフリー通過が可能なシステムです。"
+          canonical="https://www.bcore.biz/hito"
           openGraph={{
             url: "https://www.bcore.biz/hito/",
             title: "彩色兼備 入退室管理システム",

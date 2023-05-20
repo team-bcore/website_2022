@@ -23,6 +23,7 @@ export default function Newspage({ allNewsData }) {
         <NextSeo
           title="ビーコアのブログ"
           description="テクノロジー、デザイン、ビジネスなどさまざまなトピックについて書いています。"
+          canonical="https://www.bcore.biz/blog"
           openGraph={{
             url: "https://www.bcore.biz/blog",
             title: "ビーコアのブログ",

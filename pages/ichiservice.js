@@ -20,6 +20,7 @@ export default function Ichi() {
         <NextSeo
           title="位置管理システム"
           description="エッジAIカメラが工場・倉庫などの大空間でのヒト・モノを24時間365日見守り、可視化することで従来の業務の最適化を容易にし、効率的な業務改革に繋げることができます。"
+          canonical="https://www.bcore.biz/ichiservice/"
           openGraph={{
             url: "https://www.bcore.biz/ichiservice/",
             title: "位置管理システム",

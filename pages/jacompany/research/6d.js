@@ -12,6 +12,7 @@ export default function Jacompany() {
         <NextSeo
           title="ビーコア株式会社"
           description="現場のニッチなお悩みをIoTの力で解決します"
+          canonical="https://www.bcore.biz/research/6d"
           openGraph={{
             url: "https://www.bcore.biz/research/6d",
             title: "カラービット6D測位 colobit Six Dimension Survey",
