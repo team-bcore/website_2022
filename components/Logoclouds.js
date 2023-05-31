@@ -1,7 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
+import { useTranslation } from "next-i18next";
 
 export default function Logoclouds() {
+  const { t } = useTranslation("logoclouds");
   return (
     <div className="">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -9,16 +10,15 @@ export default function Logoclouds() {
           <div className="lg:pr-10">
             <h2 className="mb-4 text-4xl font-noto text-slate-800 leading-none">
               <br className="hidden md:block" />
-              取引先企業・{" "}
+              {t("title-1")}{" "}
               <span className="inline-block text-deep-purple-accent-400">
-                パートナーシップ
+                {t("title-2")}
               </span>
             </h2>
             <p className="mb-6 font-ud text-md text-slate-800">
-              私たちのソリューションは、幅広い業界のさまざまなお客様に導入いただいております。
+              {t("text-1")}
               <br></br>
-              また、エッジAIカメラ「Vieureka」プラットフォームのパートナー企業として、
-              共にイノベーションを生み出しています。
+              {t("text-2")}
               <br></br>
               <br></br>
               <svg
@@ -36,9 +36,7 @@ export default function Logoclouds() {
                 />
               </svg>
               <a href="https://www.vieureka.com/" target="_blank">
-                <span className="hover:text-gray-500">
-                  Vieurekaプラットフォームについて
-                </span>
+                <span className="hover:text-gray-500">{t("link")}</span>
               </a>
             </p>
             <hr className="mb-5 border-gray-300" />

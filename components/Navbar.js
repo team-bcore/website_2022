@@ -2,9 +2,12 @@ import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslation } from 'next-i18next'
+
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation('common');
   return (
     <div className="">
       <nav className="bg-white bg-opacity-80 shadow-sm fixed w-full z-10 ">
@@ -32,66 +35,47 @@ function Navbar() {
                   </Link> */}
                   <Link href="/hito">
                     <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
-                      入退室管理
+                    {t('hito')}
                     </a>
                   </Link>
                   <Link href="/mono-monitoring">
                     <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
-                      モノ常時管理
+                    {t('mono')}
                     </a>
                   </Link>
                   <Link href="/ichiservice">
                     <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
-                      位置管理
+                    {t('ichi')}
                     </a>
                   </Link>
                   <Link href="/mono">
                     <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
-                      スマホによるモノ管理
+                    {t('iphone-mono')}
                     </a>
                   </Link>
                   <Link href="https://www.mitsushiru.tech/">
                     <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
-                      密 ミツシル
+                    {t('mitsu')}
                     </a>
                   </Link>
                   <Link href="/jacompany">
                     <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
-                      会社紹介
+                    {t('introduction')}
                     </a>
                   </Link>
                   <Link href="/newspage">
                     <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
-                      ニュース
+                    {t('news')}
                     </a>
                   </Link>
                   <Link href="/blogpage">
                     <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
-                      ブログ
+                    {t('blog')}
                     </a>
                   </Link>
                   <Link href="/job">
                     <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
-                      採用情報{" "}
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        class="-mt-1 w-4 h-4 inline-block"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                        />
-                      </svg>
-                    </a>
-                  </Link>
-                  <Link href="https://www.colorbit.jp/english-top">
-                    <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
-                      EN
+                    {t('recruit')}{" "}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -110,7 +94,7 @@ function Navbar() {
                   </Link>
                   <Link href="/contact">
                     <a className="cursor-pointer bg-slate-800 font-ud text-md text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-500 shadow-lg shadow-gray-400/50">
-                      お問い合わせ
+                    {t('contact')}
                     </a>
                   </Link>
                 </div>
@@ -177,77 +161,58 @@ function Navbar() {
               <div ref={ref} className="bg-white px-2 pt-2 pb-3 sm:px-3 ">
                 <Link href="/hito">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                    入退室管理
+                  {t('r-hito')}
                   </a>
                 </Link>
                 <Link href="/mono-monitoring">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                    モノ常時管理
+                  {t('r-mono')}
                   </a>
                 </Link>
                 <Link href="/ichiservice">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                    位置管理
+                  {t('r-ichi')}
                   </a>
                 </Link>
                 <Link href="/mono">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                    スマホによるモノ管理
+                  {t('r-iphone-mono')}
                   </a>
                 </Link>
                 <a href="https://www.mitsushiru.tech/">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                    密 ミツシル
+                  {t('r-mitsu')}
                   </a>
                 </a>
                 <Link href="/jacompany">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                    会社紹介
+                  {t('introduction')}
                   </a>
                 </Link>
                 <Link href="/newspage">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                    ニュース
+                  {t('r-news')}
                   </a>
                 </Link>
                 <Link href="/blogpage">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                    ブログ
+                  {t('r-blog')}
                   </a>
                 </Link>
                 <Link href="/job">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                    採用情報{" "}
+                  {t('r-recruit')}{" "}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       stroke="currentColor"
-                      class="-mt-1 w-4 h-4 inline-block"
+                      ClassNamme="-mt-1 w-4 h-4 inline-block"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                      />
-                    </svg>
-                  </a>
-                </Link>
-                <Link href="https://www.colorbit.jp/english-top">
-                  <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
-                    EN
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="-mt-1 w-4 h-4 inline-block"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
                       />
                     </svg>
@@ -255,7 +220,7 @@ function Navbar() {
                 </Link>
                 <Link href="/contact">
                   <a className="bg-gray-200 cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                    お問い合わせ
+                  {t('r-contact')}
                   </a>
                 </Link>
               </div>

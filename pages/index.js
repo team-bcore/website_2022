@@ -1,9 +1,5 @@
 import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
-import utilStyles from "../styles/utils.module.css";
 import { getSortedNewsData } from "../lib/posts";
-import Link from "next/link";
-import Date from "../components/date";
 import News from "../components/News";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -14,14 +10,25 @@ import Why from "../components/Why";
 import Colorbit from "../components/Colorbit";
 import { NextSeo } from "next-seo";
 import Contents from "../components/Contents";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
-export async function getStaticProps() {
+export async function getStaticProps({ locale }) {
   const allNewsData = getSortedNewsData();
   return {
     props: {
-      allNewsData,
+      ...(await serverSideTranslations(locale, [
+        'solutions',
+        'why',
+        'colorbit',
+        'logoclouds',
+        'news',
+        'contents',
+        'cta',
+        'common',
+      ])),
+      allNewsData,// Will be passed to the page component as props
     },
-  };
+  }
 }
 
 export default function Home({ allNewsData }) {

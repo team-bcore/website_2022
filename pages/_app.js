@@ -1,7 +1,9 @@
 import "../styles/global.css";
+import { appWithTranslation } from 'next-i18next';
+
 import { GoogleAnalytics, usePageViews } from "nextjs-google-analytics";
 
-export default function App({ Component, pageProps }) {
+const App = ({ Component, pageProps }) => {
   usePageViews();
   return (
     <>
@@ -11,4 +13,6 @@ export default function App({ Component, pageProps }) {
       <Component {...pageProps} />
     </>
   );
-}
+};
+
+export default appWithTranslation(App);

@@ -1,0 +1,20 @@
+{
+    "title": "お問い合わせ",
+    "text-1": "各ソリューションへのお申し込み・お問い合わせは、こちらのコンタクトフォームから承っております。",
+    "text-2" :"改めてメールにてご連絡をさせていただきます。",
+    "form-name": "お名前",
+    "form-company-name": "会社名",
+    "form-email": "メールアドレス",
+    "form-content": "お問い合わせ内容",
+    "drop-down-choose": "選択してください",
+    "drop-down-hito": "入退室管理システムについて",
+    "drop-down-mono-monitor": "モノ常時管理システムについて",
+    "drop-down-ichi": "位置管理システムについて",
+    "drop-down-iphone": "モノ管理iPhoneについて",
+    "drop-down-other": "その他",
+    "message": "ご相談内容・その他",
+    "privacy-text-1": "弊社の",
+    "privacy-text-2": "プライバシーポリシー",
+    "privacy-text-3": "に同意します",
+    "contact-button": "送信"
+}

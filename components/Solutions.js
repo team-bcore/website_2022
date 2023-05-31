@@ -1,33 +1,24 @@
 import Link from "next/link";
-import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export default function Solutions() {
+  const { t } = useTranslation("solutions");
   return (
     <div className="bg-Home-bg bg-cover xl:bg-no-repeat ">
-      <div className="pt-12 bg-blue-500">
-        <p className="pt-1.5 pb-1 text-white text-center font-noto text-base md:text-lg">
-          <span className="inline-block py-1.5 px-2 leading-none text-center whitespace-nowrap align-baseline font-bold bg-blue-800 text-white rounded">
-            New
-          </span>
-          &nbsp;ビーコアはWebサイトの【URLとデザイン】を刷新しました。
-        </p>
-      </div>
       <div className="font-ud mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
         <div className="my-8 max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <h1 className="max-w-lg mb-6 font-noto text-gray-900 leading-none md:mx-auto">
             <span className="relative inline-block">
               <span className="relative text-5xl sm:text-7xl">
-                現場のニッチなお悩みをIoTの力で解決します
+                {t("tag-line")}
               </span>
             </span>{" "}
           </h1>
           <p className="font-noto text-base text-gray-900 md:text-lg">
-            私たちは、弊社が独自に開発した自動認識コード「カラービット®︎」やAIカメラを用いて、現場でのニッチなお悩みを解決し、業務の効率化を促進するソリューションを提供しております。
+            {t("sub-title")}
             <br></br>
             <br></br>
-            <span className="text-2xl text-gray-900">
-              このような現場のお悩みありませんか？{" "}
-            </span>
+            <span className="text-2xl text-gray-900">{t("question")} </span>
           </p>
         </div>
         <div className="grid gap-4 row-gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -52,10 +43,10 @@ export default function Solutions() {
                 </div>
               </div>
               <h2 className="mb-2 font-noto text-2xl leading-5 text-slate-900">
-                人の管理
+                {t("solution-1")}
               </h2>
               <p className="mb-3 font-ud text-md text-slate-800">
-                食品工場のような、マスクの着用で顔認証が使えない施設でも、非接触の入退室管理がしたい。
+                {t("solution-1-text")}
                 <br></br>
                 <br></br>
               </p>
@@ -74,7 +65,7 @@ export default function Solutions() {
                     clip-rule="evenodd"
                   />
                 </svg>
-                入退室管理システム
+                {t("solution-1-button")}
               </a>
             </Link>
           </div>
@@ -84,7 +75,7 @@ export default function Solutions() {
                 <div className="text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8"
+                    class="h-8 w-8"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -99,10 +90,10 @@ export default function Solutions() {
                 </div>
               </div>
               <h2 className="mb-2 font-noto text-2xl leading-5 text-slate-900">
-                モノ（在庫）の管理
+                {t("solution-2")}
               </h2>
               <p className="mb-3 font-ud text-md text-slate-800">
-                厄介な在庫管理を自動化することで、従業員の負担を軽減させたい。
+                {t("solution-2-text")}
               </p>
             </div>
             <Link href="/mono-monitoring">
@@ -119,7 +110,7 @@ export default function Solutions() {
                     clip-rule="evenodd"
                   />
                 </svg>
-                モノ常時管理システム
+                {t("solution-2-button")}
               </a>
             </Link>
           </div>
@@ -129,7 +120,7 @@ export default function Solutions() {
                 <div className="text-white">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8"
+                    class="h-8 w-8"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -149,10 +140,10 @@ export default function Solutions() {
                 </div>
               </div>
               <h2 className="mb-2 font-noto text-2xl leading-5 text-slate-900">
-                位置の見える化
+                {t("solution-3")}
               </h2>
               <p className="mb-3 font-ud text-md text-slate-800">
-                広い工場や倉庫内のモノ・ヒトの位置を見える化して業務を効率化したい。
+                {t("solution-3-text")}
               </p>
             </div>
             <Link href="/ichiservice">
@@ -169,7 +160,7 @@ export default function Solutions() {
                     clip-rule="evenodd"
                   />
                 </svg>
-                位置管理システム
+                {t("solution-2-button")}
               </a>
             </Link>
           </div>
@@ -194,10 +185,10 @@ export default function Solutions() {
                 </div>
               </div>
               <h2 className="mb-2 font-noto text-2xl leading-5 text-slate-900">
-                混雑度の見える化
+                {t("solution-4")}
               </h2>
               <p className="mb-3 font-ud text-md text-slate-800">
-                気になる施設の混雑度を見える化して、お客様に安心・安全な空間を提供したい。
+                {t("solution-4-text")}
               </p>
             </div>
             <a
@@ -217,7 +208,7 @@ export default function Solutions() {
                   clip-rule="evenodd"
                 />
               </svg>
-              密集度モニターシステム
+              {t("solution-4-button")}
             </a>
           </div>
         </div>
