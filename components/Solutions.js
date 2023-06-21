@@ -4,9 +4,9 @@ import { useTranslation } from "next-i18next";
 export default function Solutions() {
   const { t } = useTranslation("solutions");
   return (
-    <div className="bg-Home-bg bg-cover xl:bg-no-repeat ">
-      <div className="font-ud mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
-        <div className="my-8 max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+    <div className="bg-Home-bg bg-cover xl:bg-no-repeat">
+      <div className="font-ud mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16 md:py-16">
+        <div className="pt-32 max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <h1 className="max-w-lg mb-6 font-noto text-gray-900 leading-none md:mx-auto">
             <span className="relative inline-block">
               <span className="relative text-5xl sm:text-7xl">

@@ -6,11 +6,16 @@ import Link from "next/link";
 import Date from "../components/date";
 import Navbar from "../components/Navbar";
 import { NextSeo } from "next-seo";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
-export async function getStaticProps() {
+
+export async function getStaticProps({ locale }){
   const allNewsData = getSortedNewsData();
   return {
     props: {
+      ...(await serverSideTranslations(locale, [
+        'common',
+      ])),
       allNewsData,
     },
   };
