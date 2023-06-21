@@ -7,11 +7,15 @@ import Date from "../components/date";
 import Navbar from "../components/Navbar";
 import { NextSeo } from "next-seo";
 import Image from "next/image";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
-export async function getStaticProps() {
+export async function getStaticProps({ locale }) {
   const allPostData = getSortedPostData();
   return {
     props: {
+      ...(await serverSideTranslations(locale, [
+        'common',
+      ])),
       allPostData,
     },
   };
