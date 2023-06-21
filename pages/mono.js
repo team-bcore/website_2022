@@ -10,6 +10,19 @@ import Cta from "../components/Cta";
 import Footer from "../components/Footer";
 import { NextSeo } from "next-seo";
 import Head from "next/head";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, [
+        'common',
+        
+      ])),
+      // Will be passed to the page component as props
+    },
+  }
+}
 
 export default function Mono() {
   return (
