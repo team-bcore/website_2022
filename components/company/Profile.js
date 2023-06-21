@@ -34,7 +34,7 @@ export default function Profile() {
             資本金
           </p>
           <p className="pt-2 font-ud text-base text-gray-700 md:text-lg sm:px-4">
-            6965万5千円
+            6965万円
           </p>
           <hr className="w-full my-4 border-gray-300" />
           <p className="pt-4 font-ud text-base text-gray-900 md:text-lg sm:px-4">
