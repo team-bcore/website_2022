@@ -13,7 +13,7 @@ export default function News({ allNewsData }) {
           <div className="grid grid-cols-12">
             <div className="col-start-4 col-span-6">
               <h2 className={utilStyles.headingXl}>
-                <span className="font-noto">ニュース</span>
+                <span className="font-noto">News</span>
               </h2>
               <ul className={utilStyles.list}>
                 {allNewsData.slice(0, 3).map(({ id, date, title }) => (

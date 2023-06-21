@@ -1,7 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export default function Footer() {
+  const { t } = useTranslation("common");
   return (
     <div className="relative bg-slate-50">
       <div className="px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
@@ -19,7 +21,7 @@ export default function Footer() {
             </Link>
             <div className="mt-4 lg:max-w-sm">
               <p className="font-ud text-base text-gray-700 md:text-lg">
-                ビーコア株式会社
+              {t("company-name")}
               </p>
               <p className="mt-4">
                 <a href="https://www.jipdec.or.jp/index.html">
@@ -36,27 +38,27 @@ export default function Footer() {
           <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
             <div>
               <p className="font-noto text-xl leading-5 text-slate-800">
-                サービス
+              {t("services")}
               </p>
               <ul className="mt-2 space-y-2">
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/hito">
-                    <a>入退室管理システム</a>
+                    <a>{t("hito")}</a>
                   </Link>
                 </li>
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/mono-monitoring">
-                    <a>モノ常時管理システム</a>
+                    <a>{t("mono")}</a>
                   </Link>
                 </li>
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/ichiservice">
-                    <a>位置管理システム</a>
+                    <a>{t("ichi")}</a>
                   </Link>
                 </li>
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/mono">
-                    <a>iPhoneを使ったモノ管理システム</a>
+                    <a>{t("footer-iphone")}</a>
                   </Link>
                 </li>
               </ul>
@@ -69,7 +71,7 @@ export default function Footer() {
                 <li>
                   <a href="https://www.mitsushiru.tech/">
                     <p className="font-ud text-md text-slate-800">
-                      密 ミツシル
+                      {t("mitsu")}
                     </p>
                   </a>
                 </li>
@@ -77,39 +79,39 @@ export default function Footer() {
             </div>
             <div>
               <p className="font-noto text-xl leading-5 text-slate-800">
-                R&D（研究開発）
+                {t("RD")}
               </p>
               <ul className="mt-2 space-y-2">
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/jacompany/research/">
-                    <a>ビーコアのR&D情報</a>
+                    <a>{t("our-RD")}</a>
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
               <p className="font-noto text-xl leading-5 text-slate-800">
-                私たちについて
+                {t("about-us")}
               </p>
               <ul className="mt-2 space-y-2">
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/jacompany">
-                    <a>会社紹介</a>
+                    <a>{t("company")}</a>
                   </Link>
                 </li>
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/newspage">
-                    <a>ニュース</a>
+                    <a>{t("news")}</a>
                   </Link>
                 </li>
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/blogpage">
-                    <a>ブログ</a>
+                    <a>{t("blog")}</a>
                   </Link>
                 </li>
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/privacy-policy">
-                    <a>プライバシーポリシー</a>
+                    <a>{t("privacy-policy")}</a>
                   </Link>
                 </li>
               </ul>

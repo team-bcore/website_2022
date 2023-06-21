@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import React from "react";
 import Link from "next/link";
+import { useTranslation } from "next-i18next";
 
 function encode(data) {
   return Object.keys(data)
@@ -30,6 +31,7 @@ export default function Contact() {
       .then(() => router.push(form.getAttribute("action")))
       .catch((error) => alert(error));
   };
+  const { t } = useTranslation("contact");
 
   return (
     <form
@@ -51,15 +53,16 @@ export default function Contact() {
       <div id="contact-us"></div>
       <div className="py-12 mx-auto">
         <p className="text-3xl font-noto text-center md:text-4xl leading-none tracking-tight text-gray-900 sm:text-4xl">
-          お問い合わせ
+          {t("title")}
         </p>
         <p className="font-ud mt-2 pt-8 text-lg text-gray-600 md:text-center ">
-          各ソリューションへのお申し込み・お問い合わせは、こちらのコンタクトフォームから承っております。
-          <br></br>改めてメールにてご連絡をさせていただきます。
+          {t("text-2")}
+          <br></br>
+          {t("text-1")}
         </p>
         <div className="mt-8 grid grid-cols-1 md:grid md:grid-cols-8">
           <label className="pt-4 block md:col-start-3 col-span-4 ">
-            <span className="font-ud text-gray-700">お名前</span>
+            <span className="font-ud text-gray-700">{t("form-name")}</span>
             <input
               type="text"
               className="mt-1 py-3 px-2 block w-full border border-gray-700"
@@ -69,7 +72,9 @@ export default function Contact() {
             />
           </label>
           <label className="pt-4 block md:col-start-3 col-span-4">
-            <span className="font-ud text-gray-700">会社名</span>
+            <span className="font-ud text-gray-700">
+              {t("form-company-name")}
+            </span>
             <input
               type="text"
               className="mt-1 py-3 px-2 block w-full border border-gray-700"
@@ -79,7 +84,7 @@ export default function Contact() {
             />
           </label>
           <label className="pt-4 block md:col-start-3 col-span-4">
-            <span className="font-ud text-gray-700">メールアドレス</span>
+            <span className="font-ud text-gray-700">{t("form-email")}</span>
             <input
               type="email"
               className="mt-1 py-3 px-2 block w-full border border-gray-700"
@@ -89,23 +94,23 @@ export default function Contact() {
             />
           </label>
           <label className="pt-4 block md:col-start-3 col-span-4">
-            <span className="font-ud text-gray-700">お問い合わせ内容</span>
+            <span className="font-ud text-gray-700">{t("form-content")}</span>
             <select
               className="mt-1 py-3 px-2 block w-full border border-gray-700"
               name="お問い合わせ内容"
               onChange={handleChange}
             >
-              <option>選択してください</option>
-              <option>入退室管理システムについて</option>
-              <option>モノ常時管理システムについて</option>
-              <option>位置管理システムについて</option>
-              <option>モノ管理iPhoneについて</option>
-              <option>その他</option>
+              <option>{t("drop-down-choose")}</option>
+              <option>{t("drop-down-hito")}</option>
+              <option>{t("drop-down-mono-monitor")}</option>
+              <option>{t("drop-down-ichi")}</option>
+              <option>{t("drop-down-iphone")}</option>
+              <option>{t("drop-down-other")}</option>
               <option></option>
             </select>
           </label>
           <label className="pt-4 block md:col-start-3 col-span-4">
-            <span className="font-ud text-gray-700">ご相談内容・その他</span>
+            <span className="font-ud text-gray-700">{t("message")}</span>
             <textarea
               className="mt-1 py-3 px-2 block w-full border border-gray-700"
               rows="8"
@@ -119,13 +124,13 @@ export default function Contact() {
                 <label className="inline-flex items-center">
                   <input type="checkbox" unchecked="true" />
                   <span className="ml-2 font-ud">
-                    弊社の
+                    {t("privacy-text-1")}
                     <Link href="privacy-policy">
                       <a className="text-blue-600 underline">
-                        プライバシーポリシー
+                        {t("privacy-text-2")}
                       </a>
                     </Link>
-                    に同意します
+                    {t("privacy-text-3")}
                   </span>
                 </label>
               </div>
@@ -133,8 +138,8 @@ export default function Contact() {
           </div>
           <div className="pt-8 block mx-auto md:col-start-3 col-span-4">
             <button type="submit">
-              <a className="font-ud bg-gray-800 inline-flex items-center w-full justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md hover:text-deep-purple-900 bg-teal-accent-400 hover:bg-lime-500 focus:shadow-outline focus:outline-none">
-                送信
+              <a className="font-ud bg-gray-800 inline-flex items-center w-full justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md hover:text-deep-purple-900 bg-teal-accent-400 hover:bg-blue-600 focus:shadow-outline focus:outline-none">
+              {t("contact-button")}
               </a>
             </button>
           </div>

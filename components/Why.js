@@ -1,11 +1,13 @@
 import Image from "next/image";
+import { useTranslation } from 'next-i18next'
 
-export default function Footer() {
+export default function Why() {
+  const { t } = useTranslation("why");
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <h2 className="text-center mb-12 font-sans text-3xl font-bold tracking-tight text-slate-800 sm:text-4xl sm:leading-none">
         <span className="relative inline-block">
-          <span className="font-noto relative">私たちが選ばれる理由</span>
+          <span className="font-noto relative">{t("title")}</span>
         </span>
       </h2>
       <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
@@ -16,19 +18,17 @@ export default function Footer() {
             width={1600} // Desired size with correct aspect ratio
             alt="Vieureka"
           />
-          <div className="p-5 border border-t-0">
+          <div className="items-stretch h-full p-5 border border-t-0">
             <p className="mb-3 text-base font-ud tracking-wide uppercase text-gray-700">
-              理由その１
+              {t("reason-1")}
             </p>
             <p className="inline-block mb-3 text-2xl leading-8 font-noto text-slate-800">
-              エッジAIカメラ「Vieureka」を採用
+              {t("reason-1-title")}
             </p>
             <p className="mb-2 font-ud text-md text-slate-800">
-              エッジAIカメラの運用数シェアNo.1*。存在感や圧迫感を抑えたデザインで、より生活に馴染むスタイルを実現します。
+              {t("reason-1-text")}
               <br></br>
-              <span className="text-xs">
-                *ミック経済研究所“エッジAIコンピューティング市場の実態と将来展望2021年度版”エッジAIカメラのベンダシェア
-              </span>
+              <span className="text-xs">{t("reason-1-cf")}</span>
             </p>
           </div>
         </div>
@@ -39,17 +39,17 @@ export default function Footer() {
             width={1600} // Desired size with correct aspect ratio
             alt="サポート"
           />
-          <div className="p-5 border border-t-0">
+          <div className="items-stretch h-full p-5 border border-t-0">
             <p className="mb-3 text-base font-ud tracking-wide uppercase text-gray-700">
-              理由その2
+              {t("reason-2")}
             </p>
             <p className="inline-block mb-3 text-2xl leading-8 font-noto text-slate-800">
-              安心のサポート体制
+              {t("reason-2-title")}
               <br></br>
               <br></br>
             </p>
             <p className="mb-2 font-ud text-md text-slate-800">
-              カメラの管理は、私たちにお任せください。「Vieureka」の提供する遠隔監視プラットフォームで管理されているので、迅速にトラブル対応します。ほとんど全ての維持管理はビーコアが遠隔で行います。
+              {t("reason-2-text")}
             </p>
           </div>
         </div>
@@ -60,17 +60,17 @@ export default function Footer() {
             width={1600} // Desired size with correct aspect ratio
             alt="サポート"
           />
-          <div className="p-5 border border-t-0">
+          <div className="items-stretch h-full p-5 border border-t-0">
             <p className="mb-3 text-base font-ud tracking-wide uppercase text-gray-700">
-              理由その3
+              {t("reason-3")}
             </p>
             <p className="inline-block mb-3 text-2xl leading-8 font-noto text-slate-800">
-              迅速・丁寧に対応します
+              {t("reason-3-title")}
               <br></br>
               <br></br>
             </p>
             <p className="mb-2 font-ud text-md text-slate-800">
-              私たちは、さまざまなアイデアや技術を持ち寄って、プロジェクトごとに縮尺模型を作り、実験・検証を重ね、お客様の課題解決のためのコンサルティングに当たります。常にフットワークを軽く、スピーディーに対応します。
+              {t("reason-3-text")}
             </p>
           </div>
         </div>

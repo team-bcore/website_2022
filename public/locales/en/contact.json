@@ -1,0 +1,20 @@
+{
+    "title": "Contact",
+    "text-1": "You can apply for or inquire about each solution through the contact form provided here. ",
+    "text-2" :"We will contact you again via email for further communication.",
+    "form-name": "Name",
+    "form-company-name": "Company",
+    "form-email": "e-mail",
+    "form-content": "Content of inquiry",
+    "drop-down-choose": "Options",
+    "drop-down-hito": "Access Control",
+    "drop-down-mono-monitor": "Inventory Management",
+    "drop-down-ichi": "Location Management",
+    "drop-down-iphone": "Inventory Management with iPhone",
+    "drop-down-other": "Other",
+    "message": "Message",
+    "privacy-text-1": "I agree to ",
+    "privacy-text-2": " the privacy policy",
+    "privacy-text-3": "(required).",
+    "contact-button": "Submit"
+}

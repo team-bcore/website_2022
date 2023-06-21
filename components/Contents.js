@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export default function Contents() {
+  const { t } = useTranslation("contents");
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -13,10 +15,9 @@ export default function Contents() {
           CONTENTS
         </h2>
         <p className="text-base font-ud text-gray-700 md:text-lg">
-          ビーコア公式YouTubeチャンネル 『bcoreTV』
-          では、各ソリューションを動画でご覧いただけます。<br></br>
-          今回は、日産自動車様との取り組み
-          【自動車工場でのヒューマンエラーを排除する「カラービット」とiPhoneを活用したホースと継手の正常接続確認】をご紹介します。
+          {t("text-1")}
+          <br></br>
+          {t("text-2")}
         </p>
       </div>
       <div className="mx-auto lg:max-w-2xl">
