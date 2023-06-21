@@ -34,14 +34,14 @@ export default function Profile() {
             資本金
           </p>
           <p className="pt-2 font-ud text-base text-gray-700 md:text-lg sm:px-4">
-            6927万5千円
+            6965万5千円
           </p>
           <hr className="w-full my-4 border-gray-300" />
           <p className="pt-4 font-ud text-base text-gray-900 md:text-lg sm:px-4">
             事業内容
           </p>
           <p className="pt-2 font-ud text-base text-gray-700 md:text-lg sm:px-4">
-            自動認識技術の研究、開発<br></br>
+            自動認識技術及び画像処理技術の研究、開発<br></br>
             上記分野に関わる知的財産権の取得、管理とライセンス供与<br></br>
             上記分野に関わる機器およびソフトウェアの製造、販売<br></br>
             カラービット®を用いたソリューション
