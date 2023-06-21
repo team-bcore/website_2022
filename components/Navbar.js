@@ -201,14 +201,15 @@ function Navbar() {
                 </Link>
                 <Link href="/job">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                  {t('r-recruit')}{" "}
+                  {t('r-recruit')}
+                  
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      ClassNamme="-mt-1 w-4 h-4 inline-block"
+                      class="-mt-1 w-4 h-4 inline-block"
                     >
                       <path
                         strokeLinecap="round"
