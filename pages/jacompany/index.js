@@ -13,7 +13,7 @@ export async function getStaticProps({ locale }) {
         'common',
         'footer',
       ])),
-      // Will be passed to the page component as props
+      
     },
   }
 }
