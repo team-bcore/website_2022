@@ -1,4 +1,7 @@
+import { useTranslation } from "next-i18next";
+
 export default function Price() {
+  const { t } = useTranslation("hito-price");
   return (
     <div className="bg-Hito-Price bg-cover">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -29,26 +32,27 @@ export default function Price() {
           </div>
           <h2 className="mb-6 font-noto text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
             <span className="relative inline-block">
-              <span className="relative">初期費用20万円〜</span>
+              <span className="relative">{t("initial-cost")}</span>
             </span>{" "}
-            <br></br>月々の利用料 ¥50,000〜
+            <br></br>
+            {t("monthly-fee")}
           </h2>
           <p className="inline-block px-3 py-px mb-4 tracking-wider rounded-full bg-blue-600 font-ud text-base text-white md:text-lg">
-            ハードウエア基本セット
+            {t("set")}
           </p>
           <ul className="font-ud text-gray-700 md:text-md">
-            <li>カメラキット ２セット</li>
-            <li>PoEハブ １台</li>
-            <li>ネットワーク機器 応相談</li>
+            <li>{t("set-1")}</li>
+            <li>{t("set-2")}</li>
+            <li>{t("set-3")}</li>
           </ul>
           <hr className="my-8 border-gray-300" />
           <p className="inline-block px-3 py-px mb-4 tracking-wider rounded-full bg-blue-600 font-ud text-base text-white md:text-lg">
-            月々の利用料
+            {t("fee")}
           </p>
           <ul className="font-ud text-gray-700 md:text-md">
-            <li>カラービットライセンス利用料</li>
-            <li>ハードウエアレンタル</li>
-            <li>※ドア工事などは、有償にてご相談に応じます</li>
+            <li>{t("fee-text1")}</li>
+            <li>{t("fee-text2")}</li>
+            <li>{t("fee-text3")}</li>
           </ul>
         </div>
       </div>

@@ -1,0 +1,21 @@
+{
+    "sskenbi": "Saisyokukenbi Solution",
+    "feature": "Features of Access Control System",
+    "feature-text": "By implementing our access control system, unauthorized access to the premises can be prevented, and the history of entry and exit can be recorded. This ensures a secure and safe environment that is trusted by both business partners and employees.",
+    "feature-title-1": "Edge AI Camera 'Vieureka'",
+    "feature-text-1": "By adopting an Edge AI Camera, there is no need for hardware such as image processing PCs or on-premise servers. ",
+    "feature-title-2": "Touchless",
+    "feature-text-2": "No need to bring the access card close to a reader, similar to electronic tags or QR codes.",
+    "feature-title-3": "Easy maintenance",
+    "feature-text-3": "Camera replacement is sufficient in case of malfunction, and system recovery only requires reconnecting the LAN cable.",
+    "feature-title-4": "Save screenshots before and after passing through the door.",
+    "feature-text-4": "The image data captured during door passages is associated with the access control data, allowing for easy verification of the entry and exit situations.",
+    "feature-title-5": "Compatible",
+    "feature-text-5": "Integrate with existing electric locks installed on doors and perform door unlocking. The access control system can also utilize the entry and exit records in the existing attendance management system.",
+    "feature-title-6": "Real-time centralized management and data sharing",
+    "feature-text-6": "Real-time cloud integration for access data allows instant data monitoring and easy management and sharing of access and occupancy information across multiple locations.",
+    "feature-title-7": "Granular permission settings",
+    "feature-text-7": "You can assign specific attributes to each location and individual, and set granular permissions using a matrix format.",
+    "feature-title-8": "Fabric-based colorbit tags",
+    "feature-text-8": "It is possible to create various custom design tags, including fabric-based tags that can be attached to uniforms or hats."
+}

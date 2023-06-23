@@ -1,4 +1,7 @@
+import { useTranslation } from "next-i18next";
+
 export default function Hero() {
+  const { t } = useTranslation("hito-hero");
   return (
     <div className="bg-Hito-top bg-cover bg-center">
       <div className="">
@@ -6,19 +9,20 @@ export default function Hero() {
           <div className="max-w-xl mb-1 md:mx-auto sm:text-center lg:max-w-2xl md:mb-1">
             <div>
               <p className="inline-block px-3 py-px mb-4 text-base font-ud tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                彩色兼備ソリューション
+                {t("sub-title")}
               </p>
             </div>
             <h2 className="max-w-lg mb-6 font-noto text-3xl leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
               <span className="relative inline-block">
-                <span className="relative">入退室管理システム</span>
+                <span className="relative">{t("title")}</span>
               </span>{" "}
             </h2>
             <p className="font-ud text-base text-gray-800 md:text-lg">
-              カラービット入館証の検出からクラウドへのデータ送信までを<br></br>
-              全てAIカメラが自動で処理することにより入退室を管理します。
+              {t("overview-1")}
               <br></br>
-              入館証はカメラに手でかざす必要がなく、ハンズフリー通過が可能なシステムです。
+              {t("overview-2")}
+              <br></br>
+              {t("overview-3")}
             </p>
           </div>
         </div>
@@ -43,7 +47,7 @@ export default function Hero() {
               </svg>
             </div>
             <p className="font-noto tracking-wide text-sky-600">
-              エッジAIカメラ「Vieureka」を使用
+              {t("feature-1")}
             </p>
           </div>
           <div className="inline-block p-8 text-center">
@@ -63,7 +67,7 @@ export default function Hero() {
               </svg>
             </div>
             <p className="font-noto tracking-wide text-sky-600">
-              非接触型の入退室管理
+              {t("feature-2")}
             </p>
           </div>
           <div className="inline-block p-8 text-center">
@@ -83,7 +87,7 @@ export default function Hero() {
               </svg>
             </div>
             <p className="font-noto tracking-wide text-sky-600">
-              簡単な維持管理
+              {t("feature-3")}
             </p>
           </div>
         </div>

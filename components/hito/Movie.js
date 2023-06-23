@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export default function Contents() {
+  const { t } = useTranslation("hito-movie");
   return (
     <div className="bg-sky-200">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -9,16 +11,15 @@ export default function Contents() {
             NEW
           </p>
           <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-            お客様の声
+          {t("title")}
           </h2>
           <p className="text-base font-ud text-gray-700 md:text-lg">
-            株式会社 中村屋 武蔵工場 様
+          {t("company-name")}
           </p>
           <p className="pt-8 text-base font-ud text-gray-700">
-            カラービット®︎を使用した入退室管理を導入されている株式会社 中村屋
-            武蔵工場様は、主に全国の有名コンビニエンスストアで販売されている中華まんを製造されています。
+          {t("text-1")}
             <br></br>
-            武蔵工場の武川さんに、なぜ導入に至ったのか、カラービットを使ってみての感想、継続して利用されている理由などをお伺いしました。
+            {t("text-2")}
           </p>
         </div>
         <div className="mx-auto lg:max-w-2xl">
