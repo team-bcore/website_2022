@@ -20,6 +20,13 @@ export async function getStaticProps({ locale }) {
         'common',
         'cta',
         'hito-hero',
+        'hito-intro',
+        'hito-features',
+        'hito-usecase',
+        'hito-movie',
+        'hito-price',
+        'hito-face',
+        'hito-content',
       ])),
       // Will be passed to the page component as props
     },

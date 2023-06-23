@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export default function Content() {
+  const { t } = useTranslation("hito-content");
   return (
     <div className="bg-sky-300">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -10,7 +12,7 @@ export default function Content() {
             <div className="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100" />
           </h2>
           <p className="font-ud text-gray-700 lg:text-base lg:max-w-md">
-            入退室管理システムをYouTube動画やブログ記事で詳しくご紹介しています
+            {t("content")}
           </p>
         </div>
         <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-2 sm:row-gap-6 sm:grid-cols-2">
@@ -29,10 +31,10 @@ export default function Content() {
               />
               <div className="absolute inset-0 px-6 py-4 transition-op認証・ハンズacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                 <p className="mb-4 text-lg font-ud text-gray-100">
-                  画像処理によるハンズフリーの入退室管理システム
+                  {t("content-title-1")}
                 </p>
                 <p className="font-ud text-base tracking-wide text-gray-300">
-                  YouTube動画（35秒）
+                  {t("content-text-1")}
                 </p>
               </div>
             </div>
@@ -52,10 +54,10 @@ export default function Content() {
               />
               <div className="absolute inset-0 px-6 py-4 transition-opacity duration-200 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
                 <p className="mb-4 text-lg font-ud text-gray-100">
-                  入退室管理の選び方〜安心の見える化という新たなニーズ
+                  {t("content-title-2")}
                 </p>
                 <p className="font-ud text-base tracking-wide text-gray-300">
-                  noteブログ記事
+                  {t("content-text-2")}
                 </p>
               </div>
             </div>

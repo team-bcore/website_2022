@@ -1,0 +1,12 @@
+{
+    "initial-cost": "Starting from an initial cost of 200,000 yen",
+    "monthly-fee" : "Starting from a monthly usage fee of 50,000 yen",
+    "set": "Hardware basic set",
+    "set-1": "Camera kit: 2 sets",
+    "set-2": "PoE hub: 1 unit",
+    "set-3": "Network equipment: Negotiable",
+    "fee": "Monthly usage fee",
+    "fee-text1": "colorbit license usage fee",
+    "fee-text2": "Hardware rental",
+    "fee-text3": "*Door installation and other services are available for a fee, and we are open to discussing your specific needs."
+}
