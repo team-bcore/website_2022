@@ -4,6 +4,18 @@ import Navresearch from "../../../components/company/Navresearch";
 import Footer from "../../../components/Footer";
 import Head from "next/head";
 import { NextSeo } from "next-seo";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, [
+        'common',
+      ])),
+      // Will be passed to the page component as props
+    },
+  }
+}
 
 export default function Jacompany() {
   return (
