@@ -1,4 +1,7 @@
+import { useTranslation } from "next-i18next";
+
 export default function Header() {
+  const { t } = useTranslation("mono-monitoring-intro");
   return (
     <div className="">
       <div className="bg-Intro-monomonitoring bg-no-repeat bg-cover px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
@@ -26,31 +29,32 @@ export default function Header() {
             </div>
           </a>
           <h2 className="mb-4 font-noto text-slate-800 sm:text-4xl sm:leading-none">
-            今まで人が行っていた在庫管理を<br></br>
-            エッジAIカメラが管理することで現場の業務が効率化されます
+            {t("title-1")}
+            <br></br>
+            {t("title-2")}
           </h2>
           <p className="text-base font-ud text-gray-700 md:text-lg sm:px-4">
-            今までのモノ（在庫）管理は、現場を行ったり来たりしながら、モノの移動を端末で記録するといった煩雑な作業に追われる厄介な業務でした。また、置き方のルールなどの徹底も容易ではありません。
+            {t("title-text")}
           </p>
           <hr className="w-full my-8 border-gray-300" />
           <p className="my-8 text-base font-noto text-slate-800 md:text-xl sm:px-4">
-            在庫管理でこんなお悩みありませんか？
+            {t("issue-title")}
           </p>
           <ul className="list-none selection:">
             <li className="text-base font-ud text-slate-800 md:text-lg sm:px-4">
-              行ったり来たりでヘトヘト
+              {t("issue-tetx-1")}
             </li>
             <li className="text-base font-ud text-slate-800 md:text-lg sm:px-4">
-              端末操作で肩首ガチガチ
+              {t("issue-tetx-2")}
             </li>
             <li className="text-base font-ud text-slate-800 md:text-lg sm:px-4">
-              入庫・出庫の把握にオロオロ
+              {t("issue-tetx-3")}
             </li>
             <li className="text-base font-ud text-slate-800 md:text-lg sm:px-4">
-              ヒューマンエラーにイライラ
+              {t("issue-tetx-4")}
             </li>
             <li className="text-base font-ud text-slate-800 md:text-lg sm:px-4">
-              ルールが多くて頭がチクチク
+              {t("issue-tetx-5")}
             </li>
           </ul>
         </div>

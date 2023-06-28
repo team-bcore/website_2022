@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export default function Features3() {
+  const { t } = useTranslation("mono-monitoring-features3");
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-10 lg:grid-cols-2">
@@ -20,12 +22,12 @@ export default function Features3() {
             </div>
           </a>
           <h5 className="mb-4 text-3xl font-noto leading-none text-slate-800">
-            ハードウエアのメンテナンスは必要ありません
+            {t("title")}
           </h5>
           <p className="mb-6 text-gray-900 font-ud">
-            面倒なカメラの状態とログのチェック・死活監視はビーコアにお任せください。
+            {t("text-1")}
             <br></br>
-            エンドユーザー様の手を煩わせることなくシステムをご利用できます。
+            {t("text-2")}
           </p>
           <hr className="mb-5 border-gray-300" />
         </div>

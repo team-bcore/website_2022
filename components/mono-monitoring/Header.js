@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export default function Header() {
+  const { t } = useTranslation("mono-monitoring-header");
   return (
     <div className="bg-hero-monomonitoring bg-no-repeat bg-cover relative flex flex-col-reverse px-4 py-24 mx-auto lg:block lg:flex-col lg:py-32 xl:py-40 2xl:py-64 md:px-8 sm:max-w-xl md:max-w-full">
       <div className="z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-0 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center">
@@ -17,18 +19,18 @@ export default function Header() {
           <div className="max-w-xl mb-6">
             <div>
               <p className="inline-block px-3 py-px mb-4 text-base font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                彩色兼備ソリューション
+                {t("sub-title")}
               </p>
             </div>
             <h2 className="max-w-lg mb-6 text-4xl font-noto text-slate-800 sm:text-4xl sm:leading-none">
-              モノ常時管理システム
+              {t("title")}
             </h2>
             <p className="text-base text-gray-800 font-ud md:text-lg">
-              エッジAIカメラがモノ（在庫）を24時間365日見まもることで、人の手に頼らない
+              {t("overview-1")}
               <span className="text-indigo-500 underline decoration-slate-800">
-                在庫管理の自動化
+                {t("overview-2")}
               </span>
-              が実現できます。
+              {t("overview-3")}
             </p>
           </div>
         </div>

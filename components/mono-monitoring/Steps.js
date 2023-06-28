@@ -1,9 +1,12 @@
+import { useTranslation } from "next-i18next";
+
 export default function Steps() {
+  const { t } = useTranslation("mono-monitoring-steps");
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid max-w-2xl mx-auto">
         <h2 className="mb-4 font-noto text-slate-800 sm:text-4xl sm:leading-none">
-          システム導入までのステップ
+          {t("title")}
         </h2>
         <div className="flex">
           <div className="flex flex-col items-center mr-6">
@@ -41,9 +44,9 @@ export default function Steps() {
               </div>
             </div>
             <div>
-              <p className="text-xl font-ud sm:text-base">ご依頼</p>
+              <p className="text-xl font-ud sm:text-base">{t("step-1")}</p>
               <p className="text-sm font-ud text-gray-700">
-                お問い合わせフォームよりご依頼ください。
+                {t("step-1-text")}
               </p>
             </div>
           </div>
@@ -84,9 +87,9 @@ export default function Steps() {
               </div>
             </div>
             <div>
-              <p className="text-xl font-ud sm:text-base">ヒアリング</p>
+              <p className="text-xl font-ud sm:text-base">{t("step-2")}</p>
               <p className="text-sm font-ud text-gray-700">
-                導入の目的や用途をお聞きするとともに、導入先の設置レイアウトなどを確認します。
+                {t("step-2-text")}
               </p>
             </div>
           </div>
@@ -128,11 +131,9 @@ export default function Steps() {
               </div>
             </div>
             <div>
-              <p className="text-xl font-ud sm:text-base">
-                概算見積もり・詳細仕様の検討
-              </p>
+              <p className="text-xl font-ud sm:text-base">{t("step-3")}</p>
               <p className="text-sm font-ud text-gray-700">
-                システム導入にあたっての予算化を行い、現地での簡易検証を行います。
+                {t("step-3-text")}
               </p>
             </div>
           </div>
@@ -174,9 +175,9 @@ export default function Steps() {
               </div>
             </div>
             <div>
-              <p className="text-xl font-ud sm:text-base">正式見積もり</p>
+              <p className="text-xl font-ud sm:text-base">{t("step-4")}</p>
               <p className="text-sm font-ud text-gray-700">
-                システムの導入・設置に向けて、正式な発注をいただきます。
+                {t("step-4-text")}
               </p>
             </div>
           </div>
@@ -218,9 +219,9 @@ export default function Steps() {
               </div>
             </div>
             <div>
-              <p className="text-xl font-ud sm:text-base">ご利用開始</p>
+              <p className="text-xl font-ud sm:text-base">{t("step-5")}</p>
               <p className="text-sm font-ud text-gray-700">
-                システムの動作確認を経て、現地調査から最短で１ヶ月程度で導入可能です。
+                {t("step-5-text")}
               </p>
             </div>
           </div>

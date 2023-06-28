@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export default function Features1() {
+  const { t } = useTranslation("mono-monitoring-features1");
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-10 lg:grid-cols-2">
@@ -20,12 +22,12 @@ export default function Features1() {
             </div>
           </a>
           <h5 className="mb-4 text-3xl font-noto leading-none text-slate-800">
-            入庫から出庫までの記録が全て自動化されるので、在庫管理が一括でできます
+            {t("title")}
           </h5>
           <p className="mb-6 text-gray-900 font-ud">
-            置き方のルールに縛られることなく、空いているスペースにモノを置くだけでカメラがしっかりと記録します。
+            {t("text-1")}
             <br></br>
-            作業員はピッキング作業以外のことを意識しなくても良くなり、現場に慣れていないスタッフでも、在庫管理業務ができるのでスムーズに作業を進めることができます
+            {t("text-2")}
           </p>
           <hr className="mb-5 border-gray-300" />
         </div>

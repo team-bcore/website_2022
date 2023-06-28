@@ -20,6 +20,15 @@ export async function getStaticProps({ locale }) {
       ...(await serverSideTranslations(locale, [
         'common',
         'cta',
+        'mono-monitoring-header',
+        'mono-monitoring-intro',
+        'mono-monitoring-propose',
+        'mono-monitoring-overview',
+        'mono-monitoring-features1',
+        'mono-monitoring-features2',
+        'mono-monitoring-features3',
+        'mono-monitoring-steps',
+        'mono-monitoring-content',
       ])),
       // Will be passed to the page component as props
     },
