@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export default function Features2() {
+  const { t } = useTranslation("mono-monitoring-features2");
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="grid gap-10 lg:grid-cols-2">
@@ -29,12 +31,12 @@ export default function Features2() {
             </div>
           </a>
           <h5 className="mb-4 text-3xl font-noto leading-none text-slate-800">
-            モノの場所・移動を管理画面でリアルタイムにチェックできるので、大幅な時間短縮につながります
+            {t("title")}
           </h5>
           <p className="mb-6 text-gray-900 font-ud">
-            モノの場所・移動の把握は管理画面でチェックできます。入庫・取り出し・移動の情報をリアルタイムに記録し、クラウドで共有します。
+            {t("text-1")}
             <br></br>
-            探し物があった場合も、管理画面で確認してから取りに行けるので、大幅な時間短縮になります。
+            {t("text-2")}
           </p>
           <hr className="mb-5 border-gray-300" />
         </div>
