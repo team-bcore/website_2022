@@ -73,7 +73,7 @@ export default function Introduction() {
         <p className="pt-4 font-ud text-base text-gray-700 md:text-lg sm:px-4">
           認定個人情報保護団体の名称および苦情の解決の申し出先<br></br>
           【名称】　一般財団法人 日本情報経済社会推進協会<br></br>
-          【苦情の解決の申し出先】　個人情報保護苦情相談室（一般財団法人
+          【苦情の解決の申し出先】　認定個人情報保護団体事務局（一般財団法人
           日本情報経済社会推進協会内）<br></br>
           【住所】 〒106-0032<br></br>
           東京都港区六本木一丁目9番9号 六本木ファーストビル内<br></br>
