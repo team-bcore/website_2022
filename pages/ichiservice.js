@@ -20,6 +20,15 @@ export async function getStaticProps({ locale }) {
       ...(await serverSideTranslations(locale, [
         'common',
         'cta',
+        'ichi-hero',
+        'ichi-intro',
+        'ichi-merit',
+        'ichi-features1',
+        'ichi-features2',
+        'ichi-features3',
+        'ichi-features4',
+        'ichi-tool',
+        'ichi-usecase'
       ])),
       // Will be passed to the page component as props
     },

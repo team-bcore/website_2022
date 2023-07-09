@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export default function Hero() {
+  const { t } = useTranslation("ichi-hero");
   return (
     <div className="bg-hero-ichi bg-no-repeat bg-cover relative flex flex-col-reverse px-4 py-24 mx-auto lg:block lg:flex-col lg:py-32 xl:py-40 2xl:py-64 md:px-8 sm:max-w-xl md:max-w-full">
       <div className="z-0 flex justify-center h-full -mx-4 overflow-hidden lg:pt-24 lg:pb-16 lg:pr-8 xl:pr-0 lg:w-1/2 lg:absolute lg:justify-end lg:bottom-0 lg:left-0 lg:items-center">
@@ -17,19 +19,20 @@ export default function Hero() {
           <div className="max-w-xl mb-6">
             <div>
               <p className="inline-block px-3 py-px mb-4 text-base font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                彩色兼備ソリューション
+                {t("sub-title")}
               </p>
             </div>
             <h2 className="max-w-lg mb-6 text-4xl font-noto text-slate-900 sm:text-4xl sm:leading-none">
-              位置管理システム
+              {t("title")}
             </h2>
             <p className="text-base text-gray-900 font-ud md:text-lg">
-              エッジAIカメラが工場・倉庫などの大空間での<br></br>
+              {t("text-1")}
+              <br></br>
               <span className="text-indigo-600 underline decoration-slate-900">
-                ヒト・モノを24時間365日見守り、可視化することで
+                {t("text-2")}
               </span>
               <br></br>
-              従来の業務の最適化を容易にし、効率的な業務改革に繋げることができます。
+              {t("text-3")}
             </p>
           </div>
         </div>

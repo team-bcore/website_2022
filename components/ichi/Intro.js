@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export default function Intro() {
+  const { t } = useTranslation("ichi-intro");
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
       <div className="max-w-screen-sm sm:text-center sm:mx-auto">
@@ -28,34 +30,34 @@ export default function Intro() {
           </div>
         </div>
         <h2 className="mb-4 font-noto text-slate-800 sm:text-4xl sm:leading-none">
-          工場、倉庫などの大空間で<br></br>
-          ヒト・モノを見える化し、作業効率の改善を促進します
+          {t("title-1")}
+          <br></br>
+          {t("title-2")}
         </h2>
         <p className="text-base font-ud text-gray-700 md:text-lg sm:px-4">
-          工場、倉庫などの広い空間を複数のIoTカメラで監視します。<br></br>
-          測位に電波は使わず、画像処理技術だけで、位置情報のマッピングが行えます。
-          誤差数センチの位置精度で工場や倉庫内のモノ・ヒトの所在を可視化し、
-          無駄や課題が見える化されることで、最適化や作業効率の改善がとても簡単になります。
+          {t("text-1")}
+          <br></br>
+          {t("text-2")}
         </p>
         <hr className="w-full my-8 border-gray-300" />
         <p className="my-8 text-base font-noto text-slate-800 md:text-xl sm:px-4">
-          お困りではないですか？
+          {t("challenge-title")}
         </p>
         <ul className="list-none selection:">
           <li className="text-base font-ud text-slate-800 md:text-lg sm:px-4">
-            「どこ」に「なに」が「いくつ」あるのか分からない
+            {t("challenge-1")}
           </li>
           <li className="text-base font-ud text-slate-800 md:text-lg sm:px-4">
-            「いつ」そのエリアに置いたか分からない
+            {t("challenge-2")}
           </li>
           <li className="text-base font-ud text-slate-800 md:text-lg sm:px-4">
-            状況を確認するために、作業員が広い敷地を行ったり来たり
+            {t("challenge-3")}
           </li>
           <li className="text-base font-ud text-slate-800 md:text-lg sm:px-4">
-            欲しいモノがなかなか見つからず、徘徊してしまう
+            {t("challenge-4")}
           </li>
           <li className="text-base font-ud text-slate-800 md:text-lg sm:px-4">
-            「ある」はずの場所に「ない」
+            {t("challenge-5")}
           </li>
         </ul>
         <div className="">

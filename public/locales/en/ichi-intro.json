@@ -1,0 +1,12 @@
+{
+    "title-1": "Visualization of Human and Object Presence in Large Spaces ",
+    "title-2": "like Factories and Warehouses to Improve Work Efficiency",
+    "text-1": "Our system utilizes multiple IoT cameras to monitor wide spaces such as factories and warehouses, enabling the visualization of the presence of humans and objects. ",
+    "text-2": "By employing image processing technology instead of radio waves for positioning, we can map the location information accurately within a few centimeters of error. This visualization of the whereabouts of objects and people within the factory or warehouse, along with the identification of inefficiencies and challenges, simplifies optimization and work efficiency improvements.",
+    "challenge-title": "Are you facing any of these challenges?",
+    "challenge-1": "Not knowing 'where' and 'how many' objects are located.",
+    "challenge-2": "Being unaware of when an object was placed in a specific area.",
+    "challenge-3": "Workers frequently moving around the premises to check the situation.",
+    "challenge-4": "Difficulties in finding desired objects, resulting in wandering.",
+    "challenge-5": "Objects being 'missing' from their expected locations."
+}
