@@ -1,0 +1,8 @@
+{
+    "title": "Regarding the IoT cameras used and compatible tools:",
+    "tool-1": "The Edge AI camera 'Vieureka' ",
+    "tool-1-textA": "We use the Edge AI camera 'Vieureka'",
+    "tool-1-textB": "This camera eliminates the need for an image analysis server, making it easy to expand the system by simply adding more cameras.",
+    "tool-2": "MOTION BOARD",
+    "tool-2-text": "Our system is compatible with 'MotionBoard', a Business Intelligence (BI) tool provided by WingArc1st Inc. This integration allows for data visualization, enabling clear and shared information among users."
+}

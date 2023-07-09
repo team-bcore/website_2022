@@ -1,12 +1,14 @@
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export default function Tool() {
+  const { t } = useTranslation("ichi-tool");
   return (
     <div className="bg-Tool-ichi bg-no-repeat bg-cover">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <h2 className="text-center max-w-lg mb-6 font-noto text-3xl font-bold leading-none tracking-tight text-slate-800 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
-            使用するIoTカメラ・対応可能なツールについて
+            {t("title")}
             <span className="relative"></span>
           </span>{" "}
         </h2>
@@ -24,12 +26,12 @@ export default function Tool() {
             </div>
             <div className="px-6 py-8 border border-t-0 rounded-b sm:px-8">
               <h5 className="mb-2 text-xl font-ud leading-none sm:text-2xl">
-                エッジAIカメラ「Vieureka」
+                {t("tool-1")}
               </h5>
               <p className="mb-5 font-ud text-gray-700">
-                エッジAIカメラ「Vieureka」を使用しています。
+                {t("tool-1-textA")}
                 <br></br>
-                画像解析サーバーが不要なので、カメラの追加で簡単に増設できます。
+                {t("tool-1-textB")}
               </p>
               <a href="https://www.vieureka.com/">
                 <p className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-400 hover:bg-gray-400 focus:shadow-outline focus:outline-none">
@@ -51,12 +53,9 @@ export default function Tool() {
             </div>
             <div className="px-6 py-8 border border-t-0 rounded-b sm:px-8">
               <h5 className="mb-2 text-xl font-ud leading-none sm:text-2xl">
-                MOTION BOARD
+                {t("tool-2")}
               </h5>
-              <p className="mb-5 font-ud text-gray-700">
-                ウイングアーク1st株式会社の提供するBIツール「MotionBoard」に対応。
-                データを可視化してよりわかりやすく情報を共有できます。
-              </p>
+              <p className="mb-5 font-ud text-gray-700">{t("tool-2-text")}</p>
               <a href="https://www.wingarc.com/product/motionboard/">
                 <p className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-400 hover:bg-gray-400 focus:shadow-outline focus:outline-none">
                   Read more

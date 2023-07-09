@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export default function Merit() {
+  const { t } = useTranslation("ichi-merit");
   return (
     <div className="bg-gray-100">
       <div className="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -42,7 +44,7 @@ export default function Merit() {
         </div>
         <h2 className="text-center max-w-lg mb-6 font-noto text-3xl font-bold leading-none tracking-tight text-slate-800 sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
-            彩色兼備 位置管理システムができること
+            {t("title")}
             <span className="relative"></span>
           </span>{" "}
         </h2>
@@ -64,9 +66,9 @@ export default function Merit() {
                   />
                 </svg>
               </div>
-              <p className="mb-2 font-noto text-xl">常時監視</p>
+              <p className="mb-2 font-noto text-xl">{t("merit-1")}</p>
               <p className="font-ud text-base leading-5 text-gray-900">
-                24時間365日IoTカメラがエリアを見守るので、現場の作業員の負担を大幅に軽減できます。
+                {t("merit-1-text")}
               </p>
             </div>
             <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
@@ -88,9 +90,9 @@ export default function Merit() {
                   />
                 </svg>
               </div>
-              <p className="mb-2 font-noto text-xl">リアルタイムに見える化</p>
+              <p className="mb-2 font-noto text-xl">{t("merit-2")}</p>
               <p className="font-ud text-base leading-5 text-gray-900">
-                リアルタイムに各エリアの状況を見える化するので、最新の状況がチェックできます。
+                {t("merit-2-text")}
               </p>
             </div>
             <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
@@ -112,9 +114,9 @@ export default function Merit() {
                   />
                 </svg>
               </div>
-              <p className="mb-2 font-noto text-xl">集中管理</p>
+              <p className="mb-2 font-noto text-xl">{t("merit-3")}</p>
               <p className="font-ud text-base leading-5 text-gray-900">
-                最新の状況はどこからでもチェック可能。複数のエリアを集中管理できます。
+                {t("merit-3-text")}
               </p>
             </div>
             <div className="w-full h-1 ml-auto duration-300 origin-left transform scale-x-0 bg-deep-purple-accent-400 group-hover:scale-x-100" />
@@ -136,9 +138,9 @@ export default function Merit() {
                   />
                 </svg>
               </div>
-              <p className="mb-2 font-noto text-xl">高精度な位置測位</p>
+              <p className="mb-2 font-noto text-xl">{t("merit-4")}</p>
               <p className="font-ud text-base leading-5 text-gray-900">
-                周辺環境の影響を受けにくいので広い空間でも数センチの範囲で測位を実現できます。
+                {t("merit-4-text")}
               </p>
             </div>
           </div>

@@ -1,0 +1,8 @@
+{
+    "title": "使用するIoTカメラ・対応可能なツールについて",
+    "tool-1": "エッジAIカメラ「Vieureka」",
+    "tool-1-textA": "エッジAIカメラ「Vieureka」を使用しています。",
+    "tool-1-textB": "画像解析サーバーが不要なので、カメラの追加で簡単に増設できます。",
+    "tool-2": "MOTION BOARD",
+    "tool-2-text": "ウイングアーク1st株式会社の提供するBIツール「MotionBoard」に対応。データを可視化してよりわかりやすく情報を共有できます。"
+}
