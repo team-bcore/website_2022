@@ -6,7 +6,7 @@ export default function Introduction() {
           スタッフ紹介
         </h2>
         <p className="font-noto text-gray-900 text-2xl sm:px-4">
-          水野 廉郎　Yasuro Mizuno
+          水野 廉郎
         </p>
         <p className="pt-4 font-noto text-base text-gray-900 md:text-lg sm:px-4">
           肩書

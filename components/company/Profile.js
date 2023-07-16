@@ -1,72 +1,73 @@
-import Image from "next/image";
+import { useTranslation } from "next-i18next";
 
 export default function Profile() {
+  const { t } = useTranslation("company-plofile");
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-40">
       <div className="max-w-screen-sm sm:text-center sm:mx-auto">
         <h2 className="mb-8 text-3xl font-noto tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-          会社概要
+        {t("title")}
         </h2>
         <hr className="w-full my-8 border-gray-300" />
         <div className="text-left">
           <p className="pt-4 font-ud text-base text-gray-900 md:text-lg sm:px-4">
-            会社名
+          {t("name-title")}
           </p>
           <p className="pt-2 font-ud text-base text-gray-700 md:text-lg sm:px-4">
-            ビーコア株式会社
+          {t("name")}
           </p>
           <hr className="w-full my-4 border-gray-300" />
           <p className="pt-4 font-ud text-base text-gray-900 md:text-lg sm:px-4">
-            所在地
+          {t("address-title")}
           </p>
           <p className="pt-2 font-ud text-base text-gray-700 md:text-lg sm:px-4">
-            東京都千代田区西神田2-5-6 中西ビル７階
+          {t("address")}
           </p>
           <hr className="w-full my-4 border-gray-300" />
           <p className="pt-4 font-ud text-base text-gray-900 md:text-lg sm:px-4">
-            設立
+          {t("establish-title")}
           </p>
           <p className="pt-2 font-ud text-base text-gray-700 md:text-lg sm:px-4">
-            平成18年（2006年）4月21日
+          {t("establish")}
           </p>
           <hr className="w-full my-4 border-gray-300" />
           <p className="pt-4 font-ud text-base text-gray-900 md:text-lg sm:px-4">
-            資本金
+          {t("capital-title")}
           </p>
           <p className="pt-2 font-ud text-base text-gray-700 md:text-lg sm:px-4">
-            6965万円
+          {t("capital")}
           </p>
           <hr className="w-full my-4 border-gray-300" />
           <p className="pt-4 font-ud text-base text-gray-900 md:text-lg sm:px-4">
-            事業内容
+          {t("business-title")}
           </p>
           <p className="pt-2 font-ud text-base text-gray-700 md:text-lg sm:px-4">
-            自動認識技術及び画像処理技術の研究、開発<br></br>
-            上記分野に関わる知的財産権の取得、管理とライセンス供与<br></br>
-            上記分野に関わる機器およびソフトウェアの製造、販売<br></br>
-            カラービット®を用いたソリューション
+          {t("business-1")}<br></br>
+          {t("business-2")} <br></br>
+          {t("business-3")}<br></br>
+          {t("business-4")}
           </p>
           <hr className="w-full my-4 border-gray-300" />
           <p className="pt-4 font-ud text-base text-gray-900 md:text-lg sm:px-4">
-            事業主要取引先
+          {t("client-title")}
           </p>
           <p className="pt-2 font-ud text-base text-gray-700 md:text-lg sm:px-4">
-            OKIクロステック株式会社<br></br>五洋建設株式会社<br></br>
-            株式会社サトー<br></br>スリーエム ジャパン株式会社<br></br>
-            大日本印刷株式会社<br></br>
-            東芝システムテクノロジー株式会社<br></br>株式会社トーショー<br></br>
-            豊田通商株式会社<br></br>
-            日産自動車株式会社<br></br>
-            日鉄ソリューションズ株式会社<br></br>任天堂株式会社<br></br>
-            パナソニック株式会社<br></br>
-            株式会社日立プラントコンストラクション<br></br>（50音順 敬称略）
+          {t("client-1")}<br></br>{t("client-2")}<br></br>
+          {t("client-3")}<br></br>{t("client-4")}<br></br>
+          {t("client-5")} <br></br>
+          {t("client-6")}<br></br>{t("client-7")}<br></br>
+          {t("client-8")} <br></br>
+          {t("client-9")} <br></br>
+          {t("client-10")}<br></br>{t("client-11")}<br></br>
+          {t("client-12")}<br></br>
+          {t("client-13")} <br></br>{t("kei-syouryaku")} 
           </p>
           <hr className="w-full my-4 border-gray-300" />
           <p className="pt-4 font-ud text-base text-gray-900 md:text-lg sm:px-4">
-            取引銀行
+          {t("bank-title")}
           </p>
           <p className="pt-2 font-ud text-base text-gray-700 md:text-lg sm:px-4">
-            みずほ銀行 九段支店<br></br>朝日信用金庫 神田小川町支店
+          {t("bank-1")}<br></br>{t("bank-2")}
           </p>
           <hr className="w-full my-4 border-gray-300" />
         </div>
