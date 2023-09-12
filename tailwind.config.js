@@ -38,6 +38,7 @@ module.exports = {
         "Job-system-hero": "url('/images/Job/system.png')",
         "Job-privacy-hero": "url('/images/Job/sky.png')",
         "Job-application-hero": "url('/images/Job/application-hero.png')",
+        "sixdof-top-bg": "url('/images/Sixdof/6DOf-image2.png')"
       },
     },
   },
