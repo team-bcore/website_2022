@@ -61,7 +61,8 @@ export default function Sixdof() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Navbar />
-        <Hero />    
+        <Hero />   
+        <Sixdofimage /> 
         <Intro />
         <Colorbit2 />
         <Cta />
