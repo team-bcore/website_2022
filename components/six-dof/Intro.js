@@ -7,7 +7,7 @@ export default function Intro() {
             <span className="relative inline-block">
               <span className="relative"></span>
             </span>{" "}
-            カラービット®️が印刷されたタグ（標識）をAIカメラが読み取ることで移動体の位置測位をします
+            カラービット®︎が印刷されたタグ（標識）をAIカメラが読み取ることで移動体の位置測位をします
           </h2>
           <p className="font-ud text-lg text-gray-100 md:text-lg">
             彩色兼備6DoFは、AIカメラ内で姿勢計算を行うことで、移動体の自己位置計測を行う技術です。電波や超音波を利用した技術では難しい、数センチの誤差での高精度な移動体の位置測位を実現できます。

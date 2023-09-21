@@ -8,7 +8,7 @@ export default function Intro() {
           <div className="lg:pr-10">
             <div className="flex items-center justify-center w-12 h-12 rounded-full bg-orange-500"></div>
             <h5 className="pt-8 mb-4 text-4xl font-noto leading-none text-gray-100">
-              カラービット®️
+              カラービット®︎
             </h5>
             <p className="mb-6 text-gray-100 font-ud">
               カラービットとは、ビーコア株式会社が独自に開発した自動認識コードです。バーコードやQRコードと比較すると、歪みに強く、悪条件でも均質に読み取りすることができます。また複数のコードの同時一括読み取り性能にも優れています。
