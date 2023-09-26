@@ -5,6 +5,7 @@ import Hero from "/components/six-dof/Hero";
 import Sixdofimage from "/components/six-dof/Sixdofimage";
 import Intro from "/components/six-dof/Intro";
 import Colorbit2 from "/components/six-dof/Colorbit2";
+import Content from "/components/six-dof/Content";
 import Cta from "../components/Cta";
 import Footer from "../components/Footer";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -65,6 +66,7 @@ export default function Sixdof() {
         <Sixdofimage /> 
         <Intro />
         <Colorbit2 />
+        <Content />
         <Cta />
         <Footer />
       </>
