@@ -41,6 +41,7 @@ module.exports = {
         "sixdof-top-bg": "url('/images/Sixdof/top-6dof.png')",
         "sixdof-colorbit-bg": "url('/images/Home/colorbit.png')",
         "sixdof-vrk-bg": "url('/images/Sixdof/6dof-website.png')",
+        "sixdof-content-bg": "url('/images/Sixdof/sixdof-white.png')",
       },
     },
   },
