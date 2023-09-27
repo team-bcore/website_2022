@@ -38,9 +38,41 @@ module.exports = {
         "Job-system-hero": "url('/images/Job/system.png')",
         "Job-privacy-hero": "url('/images/Job/sky.png')",
         "Job-application-hero": "url('/images/Job/application-hero.png')",
-        "sixdof-top-bg": "url('/images/Sixdof/6DOf-image2.png')"
+        "sixdof-top-bg": "url('/images/Sixdof/top-6dof.png')",
+        "sixdof-colorbit-bg": "url('/images/Home/colorbit.png')",
+        "sixdof-vrk-bg": "url('/images/Sixdof/6dof-website.png')",
+        "sixdof-content-bg": "url('/images/Sixdof/sixdof-white.png')",
       },
+      animation: {
+        "fade-in-bottom":
+          "fade-in-bottom 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000)   both",
+        "fade-in-bottom2":
+          "fade-in-bottom 2.2s cubic-bezier(0.390, 0.575, 0.565, 1.000)   both",
+      },
+      keyframes: {
+        "fade-in-bottom": {
+          "0%": {
+            transform: "translateY(50px)",
+            opacity: "0",
+          },
+          to: {
+            transform: "translateY(0)",
+            opacity: "1",
+          },
+
+          "fade-in-bottom2": {
+            "0%": {
+              transform: "translateY(50px)",
+              opacity: "0",
+            },
+            to: {
+              transform: "translateY(0)",
+              opacity: "1",
+            },
+          },
+        },
+      },
+      plugins: [require("@tailwindcss/typography")],
     },
   },
-  plugins: [require("@tailwindcss/typography")],
 };

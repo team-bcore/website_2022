@@ -48,11 +48,16 @@ function Navbar() {
                     {t('ichi')}
                     </a>
                   </Link>
-                  <Link href="/mono">
+                  <Link href="/sixdof">
+                    <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
+                    {t('sixdof')}
+                    </a>
+                  </Link>
+                  {/* <Link href="/mono">
                     <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
                     {t('iphone-mono')}
                     </a>
-                  </Link>
+                  </Link> */}
                   <Link href="https://www.mitsushiru.tech/">
                     <a className="cursor-pointer font-ud text-md text-slate-800 hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium">
                     {t('mitsu')}
@@ -174,9 +179,9 @@ function Navbar() {
                   {t('r-ichi')}
                   </a>
                 </Link>
-                <Link href="/mono">
+                <Link href="/sixdof">
                   <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
-                  {t('r-iphone-mono')}
+                  {t('r-sixdof')}
                   </a>
                 </Link>
                 <a href="https://www.mitsushiru.tech/">

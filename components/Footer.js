@@ -75,6 +75,11 @@ export default function Footer() {
                     </p>
                   </a>
                 </li>
+                <li className="font-ud text-md text-slate-800">
+                  <Link href="/sixdof">
+                    <a>{t("sixdof")}</a>
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>

@@ -5,6 +5,7 @@ import Hero from "/components/six-dof/Hero";
 import Sixdofimage from "/components/six-dof/Sixdofimage";
 import Intro from "/components/six-dof/Intro";
 import Colorbit2 from "/components/six-dof/Colorbit2";
+import Content from "/components/six-dof/Content";
 import Cta from "../components/Cta";
 import Footer from "../components/Footer";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -35,17 +36,17 @@ export default function Sixdof() {
             description: "彩色兼備 6Dof",
             images: [
               {
-                url: "https://bcore.biz/images/SEO/privacy-card.png",
+                url: "https://bcore.biz/images/SEO/sixdof.png",
                 width: 800,
                 height: 600,
-                alt: "プライバシーポリシーイメージ",
+                alt: "彩色兼備6Dofイメージ",
                 type: "image/png",
               },
               {
-                url: "https://bcore.biz/images/SEO/privacy-card.png",
+                url: "https://bcore.biz/images/SEO/sixdof.png",
                 width: 900,
                 height: 800,
-                alt: "プライバシーポリシーイメージ",
+                alt: "彩色兼備6Dofイメージ",
                 type: "large_image/png",
               },
             ],
@@ -61,9 +62,11 @@ export default function Sixdof() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <Navbar />
-        <Hero />    
+        <Hero />   
+        <Sixdofimage /> 
         <Intro />
         <Colorbit2 />
+        <Content />
         <Cta />
         <Footer />
       </>

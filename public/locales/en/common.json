@@ -26,6 +26,9 @@
         "about-us": "About us",
         "company": "Company",
         "privacy-policy": "Privacy policy",
-        "services": "Servises"
+        "services": "Servises",
+        "sixdof": "6Dof",
+        "r-sixdof": "6Dof"
+
 
 }
