@@ -36,17 +36,17 @@ export default function Sixdof() {
             description: "彩色兼備 6Dof",
             images: [
               {
-                url: "https://bcore.biz/images/SEO/privacy-card.png",
+                url: "https://bcore.biz/images/SEO/sixdof.png",
                 width: 800,
                 height: 600,
-                alt: "プライバシーポリシーイメージ",
+                alt: "彩色兼備6Dofイメージ",
                 type: "image/png",
               },
               {
-                url: "https://bcore.biz/images/SEO/privacy-card.png",
+                url: "https://bcore.biz/images/SEO/sixdof.png",
                 width: 900,
                 height: 800,
-                alt: "プライバシーポリシーイメージ",
+                alt: "彩色兼備6Dofイメージ",
                 type: "large_image/png",
               },
             ],
