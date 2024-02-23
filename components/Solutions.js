@@ -160,7 +160,7 @@ export default function Solutions() {
                     clip-rule="evenodd"
                   />
                 </svg>
-                {t("solution-2-button")}
+                {t("solution-3-button")}
               </a>
             </Link>
           </div>
