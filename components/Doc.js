@@ -102,6 +102,25 @@ export default function Doc() {
               </svg>
             </p>
           </a>
+          <a href="https://drive.google.com/uc?export=download&id=1hHRdQJI74pJ2z68Qfprhj7oAjrE2hU8A">
+            <p className="pt-2 font-ud text-base text-gray-700 hover:text-cyan-600 md:text-lg sm:px-4">
+              彩色兼備 ヒト6DoFリーフレット
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 inline-block"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                />
+              </svg>
+            </p>
+          </a>
           <a href="https://drive.google.com/uc?export=download&id=1J8AIFw4nJoX3mFjAD58V_Jp8a4xQHjS9">
             <p className="pt-2 font-ud text-base text-gray-700 hover:text-cyan-600 md:text-lg sm:px-4">
               彩色兼備 モノ常時管理システムリーフレット
