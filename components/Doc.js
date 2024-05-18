@@ -102,7 +102,7 @@ export default function Doc() {
               </svg>
             </p>
           </a>
-          <a href="https://drive.google.com/uc?export=download&id=1hHRdQJI74pJ2z68Qfprhj7oAjrE2hU8A">
+          <a href="https://drive.google.com/uc?export=download&id=1XCQcsV9iCPJBd7PU46i-HFnqXPht8zzF">
             <p className="pt-2 font-ud text-base text-gray-700 hover:text-cyan-600 md:text-lg sm:px-4">
               彩色兼備 ヒト6DoFリーフレット
               <svg
