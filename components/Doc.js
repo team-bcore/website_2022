@@ -104,7 +104,7 @@ export default function Doc() {
           </a>
           <a href="https://drive.google.com/uc?export=download&id=1hHRdQJI74pJ2z68Qfprhj7oAjrE2hU8A">
             <p className="pt-2 font-ud text-base text-gray-700 hover:text-cyan-600 md:text-lg sm:px-4">
-              彩色兼備 ヒト6DoFリーフレット
+              彩色兼備 ヒ6DoFリーフレット
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 inline-block"
