@@ -104,7 +104,7 @@ export default function Doc() {
           </a>
           <a href="https://drive.google.com/uc?export=download&id=1hHRdQJI74pJ2z68Qfprhj7oAjrE2hU8A">
             <p className="pt-2 font-ud text-base text-gray-700 hover:text-cyan-600 md:text-lg sm:px-4">
-              彩色兼備 ヒ6DoFリーフレット
+              彩色兼備 ヒト6DoFリーフレット
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 inline-block"
@@ -162,6 +162,25 @@ export default function Doc() {
           <a href="https://drive.google.com/uc?export=download&id=1_jdhvH-iUOIXtLpicnYUXV4H1Ex9i_rQ">
             <p className="pt-2 font-ud text-base text-gray-700 hover:text-cyan-600 md:text-lg sm:px-4">
               彩色兼備 入退室管理システムリーフレット
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6 inline-block"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                />
+              </svg>
+            </p>
+          </a>
+        <a href="https://drive.google.com/uc?export=download&id=1qlSPNbhiPNG8UuEu1sD_l4JwAJ2o5Kyo">
+            <p className="pt-2 font-ud text-base text-gray-700 hover:text-cyan-600 md:text-lg sm:px-4">
+              彩色兼備 入退室管理システムリーフレット（HACCP）
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-6 w-6 inline-block"
