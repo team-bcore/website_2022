@@ -4,7 +4,7 @@ import { useTranslation } from "next-i18next";
 export default function Solutions() {
   const { t } = useTranslation("solutions");
   return (
-    <div className="bg-Home-bg bg-cover xl:bg-no-repeat">
+    (<div className="bg-Home-bg bg-cover xl:bg-no-repeat">
       <div className="font-ud mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16 md:py-16">
         <div className="pt-32 max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <h1 className="max-w-lg mb-6 font-noto text-gray-900 leading-none md:mx-auto">
@@ -51,22 +51,24 @@ export default function Solutions() {
                 <br></br>
               </p>
             </div>
-            <Link href="/hito">
-              <a className="text-lg inline-flex items-center transition-colors duration-200 text-gray-800 hover:text-indigo-500">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                {t("solution-1-button")}
-              </a>
+            <Link
+              href="/hito"
+              className="text-lg inline-flex items-center transition-colors duration-200 text-gray-800 hover:text-indigo-500">
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              {t("solution-1-button")}
+
             </Link>
           </div>
           <div className="bg-white bg-opacity-70 flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -96,22 +98,24 @@ export default function Solutions() {
                 {t("solution-2-text")}
               </p>
             </div>
-            <Link href="/mono-monitoring">
-              <a className="text-lg inline-flex items-center transition-colors duration-200 text-gray-800 hover:text-indigo-500">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                {t("solution-2-button")}
-              </a>
+            <Link
+              href="/mono-monitoring"
+              className="text-lg inline-flex items-center transition-colors duration-200 text-gray-800 hover:text-indigo-500">
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              {t("solution-2-button")}
+
             </Link>
           </div>
           <div className="bg-white bg-opacity-70 flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -146,22 +150,24 @@ export default function Solutions() {
                 {t("solution-3-text")}
               </p>
             </div>
-            <Link href="/ichiservice">
-              <a className="text-lg inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                {t("solution-3-button")}
-              </a>
+            <Link
+              href="/ichiservice"
+              className="text-lg inline-flex items-center font-semibold transition-colors duration-200 text-gray-800 hover:text-indigo-500">
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 1.414L10.586 9H7a1 1 0 100 2h3.586l-1.293 1.293a1 1 0 101.414 1.414l3-3a1 1 0 000-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              {t("solution-3-button")}
+
             </Link>
           </div>
           <div className="bg-white bg-opacity-70 flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -213,6 +219,6 @@ export default function Solutions() {
           </div>
         </div>
       </div>
-    </div>
+    </div>)
   );
 }

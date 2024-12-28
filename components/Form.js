@@ -34,7 +34,7 @@ export default function Contact() {
   const { t } = useTranslation("contact");
 
   return (
-    <form
+    (<form
       className="container px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"
       method="POST"
       name="contact-form"
@@ -125,10 +125,10 @@ export default function Contact() {
                   <input type="checkbox" unchecked="true" />
                   <span className="ml-2 font-ud">
                     {t("privacy-text-1")}
-                    <Link href="privacy-policy">
-                      <a className="text-blue-600 underline">
-                        {t("privacy-text-2")}
-                      </a>
+                    <Link href="privacy-policy" className="text-blue-600 underline">
+
+                      {t("privacy-text-2")}
+
                     </Link>
                     {t("privacy-text-3")}
                   </span>
@@ -145,6 +145,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </form>
+    </form>)
   );
 }

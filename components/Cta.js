@@ -4,7 +4,7 @@ import { useTranslation } from "next-i18next";
 export default function Cta() {
   const { t } = useTranslation("cta");
   return (
-    <div className="bg-Home-contact bg-no-repeat bg-cover bg-opacity-20">
+    (<div className="bg-Home-contact bg-no-repeat bg-cover bg-opacity-20">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-lg sm:text-center sm:mx-auto">
           <a
@@ -44,14 +44,16 @@ export default function Cta() {
           </p>
           <hr className="my-8 border-gray-300" />
           <div className="flex items-center mb-3 sm:justify-center">
-            <Link href="/contact">
-              <a className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-slate-600 hover:bg-gray-500 focus:shadow-outline focus:outline-none font-ud">
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-slate-600 hover:bg-gray-500 focus:shadow-outline focus:outline-none font-ud">
+
               {t("button")}
-              </a>
+
             </Link>
           </div>
         </div>
       </div>
-    </div>
+    </div>)
   );
 }

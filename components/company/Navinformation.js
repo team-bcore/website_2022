@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navmission() {
   return (
-    <div className="bg-neutral-900">
+    (<div className="bg-neutral-900">
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <p className="font-noto text-base text-gray-300 md:text-2xl">
@@ -19,10 +19,12 @@ export default function Navmission() {
                 ビーコアがお客様に掲げる3つのポリシーです。
               </p>
             </div>
-            <Link href="mission">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+            <Link
+              href="mission"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -34,10 +36,12 @@ export default function Navmission() {
                 さまざまな分野のエキスパートがお客様の課題解決にあたる少数精鋭チームです。
               </p>
             </div>
-            <Link href="staff">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+            <Link
+              href="staff"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -49,10 +53,12 @@ export default function Navmission() {
                 東京・西神田にあるビーコアのオフィスと、実験・製作のためのラボ（研究室）を紹介します。
               </p>
             </div>
-            <Link href="office">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+            <Link
+              href="office"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -64,10 +70,12 @@ export default function Navmission() {
                 正式名称、設立年月日、資本金、事業内容、主要取引先などをご覧いただけます。
               </p>
             </div>
-            <Link href="profile">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+            <Link
+              href="profile"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
         </div>
@@ -91,10 +99,12 @@ export default function Navmission() {
                 ビーコアの研究開発の情報をご覧いただけます。
               </p>
             </div>
-            <Link href="research">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+            <Link
+              href="research"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -106,10 +116,12 @@ export default function Navmission() {
                 イベント情報やお知らせをご覧いただけます。
               </p>
             </div>
-            <Link href="/newspage">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+            <Link
+              href="/newspage"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -121,14 +133,16 @@ export default function Navmission() {
                 テクノロジー、デザイン、ビジネスなどさまざまなトピックについて書いています。
               </p>
             </div>
-            <Link href="/blogpage">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+            <Link
+              href="/blogpage"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
         </div>
       </div>
-    </div>
+    </div>)
   );
 }

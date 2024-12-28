@@ -19,7 +19,7 @@ export async function getStaticProps({ locale }) {
 
 export default function Jacompany() {
   return (
-    <div className="">
+    (<div className="">
       <>
         <NextSeo
           title="ビーコア株式会社"
@@ -192,28 +192,29 @@ export default function Jacompany() {
             </a>
           </p>
           <hr className="w-full my-6 border-gray-300" />
-          <Link href="/jacompany/research">
-            <a className="text-gray-700 inline-flex items-center font-ud transition-colors duration-200 hover:text-gray-400">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth="2"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z"
-                />
-              </svg>
-              研究開発ページメニューへ戻る
-            </a>
+          <Link
+            href="/jacompany/research"
+            className="text-gray-700 inline-flex items-center font-ud transition-colors duration-200 hover:text-gray-400">
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z"
+              />
+            </svg>研究開発ページメニューへ戻る
+                        
           </Link>
         </div>
       </div>
       <Footer />
-    </div>
+    </div>)
   );
 }

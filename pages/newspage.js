@@ -23,7 +23,7 @@ export async function getStaticProps({ locale }){
 
 export default function Newspage({ allNewsData }) {
   return (
-    <div className="">
+    (<div className="">
       <>
         <NextSeo
           title="ニュース"
@@ -85,8 +85,8 @@ export default function Newspage({ allNewsData }) {
             <ul className={utilStyles.list}>
               {allNewsData.map(({ id, date, title }) => (
                 <li className={utilStyles.listItem} key={id}>
-                  <Link href={`/news/${id}`}>
-                    <a className="font-ud hover:text-cyan-600">{title}</a>
+                  <Link href={`/news/${id}`} className="font-ud hover:text-cyan-600">
+                    {title}
                   </Link>
                   <br />
                   <small className={utilStyles.lightText}>
@@ -98,6 +98,6 @@ export default function Newspage({ allNewsData }) {
           </section>
         </Layout>
       </div>
-    </div>
+    </div>)
   );
 }

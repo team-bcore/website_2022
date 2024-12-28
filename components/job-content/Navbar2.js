@@ -6,43 +6,42 @@ import Image from "next/image";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="">
+    (<div className="">
       <nav className="bg-stone-800 fixed w-full z-10 ">
         <div className="w-full">
           <div className="flex items-center h-12 w-full">
             <div className="flex items-center mx-5  justify-between w-full">
               <div className="pt-1 flex justify-center items-center flex-shrink-0">
                 <Link href="/">
-                  <a>
-                    <Image
-                      src="/images/Footer/logo.svg" // Route of the image file
-                      height={31.7} // Desired size with correct aspect ratio
-                      width={100} // Desired size with correct aspect ratio
-                      alt="bcore_logo"
-                    />
-                  </a>
+
+                  <Image
+                    src="/images/Footer/logo.svg" // Route of the image file
+                    height={31.7} // Desired size with correct aspect ratio
+                    width={100} // Desired size with correct aspect ratio
+                    alt="bcore_logo"
+                  />
+
                 </Link>
-                <Link href="/job">
-                  <a
-                    className="text-white
-                 font-ud text-xl pl-4"
+                <Link
+                  href="/job"
+                  className="text-white
+               font-ud text-xl pl-4">
+                  ビーコア採用サイト
+                                      <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="inline-block w-6 h-6 -mt-2"
                   >
-                    ビーコア採用サイト
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="inline-block w-6 h-6 -mt-2"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
-                      />
-                    </svg>
-                  </a>
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+                    />
+                  </svg>
+
                 </Link>
               </div>
               <div className="hidden lg:block">
@@ -113,42 +112,54 @@ function Navbar() {
           {(ref) => (
             <div className="lg:hidden" id="mobile-menu">
               <div ref={ref} className="bg-white px-2 pt-2 pb-3 sm:px-3 ">
-                <Link href="aboutus">
-                  <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
+                <Link
+                  href="aboutus"
+                  className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
+                  
                     ビーコアについて
-                  </a>
+                  
                 </Link>
-                <Link href="solutions">
-                  <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
+                <Link
+                  href="solutions"
+                  className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
+                  
                     提供するソリューション
-                  </a>
+                  
                 </Link>
-                <Link href="system">
-                  <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
+                <Link
+                  href="system"
+                  className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
+                  
                     ビーコアを支える仕事
-                  </a>
+                  
                 </Link>
-                <Link href="staff">
-                  <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
+                <Link
+                  href="staff"
+                  className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
+                  
                     スタッフ紹介
-                  </a>
+                  
                 </Link>
-                <Link href="privacy">
-                  <a className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
+                <Link
+                  href="privacy"
+                  className="cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
+                  
                     採用活動における個人情報の取り扱いについて
-                  </a>
+                  
                 </Link>
-                <Link href="application">
-                  <a className="bg-gray-200 cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
+                <Link
+                  href="application"
+                  className="bg-gray-200 cursor-pointer text-gray-700 font-ud hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium">
+                  
                     募集要項
-                  </a>
+                  
                 </Link>
               </div>
             </div>
           )}
         </Transition>
       </nav>
-    </div>
+    </div>)
   );
 }
 
