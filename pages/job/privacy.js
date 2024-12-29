@@ -3,7 +3,7 @@ import Navbar2 from "../../components/job-content/Navbar2";
 import Heroprivacy from "../../components/job-content/Heroprivacy";
 import Contentprivacy from "../../components/job-content/Contentprivacy";
 import Featuresprivacy from "../../components/job-content/Featuresprivacy";
-import Footer from "../../components/Footer";
+import Footerjp from "../../components/Footerjp";
 import { NextSeo } from "next-seo";
 
 export default function Privacy() {
@@ -51,7 +51,7 @@ export default function Privacy() {
       <Heroprivacy />
       <Contentprivacy />
       <Featuresprivacy />
-      <Footer />
+      <Footerjp />
     </div>
   );
 }

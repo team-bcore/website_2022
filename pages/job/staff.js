@@ -3,7 +3,7 @@ import Navbar2 from "../../components/job-content/Navbar2";
 import Herostaff from "../../components/job-content/Herostaff";
 import Contentstaff from "../../components/job-content/Contentstaff";
 import Featuresstaff from "../../components/job-content/Featuresstaff";
-import Footer from "../../components/Footer";
+import Footerjp from "../../components/Footerjp";
 import { NextSeo } from "next-seo";
 
 export default function Staff() {
@@ -51,7 +51,7 @@ export default function Staff() {
       <Herostaff />
       <Contentstaff />
       <Featuresstaff />
-      <Footer />
+      <Footerjp />
     </div>
   );
 }

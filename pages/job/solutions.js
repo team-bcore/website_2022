@@ -3,7 +3,7 @@ import Navbar2 from "../../components/job-content/Navbar2";
 import Herosolutions from "../../components/job-content/Herosolutions";
 import Contentsolutions from "../../components/job-content/Contentsolutions";
 import Featuressolutions from "../../components/job-content/Featuressolutions";
-import Footer from "../../components/Footer";
+import Footerjp from "../../components/Footerjp";
 import { NextSeo } from "next-seo";
 
 export default function Solutions() {
@@ -51,7 +51,7 @@ export default function Solutions() {
       <Herosolutions />
       <Contentsolutions />
       <Featuressolutions />
-      <Footer />
+      <Footerjp />
     </div>
   );
 }

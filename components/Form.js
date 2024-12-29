@@ -15,7 +15,7 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const form = e.target;
-    
+
     try {
       const response = await fetch("/__forms.html", {
         method: "POST",
@@ -25,7 +25,7 @@ export default function Contact() {
           ...state,
         }).toString(),
       });
-      
+
       if (response.ok) {
         router.push(form.getAttribute("action"));
       } else {
@@ -48,7 +48,7 @@ export default function Contact() {
       <input type="hidden" name="form-name" value="contact-form" />
       <p hidden>
         <label>
-          Don't fill this out: {" "}
+          Don't fill this out:{" "}
           <input name="bot-field" onChange={handleChange} />
         </label>
       </p>
@@ -127,10 +127,11 @@ export default function Contact() {
                   <input type="checkbox" unchecked="true" />
                   <span className="ml-2 font-ud">
                     {t("privacy-text-1")}
-                    <Link href="privacy-policy">
-                      <a className="text-blue-600 underline">
-                        {t("privacy-text-2")}
-                      </a>
+                    <Link
+                      href="privacy-policy"
+                      className="text-blue-600 underline"
+                    >
+                      {t("privacy-text-2")}
                     </Link>
                     {t("privacy-text-3")}
                   </span>

@@ -14,7 +14,7 @@ export default function Message() {
             ビーコア株式会社 代表取締役社長
           </p>
           <h5 className="text-gray-800 mb-3 text-2xl font-noto leading-none sm:text-3xl">
-            水野廉郎　Yasuro Mizuno
+            水野廉郎 Yasuro Mizuno
           </h5>
           <hr className="mb-4 border-gray-300" />
           <p className="text-gray-700 font-ud leading-relaxed">
@@ -24,14 +24,16 @@ export default function Message() {
             ここ数年の画像処理技術やエッジコンピューティングの進化はめざましく、我々が得意とする技術でワクワクするようなソリューションを創る会社を目指しています。新しい技術はどんどん試したい学びたい、無駄や不合理が大嫌い、人を喜ばせることが大好き、そういう人材を求めています。チャレンジ精神旺盛な方、大歓迎です。
           </p>
         </div>
-        <div className="pt-8 drop-shadow-lg">
-          <Image
-            className="rounded shadow-lg sm:h-96 xl:h-24"
-            src="/images/Job/ceo.jpg" // Route of the image file
-            height={2686} // Desired size with correct aspect ratio
-            width={3358} // Desired size with correct aspect ratio
-            alt="CEO"
-          />
+        <div className="pt-8">
+          <div className="relative w-full aspect-[4/3] drop-shadow-lg"> {/* アスペクト比を4:3に設定 */}
+            <Image
+              src="/images/Job/ceo.jpg"
+              alt="CEO"
+              fill
+              className="object-cover rounded shadow-lg"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          </div>
         </div>
       </div>
     </div>
