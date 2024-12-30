@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Features() {
   return (
-    <div className="bg-neutral-900">
+    (<div className="bg-neutral-900">
       <div className="py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <p className="font-ud text-base text-gray-300 md:text-lg">
@@ -22,10 +22,12 @@ export default function Features() {
                 ビーコアがお客様に掲げる3つのポリシーです。
               </p>
             </div>
-            <Link href="jacompany/mission">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+            <Link
+              href="jacompany/mission"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -37,10 +39,12 @@ export default function Features() {
                 さまざまな分野のエキスパートがお客様の課題解決にあたる少数精鋭チームです。
               </p>
             </div>
-            <Link href="jacompany/staff">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+            <Link
+              href="jacompany/staff"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -52,10 +56,12 @@ export default function Features() {
                 東京・西神田にあるビーコアのオフィスと、実験・製作のためのラボ（研究室）を紹介します。
               </p>
             </div>
-            <Link href="jacompany/office">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+            <Link
+              href="jacompany/office"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -67,10 +73,12 @@ export default function Features() {
                 正式名称、設立年月日、資本金、事業内容、主要取引先などをご覧いただけます。
               </p>
             </div>
-            <Link href="jacompany/profile">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+            <Link
+              href="jacompany/profile"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
         </div>
@@ -84,10 +92,12 @@ export default function Features() {
                 ソリューションに関する各種資料、メディア掲載情報、国内外で取得した特許の情報を掲載しています。
               </p>
             </div>
-            <Link href="jacompany/information">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+            <Link
+              href="jacompany/information"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -99,10 +109,12 @@ export default function Features() {
                 ビーコアの研究開発の情報をご覧いただけます。
               </p>
             </div>
-            <Link href="jacompany/research">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+            <Link
+              href="jacompany/research"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -114,10 +126,12 @@ export default function Features() {
                 イベント情報やお知らせをご覧いただけます。
               </p>
             </div>
-            <Link href="newspage">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+            <Link
+              href="newspage"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -129,14 +143,16 @@ export default function Features() {
                 テクノロジー、デザイン、ビジネスなどさまざまなトピックについて書いています。
               </p>
             </div>
-            <Link href="blogpage">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+            <Link
+              href="blogpage"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-300 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
         </div>
       </div>
-    </div>
+    </div>)
   );
 }

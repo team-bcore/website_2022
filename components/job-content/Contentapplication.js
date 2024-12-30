@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Contentprivacy() {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
+    (<div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-16">
       <div className="max-w-screen-sm sm:text-center sm:mx-auto">
         <p className="pb-8 text-left font-ud text-lg text-gray-700 md:text-xl">
           現在募集中の職種について
@@ -19,10 +19,12 @@ export default function Contentprivacy() {
             エンゲージから応募する
           </a>
           <br></br>→{" "}
-          <Link href="/contact">
-            <a className="text-left font-ud text-base text-sky-500 md:text-lg hover:text-amber-300">
+          <Link
+            href="/contact"
+            className="text-left font-ud text-base text-sky-500 md:text-lg hover:text-amber-300">
+            
               お問い合わせフォームからカジュアル面談を申し込む
-            </a>
+            
           </Link>
         </p>
         <hr className="mb-4 border-gray-300" />
@@ -76,6 +78,6 @@ export default function Contentprivacy() {
           <br></br>・R言語等、統計解析系・データ分析系の知識がある方
         </p>
       </div>
-    </div>
+    </div>)
   );
 }

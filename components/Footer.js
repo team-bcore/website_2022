@@ -5,19 +5,19 @@ import { useTranslation } from "next-i18next";
 export default function Footer() {
   const { t } = useTranslation("common");
   return (
-    <div className="relative bg-slate-50">
+    (<div className="relative bg-slate-50">
       <div className="px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
           <div className="md:max-w-md lg:col-span-2">
-            <Link href="/">
-              <a className="inline-flex items-center">
-                <Image
-                  src="/images/Footer/logo.svg" // Route of the image file
-                  height={63.5} // Desired size with correct aspect ratio
-                  width={200} // Desired size with correct aspect ratio
-                  alt="bcore_logo"
-                />
-              </a>
+            <Link href="/" className="inline-flex items-center">
+
+              <Image
+                src="/images/Footer/logo.svg" // Route of the image file
+                height={63.5} // Desired size with correct aspect ratio
+                width={200} // Desired size with correct aspect ratio
+                alt="bcore_logo"
+              />
+
             </Link>
             <div className="mt-4 lg:max-w-sm">
               <p className="font-ud text-base text-gray-700 md:text-lg">
@@ -43,22 +43,22 @@ export default function Footer() {
               <ul className="mt-2 space-y-2">
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/hito">
-                    <a>{t("hito")}</a>
+                    {t("hito")}
                   </Link>
                 </li>
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/mono-monitoring">
-                    <a>{t("mono")}</a>
+                    {t("mono")}
                   </Link>
                 </li>
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/ichiservice">
-                    <a>{t("ichi")}</a>
+                    {t("ichi")}
                   </Link>
                 </li>
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/mono">
-                    <a>{t("footer-iphone")}</a>
+                    {t("footer-iphone")}
                   </Link>
                 </li>
               </ul>
@@ -77,7 +77,7 @@ export default function Footer() {
                 </li>
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/sixdof">
-                    <a>{t("sixdof")}</a>
+                    {t("sixdof")}
                   </Link>
                 </li>
               </ul>
@@ -89,7 +89,7 @@ export default function Footer() {
               <ul className="mt-2 space-y-2">
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/jacompany/research/">
-                    <a>{t("our-RD")}</a>
+                    {t("our-RD")}
                   </Link>
                 </li>
               </ul>
@@ -101,22 +101,22 @@ export default function Footer() {
               <ul className="mt-2 space-y-2">
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/jacompany">
-                    <a>{t("company")}</a>
+                    {t("company")}
                   </Link>
                 </li>
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/newspage">
-                    <a>{t("news")}</a>
+                    {t("news")}
                   </Link>
                 </li>
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/blogpage">
-                    <a>{t("blog")}</a>
+                    {t("blog")}
                   </Link>
                 </li>
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/privacy-policy">
-                    <a>{t("privacy-policy")}</a>
+                    {t("privacy-policy")}
                   </Link>
                 </li>
               </ul>
@@ -171,6 +171,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </div>
+    </div>)
   );
 }

@@ -23,7 +23,7 @@ export async function getStaticProps({ locale }) {
 
 export default function Blogpage({ allPostData }) {
   return (
-    <div className="">
+    (<div className="">
       <>
         <NextSeo
           title="ビーコアのブログ"
@@ -95,8 +95,8 @@ export default function Blogpage({ allPostData }) {
             <ul className={utilStyles.list}>
               {allPostData.map(({ id, date, title }) => (
                 <li className={utilStyles.listItem} key={id}>
-                  <Link href={`/blogs/${id}`}>
-                    <a className="font-ud hover:text-cyan-600">{title}</a>
+                  <Link href={`/blogs/${id}`} className="font-ud hover:text-cyan-600">
+                    {title}
                   </Link>
                   <br />
                   <small className={utilStyles.lightText}>
@@ -108,6 +108,6 @@ export default function Blogpage({ allPostData }) {
           </section>
         </Layout>
       </div>
-    </div>
+    </div>)
   );
 }

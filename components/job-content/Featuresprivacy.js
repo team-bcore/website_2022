@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Featuresprivacy() {
   return (
-    <div className="bg-amber-300">
+    (<div className="bg-amber-300">
       <div className="py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="grid gap-4 row-gap-5 sm:grid-cols-1 lg:grid-cols-3">
           <div className="flex flex-col justify-between p-5 border-gray-700 border-2 rounded shadow-sm">
@@ -14,10 +14,12 @@ export default function Featuresprivacy() {
                 ビーコアの事業内容、ミッションとポリシー、トップからのメッセージをご覧いただけます。
               </p>
             </div>
-            <Link href="aboutus">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
+            <Link
+              href="aboutus"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border-gray-700 border-2 rounded shadow-sm">
@@ -29,10 +31,12 @@ export default function Featuresprivacy() {
                 ビーコアが提供する各ソリューションの特徴などを知ることができます。
               </p>
             </div>
-            <Link href="solutions">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
+            <Link
+              href="solutions"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 border-gray-700 border-2 rounded shadow-sm">
@@ -44,10 +48,12 @@ export default function Featuresprivacy() {
                 組織体制と各チームの仕事内容、業務やキャリア形成を支える制度について知ることができます。
               </p>
             </div>
-            <Link href="system">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
+            <Link
+              href="system"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
         </div>
@@ -61,10 +67,12 @@ export default function Featuresprivacy() {
                 ビーコアのメンバーが経験してきた仕事、それぞれの働き方や価値観などを知ることができます。
               </p>
             </div>
-            <Link href="staff">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
+            <Link
+              href="staff"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
           <div className="flex flex-col justify-between p-5 bg-slate-50 border-gray-700 border-2 rounded shadow-sm">
@@ -84,14 +92,16 @@ export default function Featuresprivacy() {
                 現在、採用を行っている職種について知ることができます
               </p>
             </div>
-            <Link href="application">
-              <a className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
+            <Link
+              href="application"
+              className="inline-flex items-center font-ud transition-colors duration-200 text-gray-700 hover:text-gray-500">
+              
                 →詳しく見る
-              </a>
+              
             </Link>
           </div>
         </div>
       </div>
-    </div>
+    </div>)
   );
 }

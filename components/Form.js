@@ -3,35 +3,39 @@ import React from "react";
 import Link from "next/link";
 import { useTranslation } from "next-i18next";
 
-function encode(data) {
-  return Object.keys(data)
-    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&");
-}
-
 export default function Contact() {
   const router = useRouter();
   const [state, setState] = React.useState({});
+  const { t } = useTranslation("contact");
 
   const handleChange = (e) => {
     setState({ ...state, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const form = e.target;
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({
-        "form-name": form.getAttribute("name"),
-        ...state,
-      }),
-    })
-      .then(() => router.push(form.getAttribute("action")))
-      .catch((error) => alert(error));
+    
+    try {
+      const response = await fetch("/__forms.html", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams({
+          "form-name": form.getAttribute("name"),
+          ...state,
+        }).toString(),
+      });
+      
+      if (response.ok) {
+        router.push(form.getAttribute("action"));
+      } else {
+        alert("Form submission failed. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("Form submission failed. Please try again.");
+    }
   };
-  const { t } = useTranslation("contact");
 
   return (
     <form
@@ -39,14 +43,12 @@ export default function Contact() {
       method="POST"
       name="contact-form"
       action="thanks"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
       onSubmit={handleSubmit}
     >
       <input type="hidden" name="form-name" value="contact-form" />
       <p hidden>
         <label>
-          Don’t fill this out:{" "}
+          Don't fill this out: {" "}
           <input name="bot-field" onChange={handleChange} />
         </label>
       </p>
@@ -55,13 +57,13 @@ export default function Contact() {
         <p className="text-3xl font-noto text-center md:text-4xl leading-none tracking-tight text-gray-900 sm:text-4xl">
           {t("title")}
         </p>
-        <p className="font-ud mt-2 pt-8 text-lg text-gray-600 md:text-center ">
+        <p className="font-ud mt-2 pt-8 text-lg text-gray-600 md:text-center">
           {t("text-2")}
           <br></br>
           {t("text-1")}
         </p>
         <div className="mt-8 grid grid-cols-1 md:grid md:grid-cols-8">
-          <label className="pt-4 block md:col-start-3 col-span-4 ">
+          <label className="pt-4 block md:col-start-3 col-span-4">
             <span className="font-ud text-gray-700">{t("form-name")}</span>
             <input
               type="text"
@@ -139,7 +141,7 @@ export default function Contact() {
           <div className="pt-8 block mx-auto md:col-start-3 col-span-4">
             <button type="submit">
               <a className="font-ud bg-gray-800 inline-flex items-center w-full justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md hover:text-deep-purple-900 bg-teal-accent-400 hover:bg-blue-600 focus:shadow-outline focus:outline-none">
-              {t("contact-button")}
+                {t("contact-button")}
               </a>
             </button>
           </div>

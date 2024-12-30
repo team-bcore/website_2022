@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Thank() {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    (<div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-screen-sm sm:text-center sm:mx-auto">
         <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-white">
           <div className="pt-1 flex flex-shrink-0">
@@ -23,10 +23,10 @@ export default function Thank() {
           2～3営業日以内に、担当よりメールにて返信させていただきます。
         </p>
         <hr className="w-full my-8 border-gray-300" />
-        <Link href="/">
-          <a className="font-ud">トップページへ戻る</a>
+        <Link href="/" className="font-ud">
+          トップページへ戻る
         </Link>
       </div>
-    </div>
+    </div>)
   );
 }

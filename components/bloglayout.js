@@ -10,7 +10,7 @@ export const siteTitle = "ビーコア株式会社";
 
 export default function Layout({ children, home }) {
   return (
-    <div className="bg-gray-100">
+    (<div className="bg-gray-100">
       <div className="pt-8">
         <div className={styles.container}>
           <header className={styles.header}>
@@ -47,14 +47,14 @@ export default function Layout({ children, home }) {
           <main>{children}</main>
           {!home && (
             <div className={styles.backToHome}>
-              <Link href="/blogpage">
-                <a className="font-ud text-gray-900">← ブログ一覧へ戻る</a>
+              <Link href="/blogpage" className="font-ud text-gray-900">
+                ← ブログ一覧へ戻る
               </Link>
             </div>
           )}
         </div>
         <Footer />
       </div>
-    </div>
+    </div>)
   );
 }

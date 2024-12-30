@@ -19,7 +19,7 @@ export async function getStaticProps({ locale }) {
 
 export default function Jacompany() {
   return (
-    <div className="">
+    (<div className="">
       <>
         <NextSeo
           title="ビーコア株式会社"
@@ -305,28 +305,29 @@ export default function Jacompany() {
             実証実験当初の目的は屋内搬送車の軌跡トラッキングであった。実証実験を重ねるうちに軌跡トラッキングの精度はクリアし、次に搬送車の自己位置推定補正に使用できる精度が求められた。実証実験を重ねることで、搬送車の速度を時速12kmまで上げても問題ないことが分かりこれもクリアした。現在は搬送車の無人運転で使用できる精度の自己位置推定へとゴールは変化している。現時点ではまだ目標ゴールは未達の状況だが、更なる実証実験を重ね将来的には移動体の完全自動運転への要素技術としての適用が期待される。現時点では、屋内搬送車を想定しているが人の自己位置測位にも応用可能な技術なので、作業員の行動把握等にも利用可能と考えている。
           </p>
           <br></br>
-          <Link href="/jacompany/research">
-            <a className="text-gray-700 inline-flex items-center font-ud transition-colors duration-200 hover:text-gray-400">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth="2"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z"
-                />
-              </svg>
-              研究開発ページメニューへ戻る
-            </a>
+          <Link
+            href="/jacompany/research"
+            className="text-gray-700 inline-flex items-center font-ud transition-colors duration-200 hover:text-gray-400">
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z"
+              />
+            </svg>研究開発ページメニューへ戻る
+                        
           </Link>
         </div>
       </div>
       <Footer />
-    </div>
+    </div>)
   );
 }
