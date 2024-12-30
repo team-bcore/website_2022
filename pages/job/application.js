@@ -3,7 +3,7 @@ import Navbar2 from "../../components/job-content/Navbar2";
 import Heroapplication from "../../components/job-content/Heroapplication";
 import Contentapplication from "../../components/job-content/Contentapplication";
 import Featuresapplication from "../../components/job-content/Featuresapplication";
-import Footer from "../../components/Footer";
+import Footerjp from "../../components/Footerjp";
 import { NextSeo } from "next-seo";
 
 export default function Application() {
@@ -50,7 +50,7 @@ export default function Application() {
       <Heroapplication />
       <Contentapplication />
       <Featuresapplication />
-      <Footer />
+      <Footerjp />
     </div>
   );
 }

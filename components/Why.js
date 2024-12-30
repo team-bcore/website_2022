@@ -11,13 +11,17 @@ export default function Why() {
         </span>
       </h2>
       <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+        {/* 1番目のカード */}
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
-          <Image
-            src="/images/Home/vrk.jpg" // Route of the image file
-            height={1429} // Desired size with correct aspect ratio
-            width={1600} // Desired size with correct aspect ratio
-            alt="Vieureka"
-          />
+          <div className="relative w-full aspect-[4/3]">
+            <Image
+              src="/images/Home/vrk.jpg"
+              alt="Vieureka"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          </div>
           <div className="items-stretch h-full p-5 border border-t-0">
             <p className="mb-3 text-base font-ud tracking-wide uppercase text-gray-700">
               {t("reason-1")}
@@ -32,13 +36,18 @@ export default function Why() {
             </p>
           </div>
         </div>
+
+        {/* 2番目のカード */}
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
-          <Image
-            src="/images/Home/support.png" // Route of the image file
-            height={1429} // Desired size with correct aspect ratio
-            width={1600} // Desired size with correct aspect ratio
-            alt="サポート"
-          />
+          <div className="relative w-full aspect-[4/3]">
+            <Image
+              src="/images/Home/support.png"
+              alt="サポート"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          </div>
           <div className="items-stretch h-full p-5 border border-t-0">
             <p className="mb-3 text-base font-ud tracking-wide uppercase text-gray-700">
               {t("reason-2")}
@@ -46,27 +55,30 @@ export default function Why() {
             <p className="inline-block mb-3 text-2xl leading-8 font-noto text-slate-800">
               {t("reason-2-title")}
               <br></br>
-              <br></br>
             </p>
             <p className="mb-2 font-ud text-md text-slate-800">
               {t("reason-2-text")}
             </p>
           </div>
         </div>
+
+        {/* 3番目のカード */}
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
-          <Image
-            src="/images/Home/support-2.jpeg" // Route of the image file
-            height={1429} // Desired size with correct aspect ratio
-            width={1600} // Desired size with correct aspect ratio
-            alt="サポート"
-          />
+          <div className="relative w-full aspect-[4/3]">
+            <Image
+              src="/images/Home/support-2.jpeg"
+              alt="サポート"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          </div>
           <div className="items-stretch h-full p-5 border border-t-0">
             <p className="mb-3 text-base font-ud tracking-wide uppercase text-gray-700">
               {t("reason-3")}
             </p>
             <p className="inline-block mb-3 text-2xl leading-8 font-noto text-slate-800">
               {t("reason-3-title")}
-              <br></br>
               <br></br>
             </p>
             <p className="mb-2 font-ud text-md text-slate-800">

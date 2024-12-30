@@ -146,13 +146,17 @@ export default function Merit() {
           </div>
         </div>
         <div className="pt-16">
-          <Image
-            className="rounded"
-            src="/images/Ichi/Propose.png" // Route of the image file
-            height={1080} // Desired size with correct aspect ratio
-            width={1920} // Desired size with correct aspect ratio
-            alt="位置管理システムイメージ"
-          />
+          <div className="relative w-full aspect-[16/9]">
+            {" "}
+            {/* アスペクト比を16:9に設定 */}
+            <Image
+              src="/images/Ichi/Propose.png"
+              alt="位置管理システムイメージ"
+              fill
+              className="object-cover rounded"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 1200px"
+            />
+          </div>
         </div>
       </div>
     </div>

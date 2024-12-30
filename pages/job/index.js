@@ -2,7 +2,7 @@ import Head from "next/head";
 import Navbar from "../../components/job-content/Navbar";
 import Hero from "../../components/job-content/Hero";
 import Features from "../../components/job-content/Features";
-import Footer from "../../components/Footer";
+import Footerjp from "../../components/Footerjp";
 import { NextSeo } from "next-seo";
 
 export default function Job() {
@@ -48,7 +48,7 @@ export default function Job() {
       <Navbar />
       <Hero />
       <Features />
-      <Footer />
+      <Footerjp />
     </div>
   );
 }

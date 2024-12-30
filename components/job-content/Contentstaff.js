@@ -31,25 +31,30 @@ export default function CommentEW() {
             なお、やること多くてもちゃんと早く家に帰れるのでプライベートな時間もしっかりとれます。これ、とても重要なことです。
           </p>
         </div>
-        <div className="pt-8 drop-shadow-lg">
-          <Image
-            className="rounded shadow-lg sm:h-96 xl:h-24"
-            src="/images/Job/staff-1.jpeg" // Route of the image file
-            height={2419} // Desired size with correct aspect ratio
-            width={3024} // Desired size with correct aspect ratio
-            alt="エンジニア1"
-          />
+        <div className="pt-8">
+          <div className="relative w-full aspect-[4/3] drop-shadow-lg">
+            <Image
+              src="/images/Job/staff-1.jpeg"
+              alt="エンジニア1"
+              fill
+              className="object-cover rounded shadow-lg"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          </div>
         </div>
       </div>
+
       <div className="py-16 grid gap-10 lg:grid-cols-2">
-        <div className="pt-8 drop-shadow-lg">
-          <Image
-            className="rounded shadow-lg sm:h-96 xl:h-24"
-            src="/images/Job/staff-2.jpeg" // Route of the image file
-            height={2419} // Desired size with correct aspect ratio
-            width={3024} // Desired size with correct aspect ratio
-            alt="エンジニア2"
-          />
+        <div className="pt-8">
+          <div className="relative w-full aspect-[4/3] drop-shadow-lg">
+            <Image
+              src="/images/Job/staff-2.jpeg"
+              alt="エンジニア2"
+              fill
+              className="object-cover rounded shadow-lg"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          </div>
         </div>
         <div className="pt-16 order-first sm:order-last lg:pr-10">
           <div className="">
@@ -76,6 +81,7 @@ export default function CommentEW() {
           </p>
         </div>
       </div>
+
       <div className="py-16 grid gap-10 lg:grid-cols-2">
         <div className="pt-16 lg:pr-10">
           <div className="">
@@ -95,14 +101,16 @@ export default function CommentEW() {
             <br></br>ビーコアならではの経験ができます。
           </p>
         </div>
-        <div className="pt-8 drop-shadow-lg">
-          <Image
-            className="rounded shadow-lg sm:h-96 xl:h-24"
-            src="/images/Job/staff-3.jpeg" // Route of the image file
-            height={2419} // Desired size with correct aspect ratio
-            width={3024} // Desired size with correct aspect ratio
-            alt="エンジニア3"
-          />
+        <div className="pt-8">
+          <div className="relative w-full aspect-[4/3] drop-shadow-lg">
+            <Image
+              src="/images/Job/staff-3.jpeg"
+              alt="エンジニア3"
+              fill
+              className="object-cover rounded shadow-lg"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          </div>
         </div>
       </div>
     </div>

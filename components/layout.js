@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
-import Footer from "../components/Footer";
+import Footerjp from "../components/Footerjp";
 
 const name = "ニュース";
 export const siteTitle = "ビーコア株式会社";
@@ -54,7 +54,7 @@ export default function Layout({ children, home }) {
           )}
         </div>
       </div>
-      <Footer />
+      <Footerjp />
     </div>)
   );
 }

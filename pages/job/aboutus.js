@@ -4,7 +4,7 @@ import Heroaboutus from "../../components/job-content/Heroaboutus";
 import Contentaboutus from "../../components/job-content/Contentaboutus";
 import Message from "../../components/job-content/Message";
 import Featuresaboutus from "../../components/job-content/Featuresaboutus";
-import Footer from "../../components/Footer";
+import Footerjp from "../../components/Footerjp";
 import { NextSeo } from "next-seo";
 
 export default function Aboutus() {
@@ -28,13 +28,6 @@ export default function Aboutus() {
                 alt: "採用情報イメージ",
                 type: "image/png",
               },
-              //   {
-              //     url: "https://bcore.biz/images/SEO/mission-card.png",
-              //     width: 900,
-              //     height: 800,
-              //     alt: "ポリシーイメージ",
-              //     type: "large_image/png",
-              //   },
             ],
             site_name: "",
           }}
@@ -53,7 +46,7 @@ export default function Aboutus() {
       <Contentaboutus />
       <Message />
       <Featuresaboutus />
-      <Footer />
+      <Footerjp />
     </div>
   );
 }
