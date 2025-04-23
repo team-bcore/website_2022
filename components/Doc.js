@@ -317,7 +317,6 @@ export default function Doc() {
             </p>
           </a>
           <a href="https://drive.google.com/file/d/1XB_AYbsTJSOHxXQ_3MF9jy2rn0vLoul1/view?usp=drive_link">
-            <p className="pt-2 font-ud text-base text-gray-700 hover:text-cyan-600 md:text-lg sm:px-4">
               広告効果測定・車両検知
               <svg
                 xmlns="http://www.w3.org/2000/svg"
