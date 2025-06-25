@@ -198,7 +198,7 @@ export default function Doc() {
             </p>
           </a>
 
-        <a href="https://drive.google.com/uc?export=download&id=1XB_AYbsTJSOHxXQ_3MF9jy2rn0vLoul1">
+        <a href="https://drive.google.com/uc?export=download&id=1Qqh_lcirgi3dv66LC4mT2QfE_I9QAra2">
             <p className="pt-2 font-ud text-base text-gray-700 hover:text-cyan-600 md:text-lg sm:px-4">
               彩色兼備 非接触型 入退室管理
               <svg
