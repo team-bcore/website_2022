@@ -20,7 +20,7 @@ export default function Footerjs() {
               <p className="mt-4">
                 <a href="https://www.jipdec.or.jp/index.html">
                   <Image
-                    src="/images/Footer/pmark-03.png" // Route of the image file
+                    src="/images/Footer/pmark-04.png" // Route of the image file
                     height={56} // Desired size with correct aspect ratio
                     width={56} // Desired size with correct aspect ratio
                     alt="Pマークロゴ"
