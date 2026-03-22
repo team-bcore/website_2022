@@ -41,7 +41,7 @@ export default function Post({ postData }) {
             <h2 className="font-noto text-left">{frontmatter.title}</h2>
             <p className="font-ud text-left">{frontmatter.description}</p>
             <p className="font-ud text-right">{frontmatter.date}</p>
-<br />
+<div className="mt-6"></div>
 <article className="font-ud text-left">
               <Component
                 components={{
