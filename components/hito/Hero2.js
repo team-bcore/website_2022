@@ -1,7 +1,7 @@
 import { useTranslation } from "next-i18next";
 
 export default function Hero() {
-  const { t } = useTranslation("hito-hero");
+  const { t } = useTranslation("hito-hero2");
   return (
     <div
   className="bg-Hito2-top bg-cover min-h-[120vh]"

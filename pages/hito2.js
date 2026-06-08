@@ -19,7 +19,7 @@ export async function getStaticProps({ locale }) {
       ...(await serverSideTranslations(locale, [
         'common',
         'cta',
-        'hito-hero',
+        'hito-hero2',
         'hito-intro',
         'hito-features',
         'hito-usecase',
