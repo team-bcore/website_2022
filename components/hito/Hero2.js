@@ -4,7 +4,7 @@ export default function Hero() {
   const { t } = useTranslation("hito-hero2");
   return (
     <div
-  className="bg-Hito2-top bg-cover min-h-[120vh]"
+  className="bg-Hito2-top-sp md:bg-Hito2-top bg-cover min-h-[120vh]"
   style={{
     backgroundPosition: "center 32px",
   }}
