@@ -80,6 +80,11 @@ export default function Footer() {
                     {t("sixdof")}
                   </Link>
                 </li>
+                <li className="font-ud text-md text-slate-800">
+  <a href="https://markerless.b-core.net/">
+    {t("markerless")}
+  </a>
+</li>
               </ul>
             </div>
             <div>
