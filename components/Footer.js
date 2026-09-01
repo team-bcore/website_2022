@@ -85,6 +85,11 @@ export default function Footer() {
     {t("markerless")}
   </a>
 </li>
+<li className="font-ud text-md text-slate-800">
+  <a href="https://edgeai.b-core.net/">
+    {t("edgeai")}
+  </a>
+</li>
               </ul>
             </div>
             <div>
