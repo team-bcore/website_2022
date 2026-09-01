@@ -29,5 +29,6 @@
     "services": "サービス",
     "sixdof": "6Dof",
     "r-sixdof": "6Dof",
-    "markerless": "マーカーレス"
+    "markerless": "マーカーレス",
+    "edgeai": "エッジAI"
 }
