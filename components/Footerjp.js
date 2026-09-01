@@ -68,6 +68,7 @@ export default function Footerjs() {
     <a href="https://markerless.b-core.net/">
       マーカーレス
     </a>
+    </li>
 <li className="font-ud text-md text-slate-800">
   <a href="https://edgeai.b-core.net/">
     エッジAI
