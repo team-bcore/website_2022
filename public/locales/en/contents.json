@@ -1,4 +1,6 @@
 {
-    "text-1": "You can watch each solution in video format on bcore's official YouTube channel, bcoreTV.",
-    "text-2": "In this video, we introduce our collaboration with Nissan Motor Co., Ltd. to eliminate human errors in automotive factories using colorbit and iPhone for verifying proper hose and fitting connections."
+  "text-1": "You can watch each solution in video format on bcore's official YouTube channel, bcoreTV.",
+  "text-2": "In this video, we introduce our collaboration with Nissan Motor Co., Ltd. to eliminate human errors in automotive factories using colorbit and iPhone for verifying proper hose and fitting connections.",
+  "text-left": "Colorbit® can read multiple codes simultaneously with a single camera. This demo shows how multiple people and objects can be identified at once.",
+  "text-right": "This solution streamlines access control and personnel identification in food factories using “Colorbit®”. Cameras recognize colorbit tags attached to uniforms, automatically recording who entered a high-hygiene area, when, and where."
 }
