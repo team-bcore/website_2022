@@ -57,53 +57,67 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li className="font-ud text-md text-slate-800">
-                  <Link href="/mono">
-                    {t("footer-iphone")}
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <p className="font-semibold tracking-wide text-teal-accent-400">
-                <br></br>
-              </p>
-              <ul className="mt-2 space-y-2">
-                <li>
-                  <a href="https://www.mitsushiru.tech/">
-                    <p className="font-ud text-md text-slate-800">
-                      {t("mitsu")}
-                    </p>
-                  </a>
-                </li>
-                <li className="font-ud text-md text-slate-800">
-                  <Link href="/sixdof">
-                    {t("sixdof")}
-                  </Link>
-                </li>
-                <li className="font-ud text-md text-slate-800">
-  <a href="https://markerless.b-core.net/">
-    {t("markerless")}
-  </a>
+  <Link href="/mono">
+    {t("footer-iphone")}
+  </Link>
 </li>
+
 <li className="font-ud text-md text-slate-800">
-  <a href="https://edgeai.b-core.net/">
-    {t("edgeai")}
+  <a href="https://www.mitsushiru.tech/">
+    {t("mitsu")}
   </a>
 </li>
-              </ul>
-            </div>
-            <div>
-              <p className="font-noto text-xl leading-5 text-slate-800">
-                {t("RD")}
-              </p>
-              <ul className="mt-2 space-y-2">
-                <li className="font-ud text-md text-slate-800">
-                  <Link href="/jacompany/research/">
-                    {t("our-RD")}
-                  </Link>
-                </li>
-              </ul>
-            </div>
+</ul>
+</div>
+
+<div>
+  <p className="font-semibold tracking-wide text-teal-accent-400">
+    <br></br>
+  </p>
+  <ul className="mt-2 space-y-2">
+    <li className="font-ud text-md text-slate-800">
+      <Link href="/sixdof">
+        {t("sixdof")}
+      </Link>
+    </li>
+
+    <li className="font-ud text-md text-slate-800">
+      <a href="https://markerless.b-core.net/">
+        {t("markerless")}
+      </a>
+    </li>
+
+    <li className="font-ud text-md text-slate-800">
+      <a href="https://edgeai.b-core.net/">
+        {t("edgeai")}
+      </a>
+    </li>
+
+    <li className="font-ud text-md text-slate-800">
+      <a href="https://bear.b-core.net/">
+        {t("bear-marker")}
+      </a>
+    </li>
+
+    <li className="font-ud text-md text-slate-800">
+      <a href="https://suitcase.b-core.net/">
+        {t("portable-dx")}
+      </a>
+    </li>
+  </ul>
+</div>
+<div>
+  <p className="font-noto text-xl leading-5 text-slate-800">
+    {t("RD")}
+  </p>
+  <ul className="mt-2 space-y-2">
+    <li className="font-ud text-md text-slate-800">
+      <Link href="/jacompany/research/">
+        {t("our-RD")}
+      </Link>
+    </li>
+  </ul>
+</div>
             <div>
               <p className="font-noto text-xl leading-5 text-slate-800">
                 {t("about-us")}
