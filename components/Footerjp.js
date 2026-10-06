@@ -47,6 +47,9 @@ export default function Footerjs() {
                 <li className="font-ud text-md text-slate-800">
                   <Link href="/mono">iPhoneを使ったモノ管理システム</Link>
                 </li>
+                <li className="font-ud text-md text-slate-800">
+                  <a href="https://www.mitsushiru.tech">密 ミツシル</a>
+                </li>
               </ul>
             </div>
             <div>
@@ -54,24 +57,27 @@ export default function Footerjs() {
                 <br></br>
               </p>
               <ul className="mt-2 space-y-2">
-                <li>
-                  <a href="https://www.mitsushiru.tech/">
-                    <p className="font-ud text-md text-slate-800">
-                      密 ミツシル
-                    </p>
-                  </a>
-                </li>
-                <li className="font-ud text-md text-slate-800">
-                  <Link href="/sixdof">6Dof</Link>
-                </li>
-                  <li className="font-ud text-md text-slate-800">
-    <a href="https://markerless.b-core.net/">
-      マーカーレス
-    </a>
-    </li>
+               <li className="font-ud text-md text-slate-800">
+  <Link href="/sixdof">6Dof</Link>
+</li>
+<li className="font-ud text-md text-slate-800">
+  <a href="https://markerless.b-core.net/">
+    マーカーレス
+  </a>
+</li>
 <li className="font-ud text-md text-slate-800">
   <a href="https://edgeai.b-core.net/">
     エッジAI
+  </a>
+</li>
+<li className="font-ud text-md text-slate-800">
+  <a href="https://bear.b-core.net/">
+    BE-ARマーカー
+  </a>
+</li>
+<li className="font-ud text-md text-slate-800">
+  <a href="https://suitcase.b-core.net/">
+    可搬型ソリューション
   </a>
 </li>
               </ul>
